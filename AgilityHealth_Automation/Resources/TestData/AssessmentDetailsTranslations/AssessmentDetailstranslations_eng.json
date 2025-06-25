@@ -1,0 +1,229 @@
+﻿{
+  "language": "English",
+  "headerJumpLinkNames": [
+    "Idea Board",
+    "Radar",
+    "Analytics",
+    "Dimension Notes",
+    "Growth Opportunities",
+    "Impediments",
+    "Strengths",
+    "Growth Plan",
+    "Metrics Summary"
+  ],
+  "filterSidebarSection": [
+    "Filter Away!",
+    "Click on the filters below to make the page a little easier to look at.",
+    "Participant groups with * have blank competencies because less than two people filled out the questions in that competency."
+  ],
+  "assessmentDetails": {
+    "radarViewDropDownValues": [
+      "Summary",
+      "Detail",
+      "Benchmarking"
+    ],
+    "benchmarkingPopupDetails": [
+      {
+        "benchmarkingPopupTitle": "Benchmarking Options",
+        "benchmarkingPopupViewMessage": "Benchmarking allows you to analyze how your team is doing against other teams. Please select a benchmarking option below.",
+        "benchmarkingOption": "Benchmarking Options",
+        "benchmarkingOptionsDropdownValues": [
+          "All Teams",
+          "Work Type",
+          "Maturity"
+        ],
+        "benchmarkingWorkType": "Work Type",
+        "workTypeDropdown": [
+          "Business Operations",
+          "Feature Team",
+          "Group Of Individuals",
+          "Kiosk",
+          "SAFe - Release Management",
+          "Service and Support",
+          "Software Delivery"
+        ],
+        "benchmarkingMaturity": "Maturity",
+        "maturityDropDown": [
+          "PreCrawl",
+          "Crawl",
+          "Walk",
+          "Run",
+          "Fly",
+          "Not Sure"
+        ],
+        "benchmarkingPopupButton": [
+          "Cancel",
+          "Select"
+        ]
+      }
+    ]
+  },
+  "actionIconSection": {
+    "actionIconNames": [
+      "Generate Report",
+      "Generate Question Key",
+      "Export to PDF",
+      "Remove Hidden Comments from View"
+    ],
+    "exportToPDFPopup": {
+      "exportToPDFPopupTitle": "Generate a PDF",
+      "exportToPDFPopupQuestion": "What would you like to include?",
+      "exportToPDFPopupOptions": [
+        "Analytics",
+        "Detail Radar",
+        "Notes",
+        "Growth Plan",
+        "Summary Radar",
+        "Growth Opportunities",
+        "Impediments",
+        "Strengths",
+        "Assessment Notes",
+        "Assessment Checklist"
+      ],
+      "exportToPDFPopupCreatePDFButton": "Create PDF"
+    },
+    "removeHideCommentsViewPopup": {
+      "hideCommentsViewPopupTitle": "Remove Hidden Comments from View",
+      "hideCommentsViewPopupMessages": [
+        "You are about to remove all hidden comments from view. This will cause all currently hidden comments to disappear from your screen.",
+        "Are you sure you want to do this?"
+      ],
+      "hideCommentsPopupButtons": [
+        "No, cancel",
+        "Yes, proceed"
+      ]
+    },
+    "displayHiddenCommentsPopup": {
+      "displayHiddenCommentsPopupTitle": "Display Hidden Comments",
+      "DisplayHiddenCommentsPopuViewMessage": [
+        "You are about to display all hidden comments. This will cause all currently removed hidden comments to be displayed on your screen.",
+        "Are you sure you want to do this?"
+      ],
+      "unHideCommentsPopupButtons": [
+        "No, cancel",
+        "Yes, proceed"
+      ]
+    }
+  },
+  "analyticsSection": {
+    "analyticsHeaderTitle": "Analytics",
+    "analyticsCards": [
+      {
+        "topFiveCompetencies": [
+          {
+            "topFiveCompetenciesTitle": [
+              "Top 5",
+              "Competencies"
+            ]
+          }
+        ],
+        "lowestFiveCompetencies": [
+          {
+            "lowestFiveCompetenciesTitle": [
+              "Lowest 5",
+              "Competencies"
+            ]
+          }
+        ],
+        "fiveHighestConsensusCompetencies": [
+          {
+            "fiveHighestConsensusCompetenciesTitle": [
+              "5 Highest Consensus",
+              "Competencies"
+            ],
+            "tooltipConsensus": {
+              "fiveHighestConsensusTooltipDescription": "The top 5 consensus competencies show that the team is all on the same page and all feel the same way regarding certain competencies even if those competencies are their biggest growth opportunities.",
+              "fiveHighestConsensusTooltipSupportArticleLink": "Support article: How is Consensus calculated?"
+            }
+          }
+        ],
+        "fiveLowestConsensusCompetencies": [
+          {
+            "fiveLowestConsensusCompetenciesTitle": [
+              "5 Lowest Consensus",
+              "Competencies"
+            ],
+            "tooltipConsensus": {
+              "fiveLowestConsensusTooltipDescription": "The 5 lowest consensus competencies show where the team members are not in agreement and have very different views and opinion on these competencies.",
+              "fiveLowestConsensusTooltipSupportArticleLink": "Support article: How is Consensus calculated?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "commentSection": {
+    "teamCommentsTitle": "Team Comments",
+    "stakeholderCommentsTitle": "Stakeholder Comments",
+    "hideAllTeamCommentsButton": "Hide all Team Comments",
+    "hideAllStakeholderCommentsButton": "Hide all Stakeholder Comments",
+    "hideAllTeamCommentsPopup": {
+      "hideAllTeamCommentsPopupTitle": "Hide all Team Comments",
+      "hideAllTeamCommentsInfo": [
+        "You are about to hide all Team Comments.",
+        "Are you sure?"
+      ],
+      "yesProceedButton": "Yes, proceed",
+      "noCancelButton": "No, cancel"
+    },
+    "unHideAllTeamCommentsButton": "Unhide all Team Comments",
+    "unHideAllTeamCommentsPopup": {
+      "unHideAllTeamCommentsPopupTitle": "Unhide all Team Comments",
+      "unHideAllTeamCommentsInfo": [
+        "You are about to unhide all Team Comments.",
+        "Are you sure?"
+      ],
+      "yesProceedPopupButton": "Yes, proceed",
+      "noCancelPopupButton": "No, cancel"
+    },
+    "hideAllStakeholderCommentsPopup": {
+      "hideAllStakeholderCommentsPopupTitle": "Hide all Stakeholder Comments",
+      "hideAllStakeholderCommentsInfo": [
+        "You are about to hide all Stakeholder Comments.",
+        "Are you sure?"
+      ],
+      "yesProceedButton": "Yes, proceed",
+      "noCancelButton": "No, cancel"
+    },
+    "unHideAllStakeholderCommentsButton": "Unhide all Stakeholder Comments",
+    "unHideAllStakeholderCommentsPopup": {
+      "unHideAllStakeholderCommentsPopupTitle": "Unhide all Stakeholder Comments",
+      "unHideAllStakeholderCommentsInfo": [
+        "You are about to unhide all Stakeholder Comments.",
+        "Are you sure?"
+      ],
+      "yesProceedPopupButton": "Yes, proceed",
+      "noCancelPopupButton": "No, cancel"
+    },
+    "buttons": {
+      "editButton": "Edit",
+      "updateAndCancelButton": {
+        "updateButton": "Update",
+        "cancelButton": "Cancel"
+      },
+      "hideButton": "Hide",
+      "unHideButton": "Unhide"
+    }
+  },
+  "growthOpportunitiesSection": {
+    "growthOpportunitiesTitle": "Growth Opportunities",
+    "description": "Description"
+  },
+  "impedimentsSection": {
+    "impedimentsTitle": "Impediments",
+    "description": "Description"
+  },
+  "strengthsSection": {
+    "strengthsTitle": "Strengths",
+    "description": "Description"
+  },
+  "growthPlanSection": {
+    "growthPlanTitle": "Growth Plan",
+    "growthPlanDescription": [
+      "Your team's growth plan is the real output of this TeamHealth 3.0 assessment. Think of it as your team's growth backlog.",
+      "Identify actionable items that can take your team's health and performance to the next level in the next few months."
+    ],
+    "addNewItemButton": "Add New Item",
+    "touchActionDescription": "Drag a column header and drop it here to group by that column"
+  }
+}

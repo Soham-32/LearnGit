@@ -1,0 +1,1811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB6D7FE5-AFA7-4946-A946-B80C3BD70BEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AgilityHealth_Automation</RootNamespace>
+    <AssemblyName>AgilityHealth_Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.17.1.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>..\packages\AngleSharp.0.17.1\lib\net472\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BitMiracle.LibTiff.NET, Version=2.4.649.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6, processorArchitecture=MSIL">
+      <HintPath>..\packages\BitMiracle.LibTiff.NET.2.4.649\lib\net40\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.3.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.3.0\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.3.3, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.3.3\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.4.0.12, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.4.0\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Irony, Version=1.1.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Irony.NetCore.1.1.11\lib\netstandard2.0\Irony.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-Q8-AnyCPU, Version=7.9.0.0, Culture=neutral, PublicKeyToken=2004825badfa91ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magick.NET-Q8-AnyCPU.7.9.0\lib\net40\Magick.NET-Q8-AnyCPU.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Configuration, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.9.0.5\lib\net462\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.9.0.5\lib\net462\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.6.0.0\lib\net461\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.6.0.0\lib\net461\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.9.0.5\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectsComparer, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ObjectsComparer.1.4.1\lib\net45\ObjectsComparer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetSeleniumExtras.WaitHelpers.3.11.0\lib\net45\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.2.1.8\lib\net472\SixLabors.ImageSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp.Drawing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.Drawing.1.0.0\lib\net472\SixLabors.ImageSharp.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.9.0.5\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Packaging, Version=9.0.0.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.9.0.5\lib\net462\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.9.0.5\lib\net462\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WDSE, Version=0.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Noksa.WebDriver.ScreenshotsExtensions.0.1.5.4\lib\net46\WDSE.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.4.32.0\lib\netstandard2.0\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.4.32.0\lib\netstandard2.0\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="XLParser, Version=1.7.5.0, Culture=neutral, PublicKeyToken=63397e1e46bb91b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\XLParser.1.7.5\lib\net462\XLParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise />
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Base\BasePage.cs" />
+    <Compile Include="Base\BaseTest.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\BusinessOutcomesOverallPerformance\BusinessOutcomesOverallPerformancePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\BusinessOutcomesOverallPerformance\BusinessOutcomeObjectivesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\CardType\ProjectsCardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\CardType\StoriesCardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Financials\BusinessOutcomesFinancialPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\GridView\BusinessOutcomesViewPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\MeetingNotes\MeetingNotesPage.cs" />
+    <Compile Include="Enum\Radar\Radar.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\OutComeTreeView\BusinessOutcomesOutcomeTreeViewPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\KeyResultsDetailsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\DocumentsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\FinancialsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\StoriesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\AskAiAgent\AskAiAgentPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\SettingsBasePage.cs" />
+    <Compile Include="PageObjects\Learn\HomePage.cs" />
+    <Compile Include="TestDataGenerator\BulkDataCreationUtil.cs" />
+    <Compile Include="TestDataGenerator\BulkDataDetailsDto.cs" />
+    <Compile Include="DataObjects\BusinessOutcomeTabs.cs" />
+    <Compile Include="DataObjects\EnvironmentTestInfo.cs" />
+    <Compile Include="DataObjects\BLAdminInfo.cs" />
+    <Compile Include="DataObjects\CoachInfo.cs" />
+    <Compile Include="DataObjects\CompanyAdminInfo.cs" />
+    <Compile Include="DataObjects\EnterpriseTeamInfo.cs" />
+    <Compile Include="DataObjects\NewNavigation\GrowthPlan\GrowthItem.cs" />
+    <Compile Include="DataObjects\NewNavigation\Teams\Member.cs" />
+    <Compile Include="DataObjects\NewNavigation\Teams\Team.cs" />
+    <Compile Include="DataObjects\NTierTeamInfo.cs" />
+    <Compile Include="DataObjects\MultiTeamInfo.cs" />
+    <Compile Include="DataObjects\OrganizationalLeadersInfo.cs" />
+    <Compile Include="DataObjects\PartnerAdminInfo.cs" />
+    <Compile Include="DataObjects\Reviewee.cs" />
+    <Compile Include="DataObjects\Reviewer.cs" />
+    <Compile Include="DataObjects\StakeHolderInfo.cs" />
+    <Compile Include="DataObjects\TeamAdminInfo.cs" />
+    <Compile Include="DataObjects\AhUser.cs" />
+    <Compile Include="DataObjects\TeamMemberInfo.cs" />
+    <Compile Include="Enum\BusinessOutcomes\BusinessOutcomesCardType.cs" />
+    <Compile Include="Enum\Dashboards\DashboardTypes.cs" />
+    <Compile Include="Enum\NewNavigation\TeamType.cs" />
+    <Compile Include="ObjectFactories\MemberFactory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\GrowthPlan\GrowthPlanFactory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\Teams\EnterpriseTeamsFactory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\Teams\PortfolioTeamsFactory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\Teams\MultiTeamsFactory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\Teams\TeamsFactory.cs" />
+    <Compile Include="ObjectFactories\ProductionEnvironmentDatabaseFactory.cs" />
+    <Compile Include="ObjectFactories\UserFactory.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Account\AccountSettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Account\PasswordResetPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\AhTrial\AhTrialSignUpFormPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\IaProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Base\HeaderBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Base\PulseCheckBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Base\SelectQuestionsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Base\SelectRecipientsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Create\CreateHeaderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Create\CreatePulseCheckPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Create\ReviewAndPublishPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Create\SelectQuestionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Create\SelectRecipientsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Edit\EditHeaderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Edit\EditPulseCheckPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Edit\EditQuestionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\Edit\EditRecipientsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\PulseAssessmentV2\PulseGrowthJourneyPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Dashboard\AssessmentDashboardCommon.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Dashboard\GrowthItemsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BreadCrumbNavigation\Dashboards\BreadCrumbNavigationPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\BusinessOutcomeBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\CardType\DeliverableCardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\CardType\InitiativeCardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\BaseTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\ChildOutcomeTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\CommentsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\AdditionalDetailsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\SubDeliverablesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\InitiativesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\KeyResultsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\CheckListTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\DeliverablesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\DependenciesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Tabs\ObstaclesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\AssessmentDashboardBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\AutoMatchMachingPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\CampaignDetailsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\ManageCampaignsCommonPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\ManageCampaignsTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\ReviewAndSubmitPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\SelectFacilitatorsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\SelectTeamsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\SetUpAssessmentsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\ManageCampaigns\ViewCampaignPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\EnterpriseAgility\EnterpriseAgilityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Teams\QuickLaunch\QuickLaunchAssessmentPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\Add\AddGrowthItemNotePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\Add\AddGrowthItemPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\Generic\GrowthItemGridView.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\Radar\GrowthItemGridViewWidget.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\Radar\GrowthItemKanbanViewWidget.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Edit\EditRevieweePopup.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\BatchEdit\IABatchEditPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\IaReviewAndFinishPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\IaSelectReviewerPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Create\SelectStakeHolderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Create\AssessmentProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\IaSelectTeamMembersPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Create\SelectTeamMembersPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Create\ReviewAndLaunchPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\IndividualAssessmentDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Dashboard\TeamAssessmentDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Edit\TeamAssessmentEditPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Facilitator\FacilitatorOptInPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Benchmarking\BenchmarkingDetailsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Benchmarking\BenchmarkingPopUp.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Add\AddCompany1CompanyProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Add\AddCompany2RadarSelectionPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Add\AddCompany3SubscriptionPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Add\AddCompany4SecurityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Add\AddCompanyHeaderWidget.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\CompanyDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Base\CompanyProfileBase.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Edit\EditCompanyProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Edit\EditCompanyHeaderWidget.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Edit\EditCompanySecurityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Edit\EditRadarSelectionPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Edit\EditCompanySubscriptionPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Base\RadarSelectionBase.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Base\SecurityBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Company\Base\SubscriptionBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Common\GridPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\Scheduler\CreateDraftAssessmentPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Facilitator\FacilitatorDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Teams\ImportTeamsPopup.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\GrowthPlanV2\Add\GrowthPlanAddItemPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Ideaboard\IdeaboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Dashboard\TeamDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\LeftNav\LeftNavPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Measure\AddGrowthItemCommentPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Measure\AddGrowthItemPopupBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Measure\GrowthItemGridViewPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Measure\CommonGrowthItemsDashboardBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\CommonSelectTeamMemberFromDirectoryPopupBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\CommonAddEditMembersPopupBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\CommonGridBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\ImportTeamsPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\StakeholdersBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\SubTeamBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\TeamMembersBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\ReviewBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Base\TeamBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Create\AddSubTeamStepperPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Create\AddStakeholdersStepperPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Create\AddTeamMembersStepperPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Create\ReviewStepperPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Create\CreateTeamStepperPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Edit\SubTeamTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Edit\TeamProfileTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Edit\TeamMembersTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\NewNavigation\Teams\Edit\StakeholdersTabPage.cs" />
+    <Compile Include="PageObjects\PowerBi\AuditRefreshPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\Integration\JiraCloud\JiraCloudLinkTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\Integration\JiraDataCenter\JiraDataCenterLinkTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\Integration\LinkTeamBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesArchiveSettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageIntegrationsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Radar\MtEtRadarCommonPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageLanguages\ManageLanguagesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManagePrivateKey\ManagePrivateAppKeyPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageAppRegistration\ManageAppRegistrationsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageCustomTypes\CustomGrowthPlanSettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageCustomTypes\ManageCustomTypesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\PreviewAssessmentPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageTeamTags\ManageTagsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageUsers\UserSearchPopup.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarCompetenciesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarDetailsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarDimensionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarReviewAndFinishPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarOpenEndedPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarQuestionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Add\AddRadarSubDimensionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarDetailsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarGridBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarCompetenciesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarDetailsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarDimensionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarReviewAndFinishPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarOpenEndedPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarQuestionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Edit\EditRadarSubDimensionsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\ManageRadarPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarCompetenciesBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarOpenEndedBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarSubDimensionsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarHeaderBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarDimensionsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarQuestionsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageRadar\Base\RadarReviewAndFinishBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Survey\PersonalAssessmentLinkPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Survey\QuickLaunch\QuickLaunchMemberAccessPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Survey\TeamAssessmentPinInfoPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\N-Tier\EditNTierProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\N-Tier\CreateNTierPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\QuickLaunch\QuickLaunchTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Edit\MetricsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Common\BatchEditBase.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\BatchEdit\BatchEditViewersPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\BatchEdit\BatchEditParticipantReviewerPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\BatchEdit\BatchEditAssessmentPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Common\CreateIndividualAssessmentBase.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Edit\IaEdit.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Common\IndividualAssessmentBase.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\ExternalLinkPopup\BusinessOutcomesExternalLinkPopUp.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\InsightsWidgetModalPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\OrgStructure\OrgStructureDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageCampaign\ManageCampaignsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Common\AddReviewerModal.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\CreateIndividualAssessment1CreateAssessmentPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\CreateIndividualAssessment2AddReviewersPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\CreateIndividualAssessment3InviteViewersPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\IndividualAssessment\Create\CreateIndividualAssessment4AddReviewAndPublishPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\CardType\BusinessOutcomeCardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\V2\LeftNavPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\V2\HeaderFooterPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Common\CalendarWidget.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Common\SelectCompanyPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Common\TopNavigation.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\AssessmentList\AssessmentListTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\InsightsDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Teams\TeamDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Account\LoginPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\Batches\CreateBatchAssessmentPopupPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\GrowthItems\GIDashboardGridWidgetPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\GrowthItems\GIDashboardKanbanWidgetPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\GrowthItems\GrowthItemsDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\Batches\BatchesTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Assessment\Scheduler\SchedulerTabPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPortal\GrowthPortalPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthJourney\GrowthJourneyPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Radar\RadarPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Reports\ReportsDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageFeatures\ManageFeaturesPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageMaturityModelAndAssessmentChecklist\ManageMaturityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\V2\V2Calendar.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\StructuralAgility\StructuralAgilityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\StructuralAgility\StructuralAgilitySettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Dashboard\Insights\TeamAgility\TeamAgilityPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesDashboardSettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesSettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageCustomTypes\ManageCustomFieldsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageBusinessOutcomes\ManageBusinessOutcomeTagsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\SettingsV2Page.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Edit\EditProfileBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Members\StakeHolderCommon.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Members\TeamMemberCommon.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\MtEtDashboardPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\EnterpriseTeam\CreateEnterpriseTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\EnterpriseTeam\EditETProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Details\MultiTeamRadarPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Edit\EditMTProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Edit\EditMTStakeHolderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Edit\EditEtMtSubTeamBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Edit\EditMTTeamMemberPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Assessment\TeamAssessment\Radar\AssessmentDetailsCommonPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\ManageUsers\ManageUserPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Settings\SettingsPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Survey\SurveyPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Edit\EditMetricsBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Edit\EditTeamBasePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Edit\EditTeamProfilePage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Edit\EditTeamStakeHolderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Edit\EditTeamTeamMemberPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Create\AddStakeHolderPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Create\AddMTSubTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Create\AddTeamMemberPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\MultiTeam\Create\CreateMTPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Create\CreateTeamPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Team\Create\FinishAndReviewPage.cs" />
+    <Compile Include="PageObjects\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GrowthPlanDashboardPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetUpTearDown\SetUpMethods.cs" />
+    <Compile Include="test1.Designer.cs">
+      <DependentUpon>test.runsettings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tests\AgilityHealth\Accounts\Login\AutoDetectGeoLocationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Accounts\MyProfile\ManageMyProfileTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialCompanyManageSubscriptionAndAccountManagerDetailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialSignUpFormCompanyCreationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialCompanyDefaultFeaturesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialCompanyAndUserCreationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialSignUpFormTooltipAndNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\AhTrial\AhTrialSignUpFormValidationMessagesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAutoCheckWithExistingReviewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAutoCheckWithUpdatedReviewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentDownloadUploadErrorTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditDownloadUploadErrorTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2EmailCheckForCommonMembersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\TeamLevel\PulseAssessmentEditPageSaveButtonChangesTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\TeamLevel\PulseAssessmentV2AddMemberVerificationTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\TeamLevel\PulseAssessmentV2EveryTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\TeamLevel\PulseAssessmentV2RemoveTeamMemberFromSelectedTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentEditPageSaveButtonChangesMultiTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2ActiveAndClosedPulseAddRemoveMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2AddMemberVerificationMultiTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2ArchiveSubteamAndCreatePulseCheckMultiLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2DraftAndPendingPulseAddRemoveTeamMultiLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2EveryMultiTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\MultiTeamLevel\PulseAssessmentV2RemoveTeamMemberFromSelectedTeamMultiLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentEditPageSaveButtonChangesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2AddMemberVerificationEnterpriseLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2ArchiveSubteamAndCreatePulseCheckTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2DraftAndPendingPulseAddRemoveTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2ActiveAndClosedPulseAddRemoveTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2RemoveTeamMemberFromSelectedTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\EnterpriseLevel\PulseAssessmentV2EveryTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentEditPageSaveButtonChangesNTierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentNTierLevelEveryTeamLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2PulseResultsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentV2ActiveAndClosedPulseAddRemoveTeamNTierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentV2AddMemberVerificationNTierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentV2ArchiveSubteamAndCreatePulseCheckNtierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentV2DraftAndPendingPulseAddRemoveTeamNTierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\NTierLevel\PulseAssessmentV2RemoveTeamMemberFromSelectedTeamNTierLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Company\CompanyLevelTeamAssessmentSetupEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\LanguageTranslationsBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2CreateMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Delete\PulseAssessmentV2DeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2EditQuestionsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2CreatePulseCheckTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2EditPulseCheckTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2ReviewAndPublishTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2EditRecipientsNewMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2EditRecipientsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2AssessmentStatusTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2EnterpriseTeamEditRecipientsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Edit\PulseAssessmentV2MultiTeamEditRecipientsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Team\TeamLevelTeamAssessmentSetupEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Users\UserLevelTeamAssessmentSetupEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\QuickLaunch\QuickLaunchAssessmentDuplicateMemberOnANewTeamAndExistingTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2EndToEndTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2SelectRecipientsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\QuickLaunch\QuickLaunchAssessmentTeamMemberSurveyEmailAndTeamAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\QuickLaunch\QuickLaunchAssessmentRolesParticipantGroupsAndNoTeamAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\Create\PulseAssessmentV2SelectQuestionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\PulseV2BaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Company\CompanyLevelTeamAssessmentSurveyEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Users\UserLevelTeamAssessmentSurveyEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentDetailsTranslationsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\PulseAssessmentV2\PulseAssessmentV2PulseRadioOptionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\LanguageTranslations\Team\TeamLevelTeamAssessmentSurveyEmailTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\QuickLaunch\QuickLaunchAssessmentValidationAndInfoTextAndDefaultButtonsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\QuickLaunch\QuickLaunchAssessmentForNewAndExistingTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentRadarCompetencyPopupTranslationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\BusinessOutcomesVerifyAllTabs.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\CheckList\BusinessOutcomesAddChecklistTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\CheckList\BusinessOutcomesEditChecklistTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\LinkingFunctionality\BusinessOutcomesCreateLinkOutcomeKrsToInitiativesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BreadCrumbNavigation\Dashboards\BreadCrumbNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardFilterByTimeFrameTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\LinkingFunctionality\BusinessOutcomesDeliverableProjectChecklistLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Dependency\BusinessOutcomesAddDependencyTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Documents\BusinessOutcomesAddLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Documents\BusinessOutcomesDeleteDocumentsTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Documents\BusinessOutcomesAddDocumentsTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Financials\BusinessOutcomesFinancialAddGraphViewTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Financials\BusinessOutcomesFinancialAddTableViewTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomeKeyResultDeleteActionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomeKeyResultActionStrategicAndAnnualTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomeKeyResultUnlockLockTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomesKeyResultsLinkToOutcomeAligning.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomesKeyResultsAddMultipleKeyResultsWeightDistributionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomesKeyResultsHeaderTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomesKeyResultsAddMultipleKeyResultsWeightTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\KeyResults\BusinessOutcomesKeyResultsSubTargetTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\MeetingNote\MeetingNotesVerificationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\MeetingNote\AddMeetingNotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Obstacles\BusinessOutcomeObstacleDeleteActionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Obstacles\BusinessOutcomesAddObstaclesTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\Obstacles\BusinessOutcomesObstaclesEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\Outcomes\BusinessOutcomeKpisExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\Outcomes\BusinessOutcomeObjectiveAndKpiTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\Outcomes\BusinessOutcomeOverallPerformanceOutcomesExportPdfTests .cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\OutputsAndProjects\BusinessOutcomeInitiativesInfoAndExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\OutputsAndProjects\BusinessOutcomeProjectsInfoAndExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\OutputsAndProjects\BusinessOutcomeOverallPerformanceOpExportPdfTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OverAllPerformanceTab\Outcomes\BusinessOutcomesObjectiveExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OutcomesTreeView\BusinessOutcomesOutcomeTreeViewAddCardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OutcomesTreeView\BusinessOutcomesOutcomeTreeViewAddChildCardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\OutcomesTreeView\BusinessOutcomesOutcomeTreeViewHeaderFooterTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesGridAndTimelineViewHeaderTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesGridViewExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesGridViewFiltersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesTimelineViewFiltersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesTimelineViewExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\NewNavigation\GridViewTimeLineView\BusinessOutcomesGridAndTimelineViewColumnsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Batches\Campaign\BatchAssessmentTeamRepositionsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Batches\Campaign\Create\BatchAssessmentCreateFacilitatorColumnAndTalentDevelopmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Batches\Campaign\Edit\BatchAssessmentEditFacilitatorColumnAndTalentDevelopmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\AssessmentList\AssessmentDashboardSortingTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\ManageCampaigns\Create\CampaignVerbiageVerificationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\ManageCampaigns\Create\CampaignsEndToEndWithAssessmentMeetingsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\ManageCampaigns\ManageCampaignsTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardCopyLinkWithAppliedFiltersAndClearFiltersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardGridViewAndEditGiTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Radar\IndividualAssessmentParticipantAndViewerAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentEditPinInfoTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamAssessmentRadarJumpLinksTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateReviewAndLaunchPageTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateReviewAndLaunchPageTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentAddNewMemberAndStakeholderTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentAccountSetupEmailSettingTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentMembersAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardColumnDragAndDropTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardGenAiSummarizationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\AskAiAgent\AskAiAgentDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\EnterpriseAgility\PowerBiRefreshAuditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\EnterpriseAgility\EnterpriseAgilityDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityNLQQuestionsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardArchiveViewColumnDataVerificationTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardDeleteTeamsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardArchiveTeamsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardColumnDataVerificationTest.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\Common\GrowthJourneyFilterByDimensionsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\EnterpriseTeam\GrowthItemEtNotesAddEditDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\Generic\GrowthItemNotesBaseTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\Generic\GrowthItemGridColumnDragAndDropTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\MultiTeam\GrowthItemMtNotesAddEditDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemTab\GrowthItemsTabTeamAssessmentAddEditDeleteCopyGiTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemTab\GrowthItemsTabGridExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\AHTrial\AhTrialTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\GrowthItemTab\GrowthItemTaNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\IndividualRollUpRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\IndividualParticipantRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\PulseAssessment\GrowthJourneyPulseAssessmentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\PulseAssessment\EditPulseAssessmentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\PulseAssessment\CreatePulseAssessmentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Assessment\TeamAssessmentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\BusinessOutcomesAllTabsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\BusinessOutcomeOverallPerformance\BusinessOutcomesOverallPerformanceTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\BusinessOutcomeOverallPerformance\OverallPerformanceExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\BusinessOutcomesCardView\BusinessOutcomesCardViewSubHeadersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\MeetingNotes\BusinessOutcomesAddMeetingNotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\MeetingNotes\BusinessOutcomesMeetingNotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\GrowthJourney\EnterpriseTeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\GrowthJourney\MultiTeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\GrowthJourney\TeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\IdeaBoard\IndividualAssessmentIdeaboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\IdeaBoard\TeamAssessmentIdeaboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Radar\EnterpriseTeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Radar\MultiTeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Radar\TeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Report\ReportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\SupportCenter\SupportCenterTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Accounts\LoginPageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Accounts\MyProfileTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\BusinessOutcomes\BusinessOutcomesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Company\CompanyDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Assessments\AssessmentListTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Assessments\BatchesTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Assessments\ManageCampaignsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Assessments\SchedulerTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\FacilitatorDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\GrowthItemsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Insights\Insights4LenzTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Insights\EnterpriseAgilityTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Insights\StructuralAgilityTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\Insights\TeamAgilityTabTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Dashboards\TeamsDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\GrowthPortal\GrowthPortalTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Settings\SettingsV1Tests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\Settings\SettingsV2Tests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\TeamAgilityTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\EnterpriseAgilityTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Teams\TeamEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\TeamDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Assessments\TakeSurveyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Teams\MultiTeamEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\IdeaBoardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\GrowthItemDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Teams\EnterpriseTeamEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Teams\EditTeamMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Assessments\CreateAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\BusinessOutcomesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Assessments\AssessmentResultsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Assessments\AssessmentEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\HeartBeatsChecks\TopScreensLoadTimeTests\Dashboard\AssessmentDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\TeamAssessment\IdeaboardCardTeamAssessmentFacilitatorAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\LeftNav\LeftNavTeamStructureTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\LeftNav\SwitchCompanyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\ExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\FilterTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDashboardSortingAllTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDashboardSortingPortfolioTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDashboardSortingEnterpriseTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDashboardSortingMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDashboardSortingTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GlobalTranslations\GlobalTranslationsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamsBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\GrowthItemTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\GrowthItemTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\GrowthItemTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddLeadersStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddLeadersStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddLeadersStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddLeadersStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddLeadersStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamAddSubTeamsStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamCreateTeamStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamEndToEndTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamReviewStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamReviewStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamReviewStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamReviewStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamReviewStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\AddMultiTeamToasterMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddLeadersStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddLeadersStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddLeadersStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddLeadersStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddLeadersStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamAddSubTeamsStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamCreateTeamStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamEndToEndTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamReviewStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamReviewStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamReviewStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddEnterpriseTeamReviewStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\EnterpriseTeam\AddPortfolioTeamToasterMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\GrowthItemTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\GrowthItemTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\GrowthItemTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamToasterMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\EditMTSubTeamTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\EditMultiTeamLeaderTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddLeadersStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddLeadersStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddLeadersStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddLeadersStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddLeadersStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamAddSubTeamsStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamCreateTeamStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamEndToEndTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamReviewStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamReviewStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamReviewStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamReviewStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\AddPortfolioTeamReviewStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\EditPortfolioTeamSubTeamTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\EditPortfolioTeamLeaderTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\GrowthItemTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\GrowthItemTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\GrowthItemTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamReviewStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamReviewStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamReviewStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamReviewStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamReviewStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamStakeholdersStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamStakeholdersStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamStakeholdersStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\BulkImportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamTeamMembersStepperTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamTeamMembersStepperTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamTeamMembersStepperTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamTeamMembersStepperTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\ArchiveTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamTeamMembersStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamEndToEndTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamCreateTeamStepperTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\TeamDashboard\TeamDeletionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\PortfolioTeam\EditPortfolioTeamTeamProfileTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\MultiTeam\EditMultiTeamTeamProfileTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\AddTeamToasterMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\EditTeamTeamProfileTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\EditTeamTeamMemberTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\EditTeamTeamMemberTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\EditTeamStakeholderTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\GrowthItemTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\GrowthItemTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\NewNavigation\Teams\Team\GrowthItemTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesDashboardSettingsEditLabelsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesManageArchiveSettingsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesDashboardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesFinancialFeatureTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesGrowthItemsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesGrowthPortalTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesMetricTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesOtherTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesTeamsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageFeatures\ManageFeaturesAssessmentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudArchivedTeamLinkUnlinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\EnterpriseTeam\EnterpriseTeamRadarFilterTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\MultiTeam\MultiTeamVerifyFilterTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudGrowthItemSyncTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraDataCenter\JiraDataCenterGrowthItemSyncTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraDataCenter\JiraDataCenterTeamLinkUnlinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraDataCenter\JiraDataCenterIntegrationDataPullTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraDataCenter\JiraDataCenterIntegrationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageLanguages\ManageLanguagesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarBaseTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarCleanFormatButtonTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarDefaultRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarEditAndPreviewTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarWarningMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageRadars\ManageRadarCreateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudIntegrationDataPullTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudIntegrationNormalizePerformanceMeasurementsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudIntegrationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageIntegrations\JiraCloud\JiraCloudTeamLinkUnlinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUsersPermissionAhfCertificationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\Permissions\ManagerUsersPermissionsOnOffTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\Permissions\ManagerUsersAssessmentPermissionsOnOffTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageBlAdminPermissionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Survey\LanguageTranslations\SurveyLanguageTranslationsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Survey\SurveyEmailIndividualAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditClosedIndividualAssessmentEditReviewerWithRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditEditParticipantGroupsAndReviewerRolesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAndAggregateViewerInBothFieldsTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAggregateViewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAndAggregateViewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentCreateBrandNewParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentEditParticipantGroupTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentImportOverrideTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentImportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentDownloadTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentPreviewAssessmentTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditEditParticipantGroupsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditImportOverrideTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentCreateReviewerWithRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentAddReviewerWithRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Radar\IndividualAssessmentFilterByParticipantsGroupTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentWithFutureStartDateTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndViewOwnResultsFalse.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndViewOwnResultsTrue.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentCreateNewAndAddParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentEditParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentDeleteParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentCreateNewParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndEditUsingBackButtonTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAndSaveAsDraftOnCreateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentEditReviewersWithRoleTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentDeleteReviewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentEditReviewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentNewReviewersWithRoleTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditImportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditDownloadExcelTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditDeleteReviewer.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAddBrandNewParticipantTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditOwnReviewerWhenAssessmentInfoUpdatedTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentOwnReviewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentNewReviewersWithSearchBoxTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentNewReviewersWithoutSearchBoxTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAddReviewerByUpdatingReviewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentReviewerUseExistingReviewersTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAccessLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAddReviewerWithRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAddReviewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAddIndividualAggregateViewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAddAggregateViewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditAggregateViewerViewRadarTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditDeleteParticipant.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditDoneReviewWithCheckMark.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditEditReviewerWithRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditEditReviewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfMultipleAggregateViewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfMultipleParticipantReviewerInfoTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfReviewerRoleTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfSingleParticipantReviewerInfoTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfReviewerRoleTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfSingleAggregateViewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfSingleIndividualAggregateViewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditHeaderCancelButtonTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfAssessmentInformationTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditHeaderDeleteButtonTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditFlowOfMultipleIndividualAggregateViewerTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditHeaderDeleteButtonTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditHeaderXButtonTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditIndividualAggregateViewerViewRadarTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantReOpenAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditEditParticipantTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantViewOwnResultsTrueTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantViewOwnResultsFalseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantInviteOwnReviewersFalseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantInviteOwnReviewersTrueTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditPreviewAssessmentTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditPublishAssessmentTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditReopenAssessment.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantResendAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditSendReminderTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditUpdateInfoTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditUpdateInfoTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditParticipantAccessLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditSameViewerInBothFieldsViewRadarTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentAccessLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentAddedReviewerShowsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentAddReviewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentAssessmentSection.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\BatchEdit\BatchEditResendAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentIconForDraftAssessment.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentResendAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentDoneReviewWithCheckMark.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentTakeAssessmentButton.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentVerifyReviewerRoleFromAssessmentTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentViewAssessmentResultsButton.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Radar\IndividualAssessmentTakeSurveyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentVerifyButtonsOnPage2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentVerifyButtonsOnPage1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Edit\EditIndividualAssessmentVerifyReviewerRoleFromAssessmentTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\IndividualAssessmentBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Radar\IndividualRadarTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\RadarCompetencyTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentVerifyButtonsOnPage3.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentVerifyButtonsOnPage4.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentUsingHeaderNavigationTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\RadarCompetencyTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\RadarExportQuestionsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Survey\SurveyEmailTeamAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Survey\SurveyTeamAssessmentTranslationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Survey\SurveyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Create\TeamAssessmentCreateTests6.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Delete\TeamAssessmentDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentFacilitatorEditAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentFacilitatorAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentEditMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentEditProfileTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentResultShareTest3.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentResultShareTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentResultShareTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentFindFacilitatorTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamRadarEditNotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamRadarHideCommentsTest3.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamRadarHideCommentsTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamRadarHideCommentsTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Accounts\Login\LoginTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentExportTeamMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Edit\TeamAssessmentExportStakeholdersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentPublishTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\IndividualAssessment\Add\AddIndividualAssessmentAddReviewerTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\BulkImport\BulkImportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\BusinessOutcomesBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Comments\BusinessOutcomesCommentAddTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Comments\BusinessOutcomesCommentAddTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateSaveAndCloseTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateCloseAndCancelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateTests6.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateTests7.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Create\BusinessOutcomesCreateTests8.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardDragAndDropCardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTagsDropDownValuesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTagsColumnNamesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests12.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests13.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardChildOutcomeShownAtParentLevelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardDuplicateCardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardExportToExcelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardExportToPdfTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardFilterByTagsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests7.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests8.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Dashboard\BusinessOutcomesDashboardTests9.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Delete\BusinessOutcomesDeleteTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Delete\BusinessOutcomesDeleteTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Edit\BusinessOutcomesEditAndSaveTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Edit\BusinessOutcomesEditAndDiscardChangesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Edit\BusinessOutcomesEditAndCancelTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Edit\BusinessOutcomesEditAndCloseNoChangeTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\Edit\BusinessOutcomesEditMandatoryFieldsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\ExternalLink\BusinessOutcomesExternalLinkAddTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\ExternalLink\BusinessOutcomesExternalLinkDeleteTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\ExternalLink\BusinessOutcomesExternalLinkAddTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\KeyResults\BusinessOutcomesKeyResultsAddTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\KeyResults\BusinessOutcomesKeyResultsAddMultipleKeyResultsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\KeyResults\BusinessOutcomesKeyResultsAddTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\KeyResults\BusinessOutcomesKeyResultsEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\BusinessOutcomes\BusinessOutcomesNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage1Tests5.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage3Tests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Dashboard\CompanyDashboardSaveAsDraftValidationMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Dashboard\CompanyDashboardSaveAsDraftTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\EnterpriseTeam\GrowthItemEnterpriseTeamMemberAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemTeamMemberAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\MultiTeam\GrowthItemMultiTeamMemberAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentCreateCardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentMergeGiCardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentMergeCardsWithSameColumnTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentMergeCardsWithDifferentColumnsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\TeamAssessment\IdeaboardCardTeamAssessmentResetVotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentResetVotesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentToolTipsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentSortCardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentVotesCountsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentUpdateCardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentDragAndDropTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\TeamAssessment\IdeaboardCardTeamAssessmentVotesCountsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\TeamAssessment\IdeaboardCardTeamAssessmentMergeCardsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\TeamAssessment\IdeaboardCardTeamAssessmentTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentDisabledIconsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentDeleteCardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Ideaboard\IndividualAssessment\IdeaboardCardIndividualAssessmentGrowthItemsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\CompanySubscriptionEmailNotificationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamDownloadMembersUploadTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamUploadMembersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamAddStakeholderFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamAddMembersFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamDownloadMembersUploadTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamAddStakeholderFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamAddMembersFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamUploadMembersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTierTeamAddMembersFromDirectoryTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTierTeamDownloadMembersUploadTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTierTeamUploadMembersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_EditNTierTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManagePrivateKey\ManagePrivateAppKeyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUserSaveAndAddNewUserTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManagerUsersValidationMessageTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\TeamsBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\QuickLaunch\QuickLaunchTeamDefaultButtonsInfoTextsAndValidationMessagesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\QuickLaunch\QuickLaunchTeamDuplicateMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\QuickLaunch\QuickLaunchTeamMultipleRolesParticipantGroupsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\QuickLaunch\QuickLaunchTeamSuccessfullyCreatedTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\TeamUploadMembersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\TeamDownloadMembersUploadTemplateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\TeamAddStakeholderFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\TeamAddMembersFromDirectory.cs" />
+    <Compile Include="Tests\AgilityHealth\Common\V1TopNavigationLinksVerificationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Common\V2LeftNavCompaniesListTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage1Tests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage3Tests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage3Tests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage3Tests3.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage4Tests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Dashboard\CompanyDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\CompanyEditBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyProfileEditTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Delete\CompanyDashboardDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Dashboard\CompanyDashboardNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage4Tests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage1Tests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage2Tests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage1Tests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage1Tests3.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage2Tests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Add\CompanyDashboardAddCompanyPage2Tests5.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyProfileEditTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyRadarSelectionEditTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyRadarSelectionEditTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyProfileEditTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyProfileEditTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanyProfileEditTests5.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySecurityEditTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySecurityEditTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySubscriptionEdit1Tests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySubscriptionEdit2Tests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Dashboard\CompanyDashboardEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySubscriptionEditTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\CompanyDefaultSettingsTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\Edit\CompanySubscriptionEditTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\Company\CompanyTagsTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\Radar\TeamAssessmentAnalyticsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\AssessmentList\AssessmentDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Batches\BatchesDashboardEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Batches\BatchesDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Facilitator\FacilitatorDashboardSurveyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Facilitator\FacilitatorDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardKanbanEditTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\Scheduler\SchedulerDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardEnterpriseTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardMultiTeamLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardTeamLinkTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Assessment\AssessmentList\AssessmentDashboardDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardSortingAllTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardSortingTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardSortingMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Teams\TeamDashboardSortingEnterpriseTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardKanbanFilteringTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardKanbanExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardGridExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardGridFilteringTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\GrowthItems\GiDashboardGridSortingTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\AddEnterpriseTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EditEnterpriseTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamGoiTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\EnterpriseTeam\EnterpriseTeamGrowthJourneyExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\EnterpriseTeam\EnterpriseTeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\EnterpriseTeam\EnterpriseTeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Delete\GrowthPlanDeleteItemTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Edit\GrowthPlanEditItemTest3.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2DashboardExportToExcelTest.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Edit\GrowthPlanEditItemTest2.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Edit\GrowthPlanEditItemTest1.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Add\GrowthPlanAddItemTests4.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Add\GrowthPlanAddItemTests3.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Add\GrowthPlanAddItemTests2.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemNotesTabAddEditDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2DashboardGridColumnsSortingTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2PulledTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2AddedFromV1Tests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Add\GrowthPlanAddItemTests1.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2SettingsVerification.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2DashboardGridColumnSortingRetentionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\GrowthPlanV2\Dashboard\GPV2NavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemsTabPulledTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\EnterpriseTeam\GrowthItemEtTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\IndividualAssessment\GrowthItemIndividualTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\MultiTeam\GrowthItemMtTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemMandatoryFieldsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPlan\TeamAssessment\GrowthItemTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthPortal\GrowthPortalTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\InsightsDashboardTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\InsightsLeftNavAccessTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\InsightsManualRefreshTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\InsightsProdSmokeTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityAgileAdoptionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityDownloadJpegTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityDownloadPdfTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityDownloadPngTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityDownloadSvgTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityParticipantGroupTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityPeopleByRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAllocationByRoleTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilitySettingsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralAgilityUpdatePreferenceTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralParticipantGroupTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralRoleDistributionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\InsightsStructuralParticipantGroupDistributionTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Dashboards\Insights\StructuralAgility\TeamStabilityWidgetNumberOfTeamsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\AddMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\EditMultiTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\EnterpriseTeam\EnterpriseTeamExportAssessmentChecklistTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamBenchmarkingTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\MultiTeam\MultiTeamExportAssessmentChecklistTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\MultiTeam\MultiTeamGrowthJourneyExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\MultiTeam\MultiTeamRadarTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\MultiTeam\MultiTeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\MultiTeam\MultiTeamRadarNoTeamCommentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Radars\MultiTeam\MultiTeamRadarCommentsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTierBaseTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_AddNTierTeamWithNTierChildTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_AddNTierWithETTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_AddNTierWithGOITest.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_AddUnassignedNTierTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesDashboardSettingsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageCustomTypes\GrowthItemManageCustomGrowthItemTypesDeleteTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageCustomTypes\GrowthItemManageCustomGrowthItemTypesTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesManageCustomFieldsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageBusinessOutcomes\BusinessOutcomesManageTagsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageAppRegistration\ManageAppRegistrationsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageCampaign\ManageCampaignTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageMaturityModelAndAssessmentChecklist\ManageMaturityTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManagerUsersTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Assessments\TeamAssessment\TeamAssessmentMembersCanTakeSurvey.cs" />
+    <Compile Include="PageObjects\AgilityHealth\Teams\Common\Members\MemberCommon.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageBlAdminTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUserSearchTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUserImpersonateTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUsersPermissionResetPasswordTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\ManageUsers\ManageUsersResetTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Settings\SettingsNavigationTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\TeamAddTeamMemberTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\Team\GOIGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\Team\TeamGrowthJourneyExportTests.cs" />
+    <Compile Include="Tests\AgilityHealth\GrowthJourney\Team\TeamGrowthJourneyTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\AddTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\EditGroupOfIndividualsTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\Team\EditTeamTests.cs" />
+    <Compile Include="Tests\AgilityHealth\Teams\NTierTeam\NTier_AddNTierSmokeTest.cs" />
+    <Compile Include="Tests\AgilityHealth\Common\V2CompanyDashboardTopNavigationTests.cs" />
+    <Compile Include="Utilities\AutoIt.cs" />
+    <Compile Include="Utilities\Browser.cs" />
+    <Compile Include="Utilities\ConsoleLogger.cs" />
+    <Compile Include="Utilities\DriverExtensions.cs" />
+    <Compile Include="Utilities\ElementExtensions.cs" />
+    <Compile Include="Utilities\AutomationId.cs" />
+    <Compile Include="Utilities\ILogger.cs" />
+    <Compile Include="Utilities\Logger.cs" />
+    <Compile Include="Utilities\SeleniumWait.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="3WorkersParallel.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="6worker.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="1worker.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="recorder.runsettings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\BusinessOutcomes\BusinessOutcomeCardTabs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\EnterpriseAgilityDashboardScreenshots\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\7eleven\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\amtrak\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\appx\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\app\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\bloomberg\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\citizensfla\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\citi\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\EdwardJones\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\elevancehealth\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\eu\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\federalreserve\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\hhc\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\insperity\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\nasa\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\northerntrust\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\nscorp\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\ntt\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\prudential\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\quad\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\raytheon\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\rcmc\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\srca\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\truist\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\HeartBeatScreenshots\usaf\DontDeleteIt.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\AssessmentDetailsTranslations\AssessmentDetailstranslations_eng.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\AssessmentDetailsTranslations\AssessmentDetailstranslations_jpn.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\AssessmentDetailsTranslations\AssessmentDetailstranslations_spa.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\AutoIt\Assessments\EditAssessmentNote.au3" />
+    <None Include="Resources\AutoIt\Assessments\IAAdditionalReviewerAdd.au3" />
+    <None Include="Resources\AutoIt\Assessments\EditRevieweePopup_AddReviewer.au3" />
+    <None Include="Resources\AutoIt\Download\DownloadAndSave.au3" />
+    <None Include="Resources\AutoIt\Teams\TeamFileUpload.au3" />
+    <None Include="Resources\AutoIt\Teams\TeamMemberStakeholderAddEdit.au3" />
+    <None Include="Resources\Logs\DontDeleteIt.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Reports\DontDeleteIt.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Screenshots\DontDeleteIt.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\BulkImport\BulkImportTemplate.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\GrowthJourney\Enterprise\Analysis_PREPROD.xlsx" />
+    <None Include="Resources\TestData\GrowthJourney\Enterprise\Analysis_QA.xlsx" />
+    <None Include="Resources\TestData\GrowthJourney\MultiTeam\Analysis_PREPROD.xlsx" />
+    <None Include="Resources\TestData\GrowthJourney\MultiTeam\Analysis_QA.xlsx" />
+    <None Include="Resources\TestData\GrowthJourney\Team\Analysis.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\IAReviewers.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\InsightsWidgets\Growth Items.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\LanguageTranslation\SetupEmailTranslations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\ManageCampaignsV2\ManageCampaignsVerbiage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\ProductionEnvironmentDatabase.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Radar\RadarParametersTranslations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\LanguageTranslation\SurveyEmailTranslations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Integration\JiraCloudIntegrationInfo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Integration\JiraDataCenterIntegrationInfo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\GlobalTranslation\GlobalTranslations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Radar\RadarTranslations.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Integration\JiraCloudIntegrationInfo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\SurveyQuestions\Assessment Results.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\SurveyTranslations\SurveyTranslation.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Survey\TH25ResponseWithQuestionsAnswers.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Survey\TH25Response.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Survey\THAssessmentTranslation_eng.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Survey\THAssessmentTranslation_jpn.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Survey\THAssessmentTranslation_spa.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TD_Import_Invalid.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TD_Import_Override.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TD_Import.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TeamMembers\MembersImportWithBlankExcel.xlsx" />
+    <None Include="Resources\TestData\TeamMembers\StakeholdersImportData.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TeamMembers\StakeholdersImportWithExistingMemberAndInvlidAndBlankEmail.xlsx" />
+    <None Include="Resources\TestData\TeamMembers\TeamMembersImportData.xlsx" />
+    <None Include="Resources\TestData\TeamMembers\TeamMembersImportWithExistingMemberAndInvlidAndBlankEmail.xlsx" />
+    <None Include="Resources\TestData\ProductionEnvironmentData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Test_Dataset.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="test.runsettings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>test1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\businessLineAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\companyAdmin2.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\manageUserPermission.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\companyAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\member.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\businessLineAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\companyAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\orgLeader.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\partnerAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\siteAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\NewNavigation\teamAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\orgLeader.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\partnerAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\siteAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\teamAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\teamAdmin2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="PageObjects\AgilityHealth\Dashboard\Insights\MyDashboard\" />
+    <Folder Include="PageObjects\AgilityHealth\PowerBiDashboards\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageFinancials\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageGrowthPortal\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageIntegrations\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageKiosks\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageProfile\" />
+    <Folder Include="PageObjects\AgilityHealth\Settings\ManageSSO\" />
+    <Folder Include="Resources\HeartBeatScreenshots\app\" />
+    <Folder Include="Resources\HeartBeatScreenshots\citizensfla\" />
+    <Folder Include="Resources\HeartBeatScreenshots\citi\" />
+    <Folder Include="Resources\HeartBeatScreenshots\elevancehealth\" />
+    <Folder Include="Resources\HeartBeatScreenshots\eu\" />
+    <Folder Include="Resources\HeartBeatScreenshots\federalreserve\" />
+    <Folder Include="Resources\HeartBeatScreenshots\insperity\" />
+    <Folder Include="Resources\HeartBeatScreenshots\truist\" />
+    <Folder Include="Tests\AgilityHealth\Reports\" />
+    <Folder Include="Tests\AgilityHealth\Settings\MagageRadars\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageFinancials\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageGrowthPortal\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageKiosks\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageProfile\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageSSO\" />
+    <Folder Include="Tests\AgilityHealth\Settings\ManageTeamTags\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IEDriverServer.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Assessments\EditAssessmentNote.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Assessments\IAAdditionalReviewerAdd.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Download\DownloadAndSave.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Teams\TeamFileUpload.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Assessments\EditRevieweePopup_AddReviewer.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AutoIt\Teams\TeamMemberStakeholderAddEdit.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agile Adoption Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agile Adoption.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agility Dimensions.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agility Index Over Time.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agility Index.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Agility Index.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Allocation by Role.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Enterprise Growth Items.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\EnterpriseAgility\Total Active Teams.png" />
+    <Content Include="Resources\TestData\InsightsWidgets\Maturity Dimensions.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Maturity Index.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Maturity Over Time.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Organizational Growth Items.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Participant Group Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Participant Group.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\People by Role.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\People Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Performance Index.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Performance Metrics.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Performance Over Time.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Formation Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Formation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Growth Items.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Stability Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Stability.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Team Stability.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Work Type Distribution.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\InsightsWidgets\Work Type.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\APP_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\APP_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEMO_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEMO_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEMO_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEV_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEV_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\DEV_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\LOAD_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\LOAD_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\LOAD_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\UAT_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\PREPROD_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\UAT_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\PREPROD_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\UAT_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\PREPROD_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\QA_POQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\QA_StakeholderQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\QA_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\SurveyQuestions\APP_StandardQuestions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\surveys.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\testfile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AtCommon\AtCommon.csproj">
+      <Project>{0A4917E7-598D-44C7-8B50-E771E227EE73}</Project>
+      <Name>AtCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties users_4siteadmin_1json__JsonSchema="https://beaujs.com/schema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

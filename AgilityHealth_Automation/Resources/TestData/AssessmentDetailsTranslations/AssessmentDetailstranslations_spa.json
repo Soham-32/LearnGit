@@ -1,0 +1,229 @@
+﻿{
+  "language": "Spanish",
+  "headerJumpLinkNames": [
+    "Tablero de Ideas",
+    "Radar",
+    "Analítica",
+    "Notas de Dimensión",
+    "Oportunidades De Crecimiento",
+    "Impedimentos",
+    "Fortalezas",
+    "Plan de crecimiento",
+    "Resumen de Métricas"
+  ],
+  "filterSidebarSection": [
+    "Filtrar!",
+    "Haga clic en los filtros a continuación para que la página sea un poco más fácil de ver.",
+    "Los grupos de participantes con * tienen competencias en blanco porque menos de dos personas completaron las preguntas en esa competencia."
+  ],
+  "assessmentDetails": {
+    "radarViewDropDownValues": [
+      "Resumen",
+      "Detalle",
+      "Evaluación Comparativa"
+    ],
+    "benchmarkingPopupDetails": [
+      {
+        "benchmarkingPopupTitle": "Opciones de evaluación comparativa",
+        "benchmarkingPopupViewMessage": "La evaluación comparativa le permite analizar cómo le está yendo a su equipo en comparación con otros equipos. Seleccione una opción de benchmarking a continuación.",
+        "benchmarkingOption": "Opciones de evaluación comparativa",
+        "benchmarkingOptionsDropdownValues": [
+          "Todos los equipos",
+          "Tipo de trabajo",
+          "Madurez"
+        ],
+        "benchmarkingWorkType": "Tipo de trabajo",
+        "workTypeDropdown": [
+          "Operaciones de negocios",
+          "Equipo destacado",
+          "grupo de individuos",
+          "Quiosco",
+          "SAFe - Gestión de versiones",
+          "Servicio y soporte",
+          "Entrega de software"
+        ],
+        "benchmarkingMaturity": "Madurez",
+        "maturityDropDown": [
+          "Rastreo previo",
+          "Gatear",
+          "Caminar",
+          "Correr",
+          "Volar",
+          "No Estoy Seguro"
+        ],
+        "benchmarkingPopupButton": [
+          "Cancelar",
+          "Seleccionar"
+        ]
+      }
+    ]
+  },
+  "actionIconSection": {
+    "actionIconNames": [
+      "Generar informe",
+      "Generar clave de pregunta",
+      "Exportar a PDF",
+      "Eliminar comentarios ocultos de la vista"
+    ],
+    "exportToPDFPopup": {
+      "exportToPDFPopupTitle": "Generar un PDF",
+      "exportToPDFPopupQuestion": "¿Qué le gustaría incluir?",
+      "exportToPDFPopupOptions": [
+        "Analítica",
+        "Radar de Detalle",
+        "Notas",
+        "Plan de Crecimiento",
+        "Radar de Resumen",
+        "Oportunidades De Crecimiento",
+        "Impedimentos",
+        "Fortalezas",
+        "Notas de Evaluación",
+        "Lista de Verificación de Evaluación"
+      ],
+      "exportToPDFPopupCreatePDFButton": "Crear PDF"
+    },
+    "removeHideCommentsViewPopup": {
+      "hideCommentsViewPopupTitle": "Eliminar comentarios ocultos de la vista",
+      "hideCommentsViewPopupMessages": [
+        "Está a punto de eliminar todos los comentarios ocultos de la vista. Esto hará que todos los comentarios actualmente ocultos desaparezcan de su pantalla.",
+        "¿Estás segura de que quieres hacer esto?"
+      ],
+      "hideCommentsPopupButtons": [
+        "No, cancelar",
+        "Si, proceder"
+      ]
+    },
+    "displayHiddenCommentsPopup": {
+      "displayHiddenCommentsPopupTitle": "Mostrar comentarios ocultos",
+      "DisplayHiddenCommentsPopuViewMessage": [
+        "Está a punto de mostrar todos los comentarios ocultos. Esto hará que todos los comentarios ocultos eliminados actualmente se muestren en su pantalla.",
+        "¿Estás segura de que quieres hacer esto?"
+      ],
+      "unHideCommentsPopupButtons": [
+        "No, cancelar",
+        "Si, proceder"
+      ]
+    }
+  },
+  "analyticsSection": {
+    "analyticsHeaderTitle": "Análisis",
+    "analyticsCards": [
+      {
+        "topFiveCompetencies": [
+          {
+            "topFiveCompetenciesTitle": [
+              "5 Mejores",
+              "Competencias"
+            ]
+          }
+        ],
+        "lowestFiveCompetencies": [
+          {
+            "lowestFiveCompetenciesTitle": [
+              "5 Peores",
+              "Competencias"
+            ]
+          }
+        ],
+        "fiveHighestConsensusCompetencies": [
+          {
+            "fiveHighestConsensusCompetenciesTitle": [
+              "5 Competencias",
+              "De Consenso Más Alto"
+            ],
+            "tooltipConsensus": {
+              "fiveHighestConsensusTooltipDescription": "Las 5 principales competencias de consenso muestran que todo el equipo está en sintonía y todos sienten lo mismo con respecto a ciertas competencias, incluso si esas competencias son sus mayores oportunidades de crecimiento.",
+              "fiveHighestConsensusTooltipSupportArticleLink": "Artículo de soporte: ¿Cómo se calcula el consenso?"
+            }
+          }
+        ],
+        "fiveLowestConsensusCompetencies": [
+          {
+            "fiveLowestConsensusCompetenciesTitle": [
+              "5 Competencias",
+              "De Consenso Más Bajo"
+            ],
+            "tooltipConsensus": {
+              "fiveLowestConsensusTooltipDescription": "Las 5 competencias de consenso más bajas muestran dónde los miembros del equipo no están de acuerdo y tienen puntos de vista y opiniones muy diferentes sobre estas competencias.",
+              "fiveLowestConsensusTooltipSupportArticleLink": "Artículo de soporte: ¿Cómo se calcula el consenso?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "commentSection": {
+    "teamCommentsTitle": "Comentarios Del Equipo",
+    "stakeholderCommentsTitle": "Comentarios De Los Stakeholders",
+    "hideAllTeamCommentsButton": "Ocultar todos los comentarios del equipo",
+    "hideAllStakeholderCommentsButton": "Ocultar comentarios de los stakeholders",
+    "hideAllTeamCommentsPopup": {
+      "hideAllTeamCommentsPopupTitle": "Ocultar todos los comentarios del equipo",
+      "hideAllTeamCommentsInfo": [
+        "Está a punto de ocultar todos los comentarios del equipo.",
+        "Estas seguro"
+      ],
+      "yesProceedButton": "Si, proceder",
+      "noCancelButton": "No, cancelar"
+    },
+    "unHideAllTeamCommentsButton": "Mostrar todos los comentarios de las partes interesadas",
+    "unHideAllTeamCommentsPopup": {
+      "unHideAllTeamCommentsPopupTitle": "Mostrar todos los comentarios de las partes interesadas",
+      "unHideAllTeamCommentsInfo": [
+        "Está a punto de mostrar todos los comentarios del equipo",
+        "Estas seguro"
+      ],
+      "yesProceedPopupButton": "Si, proceder",
+      "noCancelPopupButton": "No, cancelar"
+    },
+    "hideAllStakeholderCommentsPopup": {
+      "hideAllStakeholderCommentsPopupTitle": "Ocultar comentarios de los stakeholders",
+      "hideAllStakeholderCommentsInfo": [
+        "Está a punto de ocultar todos los comentarios de los stakeholders.",
+        "Estas seguro"
+      ],
+      "yesProceedButton": "Si, proceder",
+      "noCancelButton": "No, cancelar"
+    },
+    "unHideAllStakeholderCommentsButton": "Mostrar todos los comentarios de los stakeholders",
+    "unHideAllStakeholderCommentsPopup": {
+      "unHideAllStakeholderCommentsPopupTitle": "Mostrar todos los comentarios de los stakeholders",
+      "unHideAllStakeholderCommentsInfo": [
+        "Está a punto de mostrar todos los comentarios de los stakeholders",
+        "Estas seguro"
+      ],
+      "yesProceedPopupButton": "Si, proceder",
+      "noCancelPopupButton": "No, cancelar"
+    },
+    "buttons": {
+      "editButton": "Editar",
+      "updateAndCancelButton": {
+        "updateButton": "Actualizar",
+        "cancelButton": "Cancelar"
+      },
+      "hideButton": "Ocultar",
+      "unHideButton": "Mostrar"
+    }
+  },
+  "growthOpportunitiesSection": {
+    "growthOpportunitiesTitle": "Oportunidades De Crecimiento",
+    "description": "Descripción"
+  },
+  "impedimentsSection": {
+    "impedimentsTitle": "Impedimentos",
+    "description": "Descripción"
+  },
+  "strengthsSection": {
+    "strengthsTitle": "Fortalezas",
+    "description": "Descripción"
+  },
+  "growthPlanSection": {
+    "growthPlanTitle": "Plan De Crecimiento",
+    "growthPlanDescription": [
+      "El plan de crecimiento de su equipo es el resultado real de esta evaluaciónTeamHealth 3.0. Piense en esto como la acumulación de crecimiento de su equipo.",
+      "Identifique los elementos procesables que pueden llevar la salud y el rendimiento de su equipo al siguiente nivel en los próximos meses."
+    ],
+    "addNewItemButton": "Agregar nuevo elemento",
+    "touchActionDescription": "Arrastre un encabezado de columna y suéltelo aquí para agruparlo por esa columna"
+  }
+}

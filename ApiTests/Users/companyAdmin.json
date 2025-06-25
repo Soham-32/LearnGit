@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+api_cadmin@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "companyName": "Automation_NewGrowthPlan (DO NOT USE)",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsCA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "CompanyAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": "",
+      "oauthApps": [
+        {
+          "appName": "Automation",
+          "clientId": "obEr1aiZ3Ea5IYX81P8vw",
+          "secret": "1/BoajLAlygdqiBKMEsnbScT8sz92kFPQ4Nv1OXUqTeZliIW2QrF6gJ3jya4IpgRhelg2Rt6cHkvNLeG8T8XKqMBZ8mYrsavHqBaYXYvm/xRHhyeHD3v7PEhTFjWz2UVgIdMveqgGRQQXzoSvvwMuyUNgm4h79I0AuiBP/x+ffU="
+        },
+        {
+          "appName": "Automation_Insights",
+          "clientId": "Iichlugr0kSXVCSqLwhqQ",
+          "secret": "ERGQo0WsPKXBx7mMPh3OkwHUgKB5+CbvqGYFiwXYfpuzBktpvQiqd2KpjFx9DDtVRr0E/5ZqG5iVeOKU3BKscfC5tsgBvS0JgJ8uCtQh/hE9URrekShnJwgAmPwiKFVx/g4apXhAjYyf0SCaKfU2vgOVT5jD2MpT0uUe6T/8KAA="
+        }
+      ]
+    },
+    {
+      "environment": "qa",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDb21wYW55IjoiMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiNGM0NzcxNzEtNzc4MS00MGM4LTllZjUtZDljYWQ1M2U1YzcxIiwiU2NvcGVzIjoiU0NJTSIsImV4cCI6MTcwNDk3NzY5OSwiaXNzIjoiaXNzdWVyLXFhLmFnaWxpdHloZWFsdGhyYWRhci5jb20iLCJhdWQiOiJhdWRpZW5jZS1xYS5hZ2lsaXR5aGVhbHRocmFkYXIuY29tIn0.FDZO6JAdlVsTbuU7NcBAbEsVmnAbMilD97ehZLcCrg8",
+      "oauthApps": [
+        {
+          "appName": "Automation",
+          "clientId": "6aemtLuJSUOkBEsyZl3j0Q",
+          "secret": "L154GdzQki4pUDKJOcGKLyDz3JIfogOaSS/SYC18JOPd2gH0v384P90QevMVMSuXf0eJ1SEzT1ghY64SU+XckuyNkPSKhX6D7ujBtJbYgkmQrDxYp256Clnus+xRHAk2J1qX2eO0+IU7rq8LXiF6eOhh+2nghI/ieadEreQu7Fg="
+        },
+        {
+          "appName": "Automation_Insights",
+          "clientId": "XPDremwIZ0633AEDWR1A2g",
+          "secret": "96SDWgx+ou3aqRjZ/AnhgQhZibdxkHbX2cxeEFIozpHWTDUWEWNu4+IGrZPn05RRbULd0QPcK/tgkPRh0qhlW2MSx6RESZUCeN8koii1nstCU/NGSjWOP2VBTSNN1FnF1tE+bWn++IoBOtp+Tpsoy2yl3+e0EpMM72BeRX5MRg0="
+        }
+      ]
+    },
+    {
+      "environment": "atqa",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDb21wYW55IjoiMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOGI3MzFiYzgtMzczZS00OTIzLThlYjAtZDQyMDk5YzVhOWM1IiwiU2NvcGVzIjoiU0NJTSIsImV4cCI6MTcxNDIyNTQxOSwiaXNzIjoiaXNzdWVyLXFhLmFnaWxpdHloZWFsdGhyYWRhci5jb20iLCJhdWQiOiJhdWRpZW5jZS1xYS5hZ2lsaXR5aGVhbHRocmFkYXIuY29tIn0.muU1pGxWwhNxpeiqHygKPjJNl5lwZWv12rJ_TFXLcd4",
+      "oauthApps": [
+        {
+          "appName": "Automation",
+          "clientId": "6aemtLuJSUOkBEsyZl3j0Q",
+          "secret": "L154GdzQki4pUDKJOcGKLyDz3JIfogOaSS/SYC18JOPd2gH0v384P90QevMVMSuXf0eJ1SEzT1ghY64SU+XckuyNkPSKhX6D7ujBtJbYgkmQrDxYp256Clnus+xRHAk2J1qX2eO0+IU7rq8LXiF6eOhh+2nghI/ieadEreQu7Fg="
+        },
+        {
+          "appName": "Automation_Insights",
+          "clientId": "XPDremwIZ0633AEDWR1A2g",
+          "secret": "96SDWgx+ou3aqRjZ/AnhgQhZibdxkHbX2cxeEFIozpHWTDUWEWNu4+IGrZPn05RRbULd0QPcK/tgkPRh0qhlW2MSx6RESZUCeN8koii1nstCU/NGSjWOP2VBTSNN1FnF1tE+bWn++IoBOtp+Tpsoy2yl3+e0EpMM72BeRX5MRg0="
+        }
+      ]
+    },
+    {
+      "environment": "uat",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDb21wYW55IjoiMiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOGI3MzFiYzgtMzczZS00OTIzLThlYjAtZDQyMDk5YzVhOWM1IiwiU2NvcGVzIjoiU0NJTSIsImV4cCI6MTcxNDIyNTQxOSwiaXNzIjoiaXNzdWVyLXFhLmFnaWxpdHloZWFsdGhyYWRhci5jb20iLCJhdWQiOiJhdWRpZW5jZS1xYS5hZ2lsaXR5aGVhbHRocmFkYXIuY29tIn0.muU1pGxWwhNxpeiqHygKPjJNl5lwZWv12rJ_TFXLcd4",
+      "oauthApps": [
+        {
+          "appName": "Automation",
+          "clientId": "6aemtLuJSUOkBEsyZl3j0Q",
+          "secret": "L154GdzQki4pUDKJOcGKLyDz3JIfogOaSS/SYC18JOPd2gH0v384P90QevMVMSuXf0eJ1SEzT1ghY64SU+XckuyNkPSKhX6D7ujBtJbYgkmQrDxYp256Clnus+xRHAk2J1qX2eO0+IU7rq8LXiF6eOhh+2nghI/ieadEreQu7Fg="
+        },
+        {
+          "appName": "Automation_Insights",
+          "clientId": "XPDremwIZ0633AEDWR1A2g",
+          "secret": "96SDWgx+ou3aqRjZ/AnhgQhZibdxkHbX2cxeEFIozpHWTDUWEWNu4+IGrZPn05RRbULd0QPcK/tgkPRh0qhlW2MSx6RESZUCeN8koii1nstCU/NGSjWOP2VBTSNN1FnF1tE+bWn++IoBOtp+Tpsoy2yl3+e0EpMM72BeRX5MRg0="
+        }
+      ]
+    },
+    {
+      "environment": "ttndev",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": ""
+    },
+    {
+      "environment": "ttnqa",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": ""
+    },
+    {
+      "environment": "preprod",
+      "id": "79",
+      "teamId1": "7131",
+      "scimToken": "",
+      "oauthApps": [
+        {
+          "appName": "Automation",
+          "clientId": "6aemtLuJSUOkBEsyZl3j0Q",
+          "secret": "L154GdzQki4pUDKJOcGKLyDz3JIfogOaSS/SYC18JOPd2gH0v384P90QevMVMSuXf0eJ1SEzT1ghY64SU+XckuyNkPSKhX6D7ujBtJbYgkmQrDxYp256Clnus+xRHAk2J1qX2eO0+IU7rq8LXiF6eOhh+2nghI/ieadEreQu7Fg="
+        },
+        {
+          "appName": "Automation_Insights",
+          "clientId": "XPDremwIZ0633AEDWR1A2g",
+          "secret": "96SDWgx+ou3aqRjZ/AnhgQhZibdxkHbX2cxeEFIozpHWTDUWEWNu4+IGrZPn05RRbULd0QPcK/tgkPRh0qhlW2MSx6RESZUCeN8koii1nstCU/NGSjWOP2VBTSNN1FnF1tE+bWn++IoBOtp+Tpsoy2yl3+e0EpMM72BeRX5MRg0="
+        }
+      ]
+    }
+  ]
+}

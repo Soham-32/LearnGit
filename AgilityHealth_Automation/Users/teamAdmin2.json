@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_teamadmin2@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "companyName": "Automation_TA (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_teamadmin1@agiletransformation.com",
+      "password": "12345678",
+      "newPassword": "asdfasdf",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "member",
+      "username": "ah_automation+uniqueTA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Unique",
+      "lastName": "TA",
+      "type": "Member"
+    },
+    {
+      "description": "ntier user",
+      "username": "ah_automation+ntierTA2@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "NTier",
+      "lastName": "TeamAdmin2",
+      "companyName": "Automation_N-Tier (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsTA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "TeamAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "75"
+    },
+    {
+      "environment": "qa",
+      "id": "75"
+    },
+    {
+      "environment": "atqa",
+      "id": "75"
+    },
+    {
+      "environment": "uat",
+      "id": "75"
+    },
+    {
+      "environment": "ttndev",
+      "id": "75"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "75"
+    },
+    {
+      "environment": "preprod",
+      "id": "75"
+    },
+    {
+      "environment": "load",
+      "id": "75"
+    }
+  ]
+}

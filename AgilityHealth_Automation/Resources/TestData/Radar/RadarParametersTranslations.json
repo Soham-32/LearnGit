@@ -1,0 +1,672 @@
+﻿{
+  "Languages": [
+    {
+      "language": "Chinese",
+      "Dimension": [
+        {
+          "Name": "维度001",
+          "SubDimension": {
+            "Name": "子维度001",
+            "Abbreviation": "子维度001 缩写",
+            "Description": "子维度001 描述",
+            "Competency": {
+              "Name": "能力001",
+              "Abbreviation": "能力001 缩写",
+              "AnalyticsAbbreviation": "能力001 分析 缩写",
+              "Question": {
+                "QuestionText": "此处的问题文本为 能力001",
+                "QuestionHelp": "Q在这里提问帮助 能力001",
+                "OpenEnded": {
+                  "Text": "开放式问题 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "维度002",
+          "SubDimension": {
+            "Name": "子维度002",
+            "Abbreviation": "子维度002 缩写",
+            "Description": "子维度002 描述",
+            "Competency": {
+              "Name": "能力002",
+              "Abbreviation": "能力002 缩写",
+              "AnalyticsAbbreviation": "能力002 分析 缩写",
+              "Question": {
+                "QuestionText": "此处的问题文本为 能力002",
+                "QuestionHelp": "Q在这里提问帮助 能力002",
+                "OpenEnded": {
+                  "Text": "开放式问题 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "维度003",
+          "SubDimension": {
+            "Name": "子维度003",
+            "Abbreviation": "子维度003 缩写",
+            "Description": "子维度003 描述",
+            "Competency": {
+              "Name": "能力003",
+              "Abbreviation": "能力003 缩写",
+              "AnalyticsAbbreviation": "能力003 分析 缩写",
+              "Question": {
+                "QuestionText": "此处的问题文本为 能力003",
+                "QuestionHelp": "Q在这里提问帮助 能力003",
+                "OpenEnded": {
+                  "Text": "开放式问题 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+    },
+    {
+      "language": "English",
+      "Dimension": [
+        {
+          "Name": "Dimension001",
+          "SubDimension": {
+            "Name": "SubDimension001",
+            "Abbreviation": "SubDimension001 Abbreviation",
+            "Description": "SubDimension001 Description",
+            "Competency": {
+              "Name": "Competency001",
+              "Abbreviation": "Competency001 Abbreviation",
+              "AnalyticsAbbreviation": "Competency001 Analytics Abbreviation",
+              "Question": {
+                "QuestionText": "Question text here for Competency001",
+                "QuestionHelp": "Question help here for Competency001",
+                "OpenEnded": {
+                  "Text": "Open-ended question 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimension002",
+          "SubDimension": {
+            "Name": "SubDimension002",
+            "Abbreviation": "SubDimension002Abbreviation",
+            "Description": "SubDimension002Description",
+            "Competency": {
+              "Name": "Competency002",
+              "Abbreviation": "Competency002Abbreviation",
+              "AnalyticsAbbreviation": "Competency002AnalyticsAbbreviation",
+              "Question": {
+                "QuestionText": "Click here for the question Ability 2",
+                "QuestionHelp": "Click here for question help Ability 2",
+                "OpenEnded": {
+                  "Text": "Open-ended question 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimension003",
+          "SubDimension": {
+            "Name": "SubDimension003",
+            "Abbreviation": "SubDimension003Abbreviation",
+            "Description": "SubDimension003Description",
+            "Competency": {
+              "Name": "Competency003",
+              "Abbreviation": "Competency003Abbreviation",
+              "AnalyticsAbbreviation": "Competency003AnalyticsAbbreviation",
+              "Question": {
+                "QuestionText": "Click here for the question Ability3",
+                "QuestionHelp": "Click here for question help Ability3",
+                "OpenEnded": {
+                  "Text": "Open-ended question 3"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "language": "Spanish",
+      "Dimension": [
+        {
+          "Name": "Dimensión001",
+          "SubDimension": {
+            "Name": "SubDimensión001",
+            "Abbreviation": "SubDimensión001 Abreviatura",
+            "Description": "SubDimensión001 Descripción",
+            "Competency": {
+              "Name": "Competencia001",
+              "Abbreviation": "Competencia001 Abreviatura",
+              "AnalyticsAbbreviation": "Competency001 Abreviatura de análisis",
+              "Question": {
+                "QuestionText": "Texto de pregunta aquí para Competencia001",
+                "QuestionHelp": "Pregunta ayuda aquí para Competencia001",
+                "OpenEnded": {
+                  "Text": "Pregunta abierta 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimensión002",
+          "SubDimension": {
+            "Name": "SubDimensión002",
+            "Abbreviation": "SubDimensión002 Abreviatura",
+            "Description": "SubDimensión002 Descripción",
+            "Competency": {
+              "Name": "Competencia002",
+              "Abbreviation": "Competencia002 Abreviatura",
+              "AnalyticsAbbreviation": "Competency002 Abreviatura de análisis",
+              "Question": {
+                "QuestionText": "Texto de pregunta aquí para Competencia002",
+                "QuestionHelp": "Pregunta ayuda aquí para Competencia002",
+                "OpenEnded": {
+                  "Text": "Pregunta abierta 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimensión003",
+          "SubDimension": {
+            "Name": "SubDimensión003",
+            "Abbreviation": "SubDimensión003 Abreviatura",
+            "Description": "SubDimensión003 Descripción",
+            "Competency": {
+              "Name": "Competencia003",
+              "Abbreviation": "Competencia003 Abreviatura",
+              "AnalyticsAbbreviation": "Competency003 Abreviatura de análisis",
+              "Question": {
+                "QuestionText": "Texto de pregunta aquí para Competencia003",
+                "QuestionHelp": "Pregunta ayuda aquí para Competencia003",
+                "OpenEnded": {
+                  "Text": "Pregunta abierta 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+
+    },
+    {
+      "language": "Japanese",
+      "Dimension": [
+        {
+          "Name": "ディメンション001",
+          "SubDimension": {
+            "Name": "サブディメンション001",
+            "Abbreviation": "サブディメンション001 略語",
+            "Description": "サブディメンション001 説明",
+            "Competency": {
+              "Name": "コンピテンシー001",
+              "Abbreviation": "コンピテンシー001の略語",
+              "AnalyticsAbbreviation": "コンピテンシー001 アナリティクスの略語",
+              "Question": {
+                "QuestionText": "コンピテンシー001 の質問テキストはここにあります",
+                "QuestionHelp": "コンピテンシー001 に関する質問ヘルプはこちら",
+                "OpenEnded": {
+                  "Text": "自由回答の質問 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "ディメンション002",
+          "SubDimension": {
+            "Name": "サブディメンション002",
+            "Abbreviation": "サブディメンション002 略語",
+            "Description": "サブディメンション002 説明",
+            "Competency": {
+              "Name": "コンピテンシー002",
+              "Abbreviation": "コンピテンシー002の略語",
+              "AnalyticsAbbreviation": "コンピテンシー002 アナリティクスの略語",
+              "Question": {
+                "QuestionText": "コンピテンシー002 の質問テキストはここにあります",
+                "QuestionHelp": "コンピテンシー002 に関する質問ヘルプはこちら",
+                "OpenEnded": {
+                  "Text": "自由回答の質問 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "ディメンション003",
+          "SubDimension": {
+            "Name": "サブディメンション003",
+            "Abbreviation": "サブディメンション003 略語",
+            "Description": "サブディメンション003 説明",
+            "Competency": {
+              "Name": "コンピテンシー003",
+              "Abbreviation": "コンピテンシー003の略語",
+              "AnalyticsAbbreviation": "コンピテンシー003 アナリティクスの略語",
+              "Question": {
+                "QuestionText": "コンピテンシー003 の質問テキストはここにあります",
+                "QuestionHelp": "コンピテンシー003 に関する質問ヘルプはこちら",
+                "OpenEnded": {
+                  "Text": "自由回答の質問 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+
+    },
+    {
+      "language": "Korean",
+      "Dimension": [
+        {
+          "Name": "차원001",
+          "SubDimension": {
+            "Name": "하위차원001",
+            "Abbreviation": "하위차원001 약어",
+            "Description": "하위차원001 설명",
+            "Competency": {
+              "Name": "역량001",
+              "Abbreviation": "역량001 약어",
+              "AnalyticsAbbreviation": "역량001 분석 약어",
+              "Question": {
+                "QuestionText": "질문 텍스트 여기 ~을 위한 역량001",
+                "QuestionHelp": "질문 돕다 여기 ~을 위한 역량001",
+                "OpenEnded": {
+                  "Text": "개방형 질문 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "차원002",
+          "SubDimension": {
+            "Name": "하위차원002",
+            "Abbreviation": "하위차원002 약어",
+            "Description": "하위차원002 설명",
+            "Competency": {
+              "Name": "역량002",
+              "Abbreviation": "역량002 약어",
+              "AnalyticsAbbreviation": "역량002 분석 약어",
+              "Question": {
+                "QuestionText": "질문 텍스트 여기 ~을 위한 역량002",
+                "QuestionHelp": "질문 돕다 여기 ~을 위한 역량002",
+                "OpenEnded": {
+                  "Text": "개방형 질문 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "차원003",
+          "SubDimension": {
+            "Name": "하위차원003",
+            "Abbreviation": "하위차원003 약어",
+            "Description": "하위차원003 설명",
+            "Competency": {
+              "Name": "역량003",
+              "Abbreviation": "역량003 약어",
+              "AnalyticsAbbreviation": "역량003 분석 약어",
+              "Question": {
+                "QuestionText": "질문 텍스트 여기 ~을 위한 역량003",
+                "QuestionHelp": "질문 돕다 여기 ~을 위한 역량003",
+                "OpenEnded": {
+                  "Text": "개방형 질문 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+    },
+    {
+      "language": "Hungarian",
+      "Dimension": [
+        {
+          "Name": "Méret001",
+          "SubDimension": {
+            "Name": "Aldimenzió001",
+            "Abbreviation": "SubDimension001 Rövidítés",
+            "Description": "SubDimension001 Leírás",
+            "Competency": {
+              "Name": "Kompetencia001",
+              "Abbreviation": "Kompetencia001 Rövidítés",
+              "AnalyticsAbbreviation": "Competency001 Analytics Rövidítés",
+              "Question": {
+                "QuestionText": "Kérdés szövege itt a Kompetencia001",
+                "QuestionHelp": "Kérdéssúgó itt a Kompetencia001",
+                "OpenEnded": {
+                  "Text": "Nyílt végű kérdés 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Méret002",
+          "SubDimension": {
+            "Name": "Aldimenzió002",
+            "Abbreviation": "SubDimension002 Rövidítés",
+            "Description": "SubDimension002 Leírás",
+            "Competency": {
+              "Name": "Kompetencia002",
+              "Abbreviation": "Kompetencia002 Rövidítés",
+              "AnalyticsAbbreviation": "Competency002 Analytics Rövidítés",
+              "Question": {
+                "QuestionText": "Kérdés szövege itt a Kompetencia002",
+                "QuestionHelp": "Kérdéssúgó itt a Kompetencia002",
+                "OpenEnded": {
+                  "Text": "Nyílt végű kérdés 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Méret003",
+          "SubDimension": {
+            "Name": "Aldimenzió003",
+            "Abbreviation": "SubDimension003 Rövidítés",
+            "Description": "SubDimension003 Leírás",
+            "Competency": {
+              "Name": "Kompetencia003",
+              "Abbreviation": "Kompetencia003 Rövidítés",
+              "AnalyticsAbbreviation": "Competency003 Analytics Rövidítés",
+              "Question": {
+                "QuestionText": "Kérdés szövege itt a Kompetencia003",
+                "QuestionHelp": "Kérdéssúgó itt a Kompetencia003",
+                "OpenEnded": {
+                  "Text": "Nyílt végű kérdés 3"
+                }
+              }
+            }
+          }
+        }
+      ]
+
+    },
+    {
+      "language": "German",
+      "Dimension": [
+        {
+          "Name": "Dimension001",
+          "SubDimension": {
+            "Name": "SubDimension001",
+            "Abbreviation": "SubDimension001 Abkürzung",
+            "Description": "SubDimension001 Beschreibung",
+            "Competency": {
+              "Name": "Kompetenz001",
+              "Abbreviation": "Kompetenz001 Abkürzung",
+              "AnalyticsAbbreviation": "Kompetenz001 Analytics Abkürzung",
+              "Question": {
+                "QuestionText": "Fragetext hier für Kompetenz001",
+                "QuestionHelp": "Fragenhilfe hier für Kompetenz001",
+                "OpenEnded": {
+                  "Text": "Offene Frage 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimension002",
+          "SubDimension": {
+            "Name": "SubDimension002",
+            "Abbreviation": "SubDimension002 Abkürzung",
+            "Description": "SubDimension002 Beschreibung",
+            "Competency": {
+              "Name": "Kompetenz002",
+              "Abbreviation": "Kompetenz002 Abkürzung",
+              "AnalyticsAbbreviation": "Kompetenz002 Analytics Abkürzung",
+              "Question": {
+                "QuestionText": "Fragetext hier für Kompetenz002",
+                "QuestionHelp": "Fragenhilfe hier für Kompetenz002",
+                "OpenEnded": {
+                  "Text": "Offene Frage 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimension003",
+          "SubDimension": {
+            "Name": "SubDimension003",
+            "Abbreviation": "SubDimension003 Abkürzung",
+            "Description": "SubDimension003 Beschreibung",
+            "Competency": {
+              "Name": "Kompetenz003",
+              "Abbreviation": "Kompetenz003 Abkürzung",
+              "AnalyticsAbbreviation": "Kompetenz003 Analytics Abkürzung",
+              "Question": {
+                "QuestionText": "Fragetext hier für Kompetenz003",
+                "QuestionHelp": "Fragenhilfe hier für Kompetenz003",
+                "OpenEnded": {
+                  "Text": "Offene Frage 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+
+    },
+    {
+      "language": "Portuguese",
+      "Dimension": [
+        {
+          "Name": "Dimensão001",
+          "SubDimension": {
+            "Name": "SubDimensão001",
+            "Abbreviation": "SubDimensão001 Abreviatura",
+            "Description": "SubDimension001 Descrição",
+            "Competency": {
+              "Name": "Competência001",
+              "Abbreviation": "Competência001 Abreviatura",
+              "AnalyticsAbbreviation": "Competency001 Analytics Abreviatura",
+              "Question": {
+                "QuestionText": "Texto da pergunta aqui para Competência001",
+                "QuestionHelp": "Ajuda para perguntas aqui para Competência001",
+                "OpenEnded": {
+                  "Text": "Pergunta aberta 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimensão002",
+          "SubDimension": {
+            "Name": "SubDimensão002",
+            "Abbreviation": "SubDimensão002 Abreviatura",
+            "Description": "SubDimension002 Descrição",
+            "Competency": {
+              "Name": "Competência002",
+              "Abbreviation": "Competência002 Abreviatura",
+              "AnalyticsAbbreviation": "Competency002 Analytics Abreviatura",
+              "Question": {
+                "QuestionText": "Texto da pergunta aqui para Competência002",
+                "QuestionHelp": "Ajuda para perguntas aqui para Competência002",
+                "OpenEnded": {
+                  "Text": "Pergunta aberta 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Dimensão003",
+          "SubDimension": {
+            "Name": "SubDimensão003",
+            "Abbreviation": "SubDimensão003 Abreviatura",
+            "Description": "SubDimension003 Descrição",
+            "Competency": {
+              "Name": "Competência003",
+              "Abbreviation": "Competência003 Abreviatura",
+              "AnalyticsAbbreviation": "Competency003 Analytics Abreviatura",
+              "Question": {
+                "QuestionText": "Texto da pergunta aqui para Competência003",
+                "QuestionHelp": "Ajuda para perguntas aqui para Competência003",
+                "OpenEnded": {
+                  "Text": "Pergunta aberta 3"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "language": "French",
+      "Dimension": [
+        {
+          "Name": "Dimension001",
+          "SubDimension": {
+            "Name": "Sous-dimension001",
+            "Abbreviation": "Sous-dimension001 Abréviation",
+            "Description": "Sous-dimension001 Description",
+            "Competency": {
+              "Name": "Compétence001",
+              "Abbreviation": "Compétence001 Abréviation",
+              "AnalyticsAbbreviation": "Compétence001 Analytique Abréviation",
+              "Question": {
+                "QuestionText": "Texte de la question ici pour la Compétence001",
+                "QuestionHelp": "Question aide ici pour Compétence001",
+                "OpenEnded": {
+                  "Text": "Question ouverte 1"
+                }
+              }
+            }
+          }
+
+
+        },
+        {
+          "Name": "Dimension002",
+          "SubDimension": {
+            "Name": "Sous-dimension002",
+            "Abbreviation": "Sous-dimension002 Abréviation",
+            "Description": "Sous-dimension002 Description",
+            "Competency": {
+              "Name": "Compétence002",
+              "Abbreviation": "Compétence002 Abréviation",
+              "AnalyticsAbbreviation": "Compétence002 Analytique Abréviation",
+              "Question": {
+                "QuestionText": "Texte de la question ici pour la Compétence002",
+                "QuestionHelp": "Question aide ici pour Compétence002",
+                "OpenEnded": {
+                  "Text": "Question ouverte 2"
+                }
+              }
+            }
+          }
+
+
+        },
+        {
+          "Name": "Dimension003",
+          "SubDimension": {
+            "Name": "Sous-dimension003",
+            "Abbreviation": "Sous-dimension003 Abréviation",
+            "Description": "Sous-dimension003 Description",
+            "Competency": {
+              "Name": "Compétence003",
+              "Abbreviation": "Compétence003 Abréviation",
+              "AnalyticsAbbreviation": "Compétence003 Analytique Abréviation",
+              "Question": {
+                "QuestionText": "Texte de la question ici pour la Compétence003",
+                "QuestionHelp": "Question aide ici pour Compétence003",
+                "OpenEnded": {
+                  "Text": "Question ouverte 3"
+                }
+              }
+            }
+          }
+
+
+        }
+
+      ]
+
+    },
+    {
+      "language": "Turkish",
+      "Dimension": [
+        {
+          "Name": "Boyut001",
+          "SubDimension": {
+            "Name": "Alt Boyut001",
+            "Abbreviation": "Alt Boyut001 Kısaltma",
+            "Description": "Alt Boyut001 Tanım",
+            "Competency": {
+              "Name": "Yetkinlik001",
+              "Abbreviation": "Yetkinlik001 Kısaltma",
+              "AnalyticsAbbreviation": "Yetkinlik001 Analitik Kısaltma",
+              "Question": {
+                "QuestionText": "Soru metin Burada için Yetkinlik001",
+                "QuestionHelp": "Soru yardım Burada için Yetkinlik001",
+                "OpenEnded": {
+                  "Text": "Açık uçlu soru 1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Boyut002",
+          "SubDimension": {
+            "Name": "Alt Boyut002",
+            "Abbreviation": "Alt Boyut002 Kısaltma",
+            "Description": "Alt Boyut002 Tanım",
+            "Competency": {
+              "Name": "Yetkinlik002",
+              "Abbreviation": "Yetkinlik002 Kısaltma",
+              "AnalyticsAbbreviation": "Yetkinlik002 Analitik Kısaltma",
+              "Question": {
+                "QuestionText": "Soru metin Burada için Yetkinlik002",
+                "QuestionHelp": "Soru yardım Burada için Yetkinlik002",
+                "OpenEnded": {
+                  "Text": "Açık uçlu soru 2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Boyut003",
+          "SubDimension": {
+            "Name": "Alt Boyut003",
+            "Abbreviation": "Alt Boyut003 Kısaltma",
+            "Description": "Alt Boyut003 Tanım",
+            "Competency": {
+              "Name": "Yetkinlik003",
+              "Abbreviation": "Yetkinlik003 Kısaltma",
+              "AnalyticsAbbreviation": "Yetkinlik003 Analitik Kısaltma",
+              "Question": {
+                "QuestionText": "Soru metin Burada için Yetkinlik003",
+                "QuestionHelp": "Soru yardım Burada için Yetkinlik003",
+                "OpenEnded": {
+                  "Text": "Açık uçlu soru 3"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+    }
+  ]
+}

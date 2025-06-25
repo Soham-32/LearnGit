@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A4917E7-598D-44C7-8B50-E771E227EE73}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AtCommon</RootNamespace>
+    <AssemblyName>AtCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.17.1.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>..\packages\AngleSharp.0.17.1\lib\net472\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BitMiracle.LibTiff.NET, Version=2.4.649.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6, processorArchitecture=MSIL">
+      <HintPath>..\packages\BitMiracle.LibTiff.NET.2.4.649\lib\net40\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.105.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.105.0\lib\netstandard2.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML.Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1d5f7376574c51ec, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.Parser.2.0.0\lib\netstandard2.0\ClosedXML.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.3.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.3.0\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.5.3.3, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.3.3\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.69.0\lib\net462\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.69.0\lib\net462\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.69.0\lib\net462\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Gmail.v1, Version=1.69.0.3742, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Gmail.v1.1.69.0.3742\lib\net462\Google.Apis.Gmail.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Irony, Version=1.1.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Irony.NetCore.1.1.11\lib\netstandard2.0\Irony.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.6.0.0\lib\net462\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.9.0.5\lib\net462\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.9.0.5\lib\net462\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.6.0.0\lib\net461\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.6.0.0\lib\net461\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.9.0.5\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.1\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectsComparer, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ObjectsComparer.1.4.1\lib\net45\ObjectsComparer.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RBush, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c77e27b81f4d0187, processorArchitecture=MSIL">
+      <HintPath>..\packages\RBush.Signed.4.0.0\lib\net47\RBush.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.2.1.8\lib\net472\SixLabors.ImageSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp.Drawing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.Drawing.1.0.0\lib\net472\SixLabors.ImageSharp.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.9.0.5\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=9.0.0.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.9.0.5\lib\net462\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.1\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.9.0.5\lib\net462\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.4.32.0\lib\netstandard2.0\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="XLParser, Version=1.7.5.0, Culture=neutral, PublicKeyToken=63397e1e46bb91b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\XLParser.1.7.5\lib\net462\XLParser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\ApiResponse.cs" />
+    <Compile Include="Api\ClientFactory.cs" />
+    <Compile Include="Api\Enums\BusinessOutcomesObstacles.cs" />
+    <Compile Include="Api\Enums\AssessmentPeriod.cs" />
+    <Compile Include="Api\Enums\RepeatIntervalId.cs" />
+    <Compile Include="Api\Enums\AssessmentType.cs" />
+    <Compile Include="Api\Enums\ArchiveStatus.cs" />
+    <Compile Include="Api\Enums\GrowthItemCategory.cs" />
+    <Compile Include="Api\Enums\GrowthItemDetailStatusType.cs" />
+    <Compile Include="Api\Enums\GrowthItemSegmentType.cs" />
+    <Compile Include="Api\Enums\GrowthItemStatusType.cs" />
+    <Compile Include="Api\Enums\SwimlaneType.cs" />
+    <Compile Include="Api\Enums\TeamAccessLevel.cs" />
+    <Compile Include="Api\Extensions.cs" />
+    <Compile Include="Api\ScimRequestUris.cs" />
+    <Compile Include="Api\RequestUris.cs" />
+    <Compile Include="Api\SetupTeardownApi.cs" />
+    <Compile Include="Dtos\AhTrial\AhTrialBaseCompanyResponse.cs" />
+    <Compile Include="Dtos\AhTrial\AhTrialCompanyRequest.cs" />
+    <Compile Include="Dtos\AhTrial\Custom\AhTrialSignUpForm.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\GetParticipantsRequest.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\GetPulseAssessmentV2Request.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\SelectedParticipantsResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\Custom\PulseAssessmentV2.cs" />
+    <Compile Include="Dtos\Assessments\Team\Custom\AssessmentPinRequest.cs" />
+    <Compile Include="Dtos\Assessments\Team\Custom\QuickLaunch\QuickLaunchAssessment.cs" />
+    <Compile Include="Dtos\Assessments\Team\Custom\QuickLaunch\QuickLaunchMemberAccess.cs" />
+    <Compile Include="Dtos\Assessments\Custom\AssessmentDetailsTranslations.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamRoleAllocationAverageRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamRoleAllocationAverageResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\CreatePulseAssessmentResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentBatchEmailResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentEmailResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentMemberResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentMemberRequest.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentV2Response.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\RadarQuestionDetailsV2Response.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\SavePulseAssessmentV2Request.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\AddMemberV2Request.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\PulseAssessmentPermissionsV2Response.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\TeamV2Response.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\UpdateTeamMemberV2Request.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\TeamMemberV2Response.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\GetTeamMembersExcludedFromQuestionsRequest.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\TeamMembersExcludedFromQuestionsResponse.cs" />
+    <Compile Include="Dtos\Assessments\PulseV2\SurveyTypesResponse.cs" />
+    <Compile Include="Dtos\Assessments\Team\Custom\BatchAssessment.cs" />
+    <Compile Include="Dtos\Assessments\Team\Custom\TeamAssessmentInfo.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeCardTypeResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\DashboardSettingResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeKeyResultSubTargetRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeObstacleOwnerResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSupportingTeamRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeObstaclesRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeDependenciesRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeOwnerRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSponsorRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomesStakeholderRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeChecklistItemRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeDependencyCardResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeAttachmentRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomePermissionType.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeObstaclesResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeDependenciesResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeOwnerResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSponsorResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeStakeholderResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\BusinessOutcomeDetailsTabs.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\FinancialGraphData.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Financial.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\MeetingNotes.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Documents.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\LinkedKeyResult.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\BusinessOutcomesTimelineViewResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\GetParentOutcomesResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSupportingTeamResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeAttachmentResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeChecklistItemResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeChildCardRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeChildCardResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomesFinancialRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomesFinancialResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\DeliverableTabChildCard.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\KeyResultContributingNotificationRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\MeetingNotes\BusinessOutcomeMeetingNoteAttachmentResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\MeetingNotes\FileContentResult.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\MeetingNotes\UpdateBusinessOutcomeMeetingNotesActionItemStatusRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\MeetingNotes\BusinessOutcomesMeetingNotesResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\MeetingNotes\BusinessOutcomesMeetingNotesRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\UpdateBusinessOutcomeChecklistItemRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\GetTeamAssessmentsAllIdsResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\GetTeamAssessmentsAllIdsRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\LaunchCampaignRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\GetAllCampaignTeamIdsRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\GetAllCampaignTeamIdsResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\AddFacilitatorsToCampaignRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\MatchmakingResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\CreateCampaignResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\CreateCampaignRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\CreateFacilitatorRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\MatchmakingRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\CreateTeamRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\FacilitatorInfoResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\SaveAsDraftRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\SaveAsDraftResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\CampaignSetupResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\TeamInfoResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\UpdateAssessmentNameRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\UpdateCampaignRequest.cs" />
+    <Compile Include="Dtos\CampaignsV2\CampaignDetails.cs" />
+    <Compile Include="Dtos\CampaignsV2\CampaignVerbiage.cs" />
+    <Compile Include="Dtos\ProductionEnvironmentDatabase.cs" />
+    <Compile Include="Dtos\Tags\WorkTypesResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\ArchivedRestoreBoCards.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\CheckListItem.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\ChildOutcome.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Deliverable.cs" />
+    <Compile Include="Dtos\CampaignsV2\CompanyCampaignsResponse.cs" />
+    <Compile Include="Dtos\CampaignsV2\CampaignResponse .cs" />
+    <Compile Include="Dtos\Account\LoginDto.cs" />
+    <Compile Include="Dtos\Account\UserInfoResponse.cs" />
+    <Compile Include="Dtos\Analytics\AnalyticsMaturityTeamId.cs" />
+    <Compile Include="Dtos\Analytics\AnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\BenchmarkingResponse.cs" />
+    <Compile Include="Dtos\Analytics\CompanyAssessmentQuartersResponse.cs" />
+    <Compile Include="Dtos\Analytics\Custom\AnalyticsQuarter.cs" />
+    <Compile Include="Dtos\Analytics\Custom\GrowthItem.cs" />
+    <Compile Include="Dtos\Analytics\Custom\GrowthItemDetailCsv.cs" />
+    <Compile Include="Dtos\Analytics\Custom\ProductionEnvironment.cs" />
+    <Compile Include="Dtos\Analytics\GetCompanyAssessmentQuartersRequest.cs" />
+    <Compile Include="Dtos\Analytics\GrowthPlanDetailsAnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\GrowthPlanDetailsResponse.cs" />
+    <Compile Include="Dtos\Analytics\IndexDimensionsRequest.cs" />
+    <Compile Include="Dtos\Analytics\IndexDimensionsResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\ParticipantGroupRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\PeopleByRoleRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\PeopleByRoleResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\ParticipantGroupResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\RoleAllocationTargetsResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\RoleAllocationAverageResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\StructuralAgilityWidgetType.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamWorkTypeResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamWorkTypeRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamStabilityRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\TeamStabilityResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\UpdateRoleAllocationTargetsRequest.cs" />
+    <Compile Include="Dtos\Analytics\BaseTeamIdentityAnalyiticsPagableModel.cs" />
+    <Compile Include="Dtos\Analytics\BaseTeamIdentityAnalyticsModel.cs" />
+    <Compile Include="Dtos\Analytics\DimensionsAnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\DimensionsResponse.cs" />
+    <Compile Include="Dtos\Analytics\DimensionSortOrder.cs" />
+    <Compile Include="Dtos\Analytics\IndexAnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\IndexAnalyticsResponse.cs" />
+    <Compile Include="Dtos\Analytics\AnalyticsTableResponse.cs" />
+    <Compile Include="Dtos\Analytics\GrowthPlanAnalyticsResponse.cs" />
+    <Compile Include="Dtos\Analytics\GrowthPlanAnalyticsTableResponse.cs" />
+    <Compile Include="Dtos\Analytics\GrowthPlanAnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\IndexTeamMemberContact.cs" />
+    <Compile Include="Dtos\Analytics\IndexTeamRequest.cs" />
+    <Compile Include="Dtos\Analytics\IndexTeamResponse.cs" />
+    <Compile Include="Dtos\Analytics\PagedBaseResponse.cs" />
+    <Compile Include="Dtos\Analytics\OvertimeAnalyticsRequest.cs" />
+    <Compile Include="Dtos\Analytics\OvertimeAnalyticsResponse.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\RoleAllocationRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\AgileNonAgileTeamsRequest.cs" />
+    <Compile Include="Dtos\Analytics\StructuralAgility\AgileNonAgileTeamsResponse.cs" />
+    <Compile Include="Dtos\Assessments\AssessmentResponse.cs" />
+    <Compile Include="Dtos\Assessments\AssessmentsResultsResponse.cs" />
+    <Compile Include="Dtos\Assessments\AssessmentSummaryResponse.cs" />
+    <Compile Include="Dtos\Assessments\Pulse\PulseAssessmentNameResponse.cs" />
+    <Compile Include="Dtos\Assessments\RoleResponse.cs" />
+    <Compile Include="Dtos\Assessments\SurveySubmit.cs" />
+    <Compile Include="Dtos\Assessments\TagRoleResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyGrowthPlanItemPagedResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyTeamMemberTagResponse.cs" />
+    <Compile Include="Dtos\Companies\TeamAssessmentResponse.cs" />
+    <Compile Include="Dtos\BaseDto.cs" />
+    <Compile Include="Dtos\Bulk\AddMembers.cs" />
+    <Compile Include="Dtos\Bulk\AddTeam.cs" />
+    <Compile Include="Dtos\Bulk\AddUser.cs" />
+    <Compile Include="Dtos\Bulk\MemberTagRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeCategoryLabelRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeCategoryLabelResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeLabelRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomesLinkRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeTagRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CommentRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CustomFieldRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CustomFieldValueRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeLabelResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeLinkResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeMetricResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeMetricRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeMetricTypeResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSwimlaneResponse.cs" />
+    <Compile Include="Dtos\Assessments\CreateReviewerRequest.cs" />
+    <Compile Include="Dtos\Assessments\ReviewerResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BaseBusinessOutcomesDto.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeSortOrderRequestResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\BusinessOutcomeTagResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CommentsResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CustomFieldResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\CustomFieldValueResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\DeliverableRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\KeyResultRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\KeyResultResponse.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\CustomBusinessOutcomeRequest.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Comment.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\KeyResult.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Metric.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\CustomFieldValue.cs" />
+    <Compile Include="Dtos\BusinessOutcomes\Custom\Tag.cs" />
+    <Compile Include="Dtos\Companies\AddCompanyRadarRequest.cs" />
+    <Compile Include="Dtos\Companies\CompanyAssessmentsResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyAssessmentsResultsResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyExportResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyFeatureResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyHierarchyResponse.cs" />
+    <Compile Include="Dtos\Companies\BaseCompanyResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyLicenseDto.cs" />
+    <Compile Include="Dtos\Companies\CompanyLicenseResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyListResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyMemberResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyRadarResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyStakeholderResponse.cs" />
+    <Compile Include="Dtos\Companies\CompanyTeamMemberResponse.cs" />
+    <Compile Include="Dtos\Companies\CountryResponse.cs" />
+    <Compile Include="Dtos\Companies\CurrentUsageResponse.cs" />
+    <Compile Include="Dtos\Companies\FeatureResponse.cs" />
+    <Compile Include="Dtos\Companies\GetCompanyFeaturesRequest.cs" />
+    <Compile Include="Dtos\Companies\IndustryResponse.cs" />
+    <Compile Include="Dtos\Companies\AddCompanyRequest.cs" />
+    <Compile Include="Dtos\Companies\CompanyResponse.cs" />
+    <Compile Include="Dtos\Companies\SubscriptionHistoryResponse.cs" />
+    <Compile Include="Dtos\Companies\TypesResponse.cs" />
+    <Compile Include="Dtos\Companies\UpdateCompanyRequest.cs" />
+    <Compile Include="Dtos\Companies\UserRequest.cs" />
+    <Compile Include="Dtos\GrowthPlan\DeleteCustomGrowthPlanTypesRequest.cs" />
+    <Compile Include="Dtos\GrowthPlan\GrowthPlanItemStatusResponse.cs" />
+    <Compile Include="Dtos\GrowthPlan\SaveCustomGrowthPlanTypesRequest.cs" />
+    <Compile Include="Dtos\GrowthPlan\CustomGrowthPlanTypesResponse.cs" />
+    <Compile Include="Dtos\GrowthPlan\Custom\GrowthItem.cs" />
+    <Compile Include="Dtos\GrowthPlan\GrowthPlanItemIdResponse.cs" />
+    <Compile Include="Dtos\GrowthPlan\GrowthPlanItemRequest.cs" />
+    <Compile Include="Dtos\GrowthPlan\GrowthPlanStatusResponse.cs" />
+    <Compile Include="Dtos\GrowthPlan\GrowthPlanItemResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\CardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\CardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\CreateCardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\CreateCardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\CreateGrowthPlanItemRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\CreateGrowthPlanItemResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\DeleteCardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\GrowthPlanItemCardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\GrowthPlanItemCardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\IdeaBoardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\ResetCardsRequests.cs" />
+    <Compile Include="Dtos\Ideaboard\SetVotesAllowedRequests.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateCardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\SortCardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateCardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\SortCardsRequests.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateCardsRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateCardsResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateGrowthPlanItemCardRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateGrowthPlanItemCardResponse.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateGrowthPlanItemRequest.cs" />
+    <Compile Include="Dtos\Ideaboard\UpdateGrowthPlanItemResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\BatchImportIndividualAssessmentResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\CreateIndividualAssessmentRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\CreateTeamMemberTagsRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\CreateTeamMemberTagsResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\EditIndividualAssessmentRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\IndividualAssessmentBatchEmailResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\IndividualAssessmentEmailResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\IndividualAssessmentMemberDetailsResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\IndividualMemberRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\IndividualAssessmentMemberResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\ReviewerRolesResponse.cs" />
+    <Compile Include="Dtos\IndividualAssessments\ReviewerRolesRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\RoleRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\TagRoleRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\UpdateReviewerRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\ViewerResponse.cs" />
+    <Compile Include="Dtos\Insights\DashboardResponse.cs" />
+    <Compile Include="Dtos\Insights\UpdateUserWidgetPreferenceRequest.cs" />
+    <Compile Include="Dtos\Insights\UserPreferenceResponse.cs" />
+    <Compile Include="Dtos\Insights\WidgetResponse.cs" />
+    <Compile Include="Dtos\Insights\WidgetThemeResponse.cs" />
+    <Compile Include="Dtos\Integrations\Custom\Iteration.cs" />
+    <Compile Include="Dtos\Integrations\Custom\JiraIntegrations\JiraCloudIntegration\JiraCloudIntegration.cs" />
+    <Compile Include="Dtos\Integrations\Custom\JiraIntegrations\JiraDataCenterIntegration\JiraDataCenterIntegration.cs" />
+    <Compile Include="Dtos\Integrations\Custom\PerformanceMeasurements.cs" />
+    <Compile Include="Dtos\Integrations\Custom\Release.cs" />
+    <Compile Include="Dtos\OAuth\AddAppRegistrationRequest.cs" />
+    <Compile Include="Dtos\OAuth\AddAppRegistrationResponse.cs" />
+    <Compile Include="Dtos\OAuth\AppRegistrationResponse.cs" />
+    <Compile Include="Dtos\OAuth\OauthTokenResponse.cs" />
+    <Compile Include="Dtos\Radars\Custom\SurveyTranslations.cs" />
+    <Compile Include="Dtos\Radars\Custom\ParameterTranslations.cs" />
+    <Compile Include="Dtos\Radars\Custom\SurveyEmailTranslations.cs" />
+    <Compile Include="Dtos\GlobalTranslation\GlobalTranslations.cs" />
+    <Compile Include="Dtos\Radars\Custom\LanguageTranslations.cs" />
+    <Compile Include="Dtos\Radars\Custom\RadarDetails.cs" />
+    <Compile Include="Dtos\Radars\Custom\RadarResponse.cs" />
+    <Compile Include="Dtos\Radars\RadarQuestionDetailsResponse.cs" />
+    <Compile Include="Dtos\Radars\Custom\Analytics.cs" />
+    <Compile Include="Dtos\Reports\ReportListResponse.cs" />
+    <Compile Include="Dtos\Reports\ReportsByIdResponse.cs" />
+    <Compile Include="Dtos\Scim\PatchGroupRequest.cs" />
+    <Compile Include="Dtos\Scim\ScimGroup.cs" />
+    <Compile Include="Dtos\Scim\CreateUserRequest.cs" />
+    <Compile Include="Dtos\Scim\ScimUser.cs" />
+    <Compile Include="Dtos\Scim\ScimAllUser.cs" />
+    <Compile Include="Dtos\Settings\Campaign.cs" />
+    <Compile Include="Dtos\Survey\Custom\SurveyTranslation.cs" />
+    <Compile Include="Dtos\Tags\MasterTags.cs" />
+    <Compile Include="Dtos\Radars\RadarCompetenciesResponse.cs" />
+    <Compile Include="Dtos\Radars\CompetencyDetailResponse.cs" />
+    <Compile Include="Dtos\Radars\CompetencyMemberResponse.cs" />
+    <Compile Include="Dtos\Radars\DimensionDetailResponse.cs" />
+    <Compile Include="Dtos\Radars\DimensionMemberResponse.cs" />
+    <Compile Include="Dtos\Radars\QuestionDetailResponse.cs" />
+    <Compile Include="Dtos\Radars\QuestionMemberResponse.cs" />
+    <Compile Include="Dtos\Radars\RadarDetailResponse.cs" />
+    <Compile Include="Dtos\Radars\RadarMemberResponse.cs" />
+    <Compile Include="Dtos\Radars\RadarResponse.cs" />
+    <Compile Include="Dtos\Companies\SuggestedReviewerResponse.cs" />
+    <Compile Include="Dtos\Email\I360EmailRequest.cs" />
+    <Compile Include="Dtos\IndividualAssessments\AssessmentList.cs" />
+    <Compile Include="Dtos\Internal\PendoInformationResponse.cs" />
+    <Compile Include="Dtos\Internal\SplitUserInformationResponse.cs" />
+    <Compile Include="Dtos\Internal\SystemInformationResponse.cs" />
+    <Compile Include="Dtos\Radars\RadarTypeResponse.cs" />
+    <Compile Include="Dtos\Radars\SubdimensionDetailResponse.cs" />
+    <Compile Include="Dtos\Radars\SubdimensionMemberResponse.cs" />
+    <Compile Include="Dtos\Radars\TagInfoResponse.cs" />
+    <Compile Include="Dtos\Reports\IndividualAssessmentGrowthPlanItemsSummaryResponse.cs" />
+    <Compile Include="Dtos\Reports\IndividualAssessmentResponse.cs" />
+    <Compile Include="Dtos\Reports\IndividualAssessmentResponsesResponse.cs" />
+    <Compile Include="Dtos\Reports\IndividualAssessmentSummaryResponse.cs" />
+    <Compile Include="Dtos\Reports\MostSelectedRecommendationResponse.cs" />
+    <Compile Include="Dtos\Tags\CopyMasterTagsResponse.cs" />
+    <Compile Include="Dtos\Tags\TeamMemberTagRequest.cs" />
+    <Compile Include="Dtos\Teams\AddMemberRequest.cs" />
+    <Compile Include="Dtos\Teams\AddStakeholderRequest.cs" />
+    <Compile Include="Dtos\Teams\AddTeamWithMemberRequest.cs" />
+    <Compile Include="Dtos\Teams\Custom\QuickLaunch\QuickLaunchTeam.cs" />
+    <Compile Include="Dtos\Teams\MemberResponse.cs" />
+    <Compile Include="Dtos\Teams\TagResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamExportResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamMemberResponse.cs" />
+    <Compile Include="Dtos\Teams\MultiTeamResponse.cs" />
+    <Compile Include="Dtos\Teams\StakeholderResponse.cs" />
+    <Compile Include="Dtos\Teams\TagRequest.cs" />
+    <Compile Include="Dtos\Teams\TeamProfileResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamsWithMemberAndCompletedAssessmentCountResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamsWithMembersAndSurveysResponse.cs" />
+    <Compile Include="Dtos\Teams\TeamTagRequest.cs" />
+    <Compile Include="Dtos\Teams\TeamTagResponse.cs" />
+    <Compile Include="Dtos\Teams\UpdateTeamMemberRequest.cs" />
+    <Compile Include="Dtos\Teams\UpdateTeamRequest.cs" />
+    <Compile Include="Dtos\Company.cs" />
+    <Compile Include="Dtos\TimeZones\TimeZoneResponse.cs" />
+    <Compile Include="Dtos\Users\GetIsSiteAdminRequest.cs" />
+    <Compile Include="Dtos\Users\RoleResponse.cs" />
+    <Compile Include="Dtos\Users\UserResponse.cs" />
+    <Compile Include="Dtos\Users\UserRolesResponse.cs" />
+    <Compile Include="ObjectFactories\BatchAssessmentFactory.cs" />
+    <Compile Include="ObjectFactories\BusinessOutcomes\MeetingNotes\BusinessOutcomesMeetingNotesFactory.cs" />
+    <Compile Include="ObjectFactories\CampaignFactory.cs" />
+    <Compile Include="ObjectFactories\DashboardFactory.cs" />
+    <Compile Include="ObjectFactories\AhTrialFactory.cs" />
+    <Compile Include="ObjectFactories\ManageCampaignsV2Factory.cs" />
+    <Compile Include="ObjectFactories\NewNavigation\TeamDashboardFactory.cs" />
+    <Compile Include="ObjectFactories\TranslationsFactory.cs" />
+    <Compile Include="ObjectFactories\ManageRadarFactory.cs" />
+    <Compile Include="ObjectFactories\CompanyFactory.cs" />
+    <Compile Include="ObjectFactories\EmailFactory.cs" />
+    <Compile Include="ObjectFactories\BusinessOutcomesFactory.cs" />
+    <Compile Include="ObjectFactories\GrowthPlanFactory.cs" />
+    <Compile Include="ObjectFactories\IdeaboardFactory.cs" />
+    <Compile Include="ObjectFactories\IndividualAssessmentFactory.cs" />
+    <Compile Include="ObjectFactories\MasterTagsFactory.cs" />
+    <Compile Include="ObjectFactories\InsightsFactory.cs" />
+    <Compile Include="ObjectFactories\MemberFactory.cs" />
+    <Compile Include="ObjectFactories\ManageCampaignsFactory.cs" />
+    <Compile Include="ObjectFactories\PulseFactory.cs" />
+    <Compile Include="ObjectFactories\PulseV2Factory.cs" />
+    <Compile Include="ObjectFactories\QuickLaunch\QuickLaunchAssessmentFactory.cs" />
+    <Compile Include="ObjectFactories\QuickLaunch\QuickLaunchTeamFactory.cs" />
+    <Compile Include="ObjectFactories\ReportsFactory.cs" />
+    <Compile Include="ObjectFactories\ScimGroupFactory.cs" />
+    <Compile Include="ObjectFactories\TeamFactory.cs" />
+    <Compile Include="ObjectFactories\ScimUserFactory.cs" />
+    <Compile Include="ObjectFactories\UserFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dtos\User.cs" />
+    <Compile Include="Utilities\AssertExtensions.cs" />
+    <Compile Include="Utilities\AzureDevOpsApi.cs" />
+    <Compile Include="Utilities\CSharpHelpers.cs" />
+    <Compile Include="Utilities\DatabaseQueries\DataBaseQueries.cs" />
+    <Compile Include="Utilities\DataBaseUtil.cs" />
+    <Compile Include="Utilities\RandomDataUtil.cs" />
+    <Compile Include="Utilities\ExcelUtil.cs" />
+    <Compile Include="Utilities\ExceptionExtensions.cs" />
+    <Compile Include="Utilities\FileUtil.cs" />
+    <Compile Include="Utilities\SharedConstants.cs" />
+    <Compile Include="Utilities\GmailUtil.cs" />
+    <Compile Include="Utilities\TestEnvironment.cs" />
+    <Compile Include="Utilities\TestPlaylistExtensions.cs" />
+    <Compile Include="Utilities\UserConfig.cs" />
+    <Compile Include="Utilities\UserType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="PowerShell\AssociateToTestCase.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PowerShell\checkRunningBuilds.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PowerShell\CreateTestCase.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="secret_gmail.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\API Test.zip" />
+    <None Include="Templates\ApiTestTemplate.DotSettings" />
+    <None Include="Templates\Page Object.zip" />
+    <None Include="Templates\PageObjectTemplate.DotSettings" />
+    <None Include="Templates\UI Test.zip" />
+    <None Include="Templates\UITestTemplate.DotSettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\Settings\ManageRadar\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets'))" />
+  </Target>
+  <Import Project="..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.4.32.0\build\Selenium.WebDriver.targets')" />
+  <Import Project="..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" />
+</Project>

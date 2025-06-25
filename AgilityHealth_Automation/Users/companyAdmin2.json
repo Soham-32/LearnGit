@@ -1,0 +1,93 @@
+﻿{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_new_ca@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "companyName": "Automation_CA2 (DO NOT USE)",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_new_ca1@agiletransformation.com",
+      "password": "12345678",
+      "newPassword": "asdfasdf",
+      "firstName": "Company1",
+      "lastName": "Admin1",
+      "companyName": "Automation_CA2 (DO NOT USE)",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "user 4",
+      "username": "ah_automation+ui_companyadmin2bo@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_CA2 (DO NOT USE)",
+      "firstName": "Company2",
+      "lastName": "Admin2",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "user 7",
+      "username": "ah_automation+ui_new_ca3@agiletransformation.com",
+      "password": "12345678",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "team admin",
+      "username": "ah_automation+ca2_ta1@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "business line admin",
+      "username": "ah_automation+ca2_bl1@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "BusinessLine",
+      "lastName": "Admin",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "org leader",
+      "username": "ah_automation+ca2_orgleader1@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Organizational",
+      "lastName": "Leader",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsCA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "facilitator",
+      "username": "ah_automation@agiletransformation.com",
+      "password": "Agile4me",
+      "type": "CompanyAdmin",
+      "firstName": "Automated",
+      "lastName": "Testing"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "atqa",
+      "id": "117"
+    },
+    {
+      "environment": "uat",
+      "id": "117"
+    },
+    {
+      "environment": "preprod",
+      "id": "117"
+    }
+  ]
+}

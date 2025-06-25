@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+at_mem1m@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "1",
+      "companyName": "Automation_M (DO NOT USE)",
+      "type": "Member"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+at_mem2@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "2",
+      "newPassword": "asdfasdf",
+      "type": "Member"
+    },
+    {
+      "description": "user 3",
+      "username": "ah_automation+ui_companyadmin_m@agiletransformation.com",
+      "password": "12345678",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "translation",
+      "username": "ah_automation+at_mem1translation@agiletransformation.com",
+      "password": "12345678",
+      "type": "Member"
+    },
+    {
+      "description": "member",
+      "username": "ah_automation+at_mem1m@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "1",
+      "type": "Member"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+at_mem1insights@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "1",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "Member"
+    },
+    {
+      "description": "user 7",
+      "username": "ah_automation+at_memreset@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "Reset",
+      "newPassword": "asdfasdf",
+      "type": "Member"
+    },
+    {
+      "description": "ideaboard member1",
+      "username": "ah_automation+at_ideaboard@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Ideaboard",
+      "lastName": "1",
+      "type": "Member"
+    },
+    {
+      "description": "ideaboard member2",
+      "username": "ah_automation+at_ideaboard2@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Ideaboard",
+      "lastName": "2",
+      "type": "Member"
+    },
+    {
+      "description": "member 4",
+      "username": "ah_automation+at_mem4@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "4",
+      "type": "Member"
+    },
+    {
+      "description": "member 5",
+      "username": "ah_automation+at_mem5@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "5",
+      "type": "Member"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "77"
+    },
+    {
+      "environment": "qa",
+      "id": "77"
+    },
+    {
+      "environment": "atqa",
+      "id": "77"
+    },
+    {
+      "environment": "uat",
+      "id": "77"
+    },
+    {
+      "environment": "ttndev",
+      "id": "77"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "77"
+    },
+    {
+      "environment": "preprod",
+      "id": "77"
+    },
+    {
+      "environment": "load",
+      "id": "77"
+    }
+  ]
+}

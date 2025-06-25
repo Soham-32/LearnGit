@@ -1,0 +1,55 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Description/@EntryValue">UI Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Text/@EntryValue">using System.Threading.Tasks;&#xD;
+using AgilityHealth_Automation.Base;&#xD;
+using AgilityHealth_Automation.PageObjects.AgilityHealth.Account;&#xD;
+using AgilityHealth_Automation.Utilities;&#xD;
+using AtCommon.Api;&#xD;
+using Microsoft.VisualStudio.TestTools.UnitTesting;&#xD;
+&#xD;
+namespace $rootnamespace$&#xD;
+{&#xD;
+    [TestClass]&#xD;
+    [TestCategory("")]&#xD;
+    public class $safeitemname$ : BaseTest&#xD;
+    {&#xD;
+&#xD;
+        [ClassInitialize]&#xD;
+        public static async Task ClassSetUp(TestContext testContext)&#xD;
+        {&#xD;
+            var setUp = new SetupTeardownApi(TestEnvironment);&#xD;
+&#xD;
+        }&#xD;
+&#xD;
+&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public void TestMethod1()&#xD;
+        {&#xD;
+            var login = new LoginPage(Driver, Log);&#xD;
+&#xD;
+            login.NavigateToPage();&#xD;
+            login.LoginToApplication(User.Username, User.Password);&#xD;
+&#xD;
+&#xD;
+        }&#xD;
+    }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/CustomProperties/=FileName/@EntryIndexedValue">UITest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=rootnamespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=rootnamespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=rootnamespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=rootnamespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=safeitemname/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=safeitemname/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=safeitemname/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536502C903A8B499228914176AEC14C/Field/=safeitemname/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

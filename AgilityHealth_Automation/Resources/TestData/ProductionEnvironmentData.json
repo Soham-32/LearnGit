@@ -1,0 +1,444 @@
+{
+  "environments": [
+    {
+      "name": "eu",
+      "companyName": "Deutsche Telekom",
+      "companyId": 337,
+      "goiTeam": {
+        "teamId": 5286,
+        "participantRadarId": 12606,
+        "rollUpRadarId": 1413,
+        "assessmentUid": "61ca2212-8e80-e911-abc4-000d3a228d36"
+      },
+      "enterpriseTeam": {
+        "teamId": 6874,
+        "radarId": 192
+      },
+      "multiTeam": {
+        "teamId": 6815,
+        "radarId": 192
+      },
+      "team": {
+        "teamId": 6871,
+        "assessmentUid": "4f6cdd57-af65-e911-80f4-000d3a228e9c",
+        "radarId": 14297
+      }
+    },
+    {
+      "name": "app",
+      "companyName": "Piyush Company",
+      "companyId": 26,
+      "goiTeam": {
+        "teamId": 1295,
+        "participantRadarId": 8119,
+        "rollUpRadarId": 916,
+        "assessmentUid": "c645f22e-fb24-e911-9f2a-000d3a918719"
+      },
+      "enterpriseTeam": {
+        "teamId": 3813,
+        "radarId": 1114,
+        "PulseName": "Test for open pulse"
+      },
+      "multiTeam": {
+        "teamId": 511,
+        "radarId": 1114,
+        "PulseName": "Test for open pulse"
+      },
+      "team": {
+        "teamId": 20653,
+        "PulseTeamId": 19636,
+        "assessmentUid": "078abd86-d9cb-ee11-85f9-000d3a41c55a",
+        "radarId": 40859,
+        "PulseName": "Pulse email resend issue"
+
+      }
+    },
+    {
+      "name": "federalreserve",
+      "companyname": "Federal Reserve",
+      "companyId": 703,
+      "goiTeam": {
+        "teamId": 16722,
+        "participantRadarId": 32331,
+        "rollUpRadarId": 2768,
+        "assessmentUid": "2fba56dd-68fa-ed11-907c-000d3a41cfcc"
+      },
+      "enterpriseTeam": {
+        "teamId": 15995,
+        "radarId": 1055
+      },
+      "multiTeam": {
+        "teamId": 16315,
+        "radarId": 1055
+      },
+      "team": {
+        "teamId": 13234,
+        "assessmentUid": "22af6086-6778-eb11-9889-2818789a16d3",
+        "radarId": 14297
+      }
+    },
+    {
+      "name": "citi",
+      "companyId": 326,
+      "companyname": "Citi",
+      "goiTeam": {
+        "teamId": 5879,
+        "participantRadarId": 27409,
+        "rollUpRadarId": 2543,
+        "assessmentUid": ""
+      },
+      "enterpriseTeam": {
+        "teamId": 16799,
+        "radarId": 1052,
+        "PulseName": "Pulse_Launch_Survey"
+      },
+      "multiTeam": {
+        "teamId": 16781,
+        "radarId": 1052,
+        "PulseName": "Pulse Survey Launch"
+      },
+      "team": {
+        "teamId": 16476,
+        "PulseTeamId": 16667,
+        "assessmentUid": "7752fd4c-f2b6-ed11-a8e0-000d3a430fe7",
+        "radarId": 30816,
+        "PulseName": "Pulse_Survey"
+      }
+    },
+    {
+      "name": "truist",
+      "companyname": "Truist Bank",
+      "companyId": 886,
+      "goiTeam": {
+        "teamId": 17037,
+        "participantRadarId": 32380,
+        "rollUpRadarId": 2884,
+        "assessmentUid": ""
+      },
+      "enterpriseTeam": {
+        "teamId": 6200,
+        "radarId": 192
+      },
+      "multiTeam": {
+        "teamId": 8793,
+        "radarId": 192
+      },
+      "team": {
+        "teamId": 18312,
+        "assessmentUid": "0ae8d4bb-3f27-ee11-9080-000d3a426472",
+        "radarId": 36023
+      }
+    },
+    {
+      "name": "elevancehealth",
+      "companyname": "Elevance Health",
+      "companyId": 186,
+      "goiTeam": {
+        "teamId": 5957,
+        "participantRadarId": 9561,
+        "rollUpRadarId": 550,
+        "assessmentUid": ""
+      },
+      "enterpriseTeam": {
+        "teamId": 6106,
+        "radarId": 256
+      },
+      "multiTeam": {
+        "teamId": 6347,
+        "radarId": 256
+      },
+      "team": {
+        "teamId": 4979,
+        "assessmentUid": "80408f2e-32ff-ed11-907c-00224844f425",
+        "radarId": 8779
+      }
+    },
+    {
+      "name": "amtrak",
+      "companyname": "Amtrak",
+      "companyId": 911,
+      "goiTeam": {
+        "teamId": 18637,
+        "participantRadarId": 36308,
+        "rollUpRadarId": 3072,
+        "assessmentUid": "158bc61a-30ab-ee11-8926-000d3a430bc2"
+      },
+      "enterpriseTeam": {
+        "teamId": 9920,
+        "radarId": 192
+      },
+      "multiTeam": {
+        "teamId": 18606,
+        "radarId": 1094
+      },
+      "team": {
+        "teamId": 18614,
+        "assessmentUid": "9f455c9b-bed4-ee11-85f9-000d3a430c37",
+        "radarId": 36327
+      }
+    },
+    {
+      "name": "appx",
+      "companyname": "Paychex",
+      "companyId": 2,
+      "goiTeam": {
+        "teamId": 10275,
+        "participantRadarId": 19369,
+        "rollUpRadarId": 2028,
+        "assessmentUid": "499242f8-7db5-ea11-96d2-501ac51f7c22"
+      },
+      "enterpriseTeam": {
+        "teamId": 1109,
+        "radarId": 1114
+      },
+      "multiTeam": {
+        "teamId": 180,
+        "radarId": 1114
+      },
+      "team": {
+        "teamId": 217,
+        "PulseTeamId": 20071,
+        "assessmentUid": "d127f22e-fb24-e911-9f2a-000d3a918719",
+        "radarId": 9916,
+        "PulseName": "PO November 2024 Pulse"
+      }
+    },
+    {
+      "name": "edwardjones",
+      "Companyname": "Edward Jones",
+      "companyId": 980,
+      "goiTeam": {
+        "teamId": 21607,
+        "participantRadarId": 41710,
+        "rollUpRadarId": 3287,
+        "assessmentUid": "bd3c322c-075f-ef11-991a-000d3a4268bc"
+      },
+      "enterpriseTeam": {
+        "teamId": 21829,
+        "radarId": 1114
+      },
+      "multiTeam": {
+        "teamId": 21819,
+        "radarId": 1114
+      },
+      "team": {
+        "teamId": 20415,
+        "assessmentUid": "a5d5660e-a08f-ee11-b75e-000d3a430c64",
+        "radarId": 40410
+      }
+    },
+    {
+      "name": "prudential",
+      "companyname": "Prudential Financial, Incorporated",
+      "companyId": 865,
+      "enterpriseTeam": {
+        "teamId": 17884,
+        "radarId": 1065
+      },
+      "multiTeam": {
+        "teamId": 17465,
+        "radarId": 1065
+      },
+      "team": {
+        "teamId": 17373,
+        "assessmentUid": "dcba4ecb-f0e8-ec11-b656-501ac51f7c01",
+        "radarId": 33007
+      }
+    },
+    {
+      "name": "nscorp",
+      "companyname": "Norfolk Southern",
+      "companyId": 657,
+      "multiTeam": {
+        "teamId": 19108,
+        "radarId": 1114
+      },
+      "team": {
+        "teamId": 10557,
+        "assessmentUid": "fe752083-aabb-ea11-9b05-501ac5641463",
+        "radarId": 20125
+      }
+    },
+    {
+      "name": "northerntrust",
+      "companyname": "Northern Trust",
+      "companyId": 533,
+      "goiTeam": {
+        "teamId": 9592,
+        "participantRadarId": 19080,
+        "rollUpRadarId": 1940,
+        "assessmentUid": "89641ba8-3caf-ee11-8926-000d3a430bc2"
+      },
+      "enterpriseTeam": {
+        "teamId": 9396,
+        "radarId": 896
+      },
+      "multiTeam": {
+        "teamId": 9465,
+        "radarId": 896
+      },
+      "team": {
+        "teamId": 9425,
+        "assessmentUid": "faca2f01-6739-ef11-86c3-000d3a430790",
+        "radarId": 19206
+      }
+    },
+    {
+      "name": "bloomberg",
+      "companyname": "Bloomberg",
+      "companyId": 474,
+      "goiTeam": {
+        "teamId": 14113,
+        "participantRadarId": 26703,
+        "rollUpRadarId": 2463,
+        "assessmentUid": "ac37236f-35d0-ee11-85f9-000d3a43abf4"
+      },
+      "enterpriseTeam": {
+        "teamId": 14092,
+        "radarId": 1017
+      },
+      "multiTeam": {
+        "teamId": 14197,
+        "radarId": 1017
+      },
+      "team": {
+        "teamId": 8353,
+        "assessmentUid": "d16ee74b-4e06-ea11-add2-28187831c3a9",
+        "radarId": 16682
+      }
+    },
+    {
+      "name": "raytheon",
+      "companyname": "Raytheon",
+      "companyId": 784,
+      "goiTeam": {
+        "teamId": 18865,
+        "participantRadarId": 36910,
+        "rollUpRadarId": 3097,
+        "assessmentUid": "937eb2e0-ece6-ee11-85fc-000d3a43a64f"
+      },
+      "multiTeam": {
+        "teamId": 18856,
+        "radarId": 1107
+      },
+      "team": {
+        "teamId": 18848,
+        "assessmentUid": "0deac7bc-b8b6-ed11-a8e0-000d3a430fe7",
+        "radarId": 36817
+      }
+    },
+    {
+      "name": "ntt",
+      "companyname": "Internal Use",
+      "companyId": 871,
+      "goiTeam": {
+        "teamId": 17553,
+        "participantRadarId": 33641,
+        "rollUpRadarId": 2968,
+        "assessmentUid": "060ea66f-3556-ee11-9937-000d3a4307b9"
+      },
+      "enterpriseTeam": {
+        "teamId": 17503,
+        "radarId": 192
+      },
+      "multiTeam": {
+        "teamId": 17543,
+        "radarId": 825
+      },
+      "team": {
+        "teamId": 17471,
+        "assessmentUid": "abf67088-2854-ed11-ade6-501ac51257c6",
+        "radarId": 33446
+      }
+    },
+    {
+      "name": "quad",
+      "companyname": "Quad",
+      "companyId": 525,
+      "goiTeam": {
+        "teamId": 11950,
+        "participantRadarId": 23632,
+        "rollUpRadarId": 2287,
+        "assessmentUid": "f1eb821b-06cc-ee11-85f9-000d3a41c55a"
+      },
+      "enterpriseTeam": {
+        "teamId": 11901,
+        "radarId": 1005
+      },
+      "multiTeam": {
+        "teamId": 9477,
+        "radarId": 1005
+      },
+      "team": {
+        "teamId": 7683,
+        "assessmentUid": "31adbd1c-88eb-e911-b5e9-281878b337bb",
+        "radarId": 16255
+      }
+    },
+    {
+      "name": "7eleven",
+      "companyname": "7-Eleven",
+      "companyId": 477,
+      "enterpriseTeam": {
+        "teamId": 18733,
+        "radarId": 192
+      },
+      "multiTeam": {
+        "teamId": 18732,
+        "radarId": 192
+      },
+      "team": {
+        "teamId": 18685,
+        "assessmentUid": "8537d4d1-6ceb-ed11-9f73-000d3a430d84",
+        "radarId": 36452
+      }
+    },
+    {
+      "name": "nasa",
+      "companyName": "NASA-MSFC",
+      "companyId": 920,
+      "enterpriseTeam": {
+        "teamId": 18850,
+        "radarId": 1045
+      },
+      "multiTeam": {
+        "teamId": 18848,
+        "radarId": 1045
+      },
+      "team": {
+        "teamId": 18825,
+        "assessmentUid": "8b88308a-c5a8-ed11-a8e0-000d3a430fe7",
+        "radarId": 36837
+      }
+    },
+    {
+      "name": "usaf",
+      "companyName": "USAF",
+      "companyId": 775,
+      "multiTeam": {
+        "teamId": 18634,
+        "radarId": 192
+      },
+      "team": {
+        "teamId": 18480,
+        "assessmentUid": "3df4197f-cc3a-ed11-a27c-501ac51f67bf",
+        "radarId": 35949
+      }
+    },
+    {
+      "name": "srca",
+      "companyName": "Saudi Red Crescent",
+      "companyId": 597
+    },
+    {
+      "name": "hhc",
+      "companyName": "Health Holding Co",
+      "companyId": 583
+    },
+    {
+      "name": "rcmc",
+      "companyName": "RCMC",
+      "companyId": 580
+    }
+  ]
+}

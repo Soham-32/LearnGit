@@ -1,0 +1,53 @@
+{
+  "JiraProjectName": "Static Jira Test Automation Project - Do Not Touch",
+  "JiraProjectForGiSync": "Static Jira Project For Testing Growth Items Sync (Do Not Touch)",
+  "JiraBoard": "StaticJiraBoard-DoNotTouch",
+  "JiraBoardForGiSync": "StaticJiraBoardForGiSync-DoNotTouch",
+  "DynamicJiraBoard": "DynamicJiraBoard-DoNotTouch",
+  "JiraCloudCredentials": [
+    {
+      "InstanceName": "JiraCloudInstance1",
+      "ApiToken": "BkK9REJH7qcgc71MppFE3289",
+      "Email": "harsh.thakker@agilityhealthradar.com",
+      "ServerURL": "https://ubas.atlassian.net/"
+    },
+    {
+      "InstanceName": "JiraCloudInstance2",
+      "ApiToken": "ATATT3xFfGF0pMUu0-KJRR_zo18HdrHaauaBfFWvn3LjAsamdwZ8VgJfstOQPSHI9wJuPBp6hGdGa22kVdxnxtMHj1FhwHTEBnNsTB-4x-SMFJUKP2j4JAqk89dTtQws2UEQJ69YWVVqzmxFzCdCeAN5qQ86okszva8ysL_g8KKY_-o9oCWtgaw=833852F4",
+      "Email": "lou.rodriguez@agilityhealthradar.com",
+      "ServerURL": "https://integrationsteam.atlassian.net"
+    }
+  ],
+  "IterationData": {
+    "Name": "HAPDNU Sprint 5",
+    "From": "05/29/2023",
+    "To": "06/05/2023",
+    "ComittedPoints": "11",
+    "CompletedPoints": "11",
+    "Defects": "0",
+    "TotalScope": "13"
+  },
+  "ReleaseData": {
+    "Name": "Version 4",
+    "TargetDate": "",
+    "ActualDate": "06/03/2023",
+    "ComittedPoints": "6",
+    "CompletedPoints": "6",
+    "Defects": "0",
+    "TotalScope": "13"
+  },
+  "PerformanceMeasurementsData": {
+    "CalculatedFeatureThroughput": "---",
+    "CalculatedFeatureCycleTime": "4 Days",
+    "CalculatedDeploymentFrequency": "21 Weeks",
+    "CalculatedDefectRatio": "19 %",
+    "CalculatedPredictability": "71 %",
+    "NormalizedFeatureThroughput": "---",
+    "NormalizedFeatureCycleTime": "Fly",
+    "NormalizedDeploymentFrequency": "Pre-Crawl",
+    "NormalizedDefectRatio": "Run",
+    "NormalizedPredictability": "Walk",
+    "RecalculatedDefectRatio": "96 %",
+    "RecalculatedPredictability": "55 %"
+  }
+}

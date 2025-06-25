@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+SiteAdmin@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "Site",
+      "lastName": "Admin",
+      "companyName": "Automation_NewGrowthPlan (DO NOT USE)",
+      "type": "SiteAdmin"
+    },
+    {
+      "description": "insights prod",
+      "username": "ah_automation+insights@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "ah",
+      "lastName": "automation",
+      "type": "SiteAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "qa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "atqa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "uat",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "ttndev",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "preprod",
+      "id": "79",
+      "teamId1": "7131"
+    }
+  ]
+}

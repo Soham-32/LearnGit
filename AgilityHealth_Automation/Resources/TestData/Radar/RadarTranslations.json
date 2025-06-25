@@ -1,0 +1,88 @@
+﻿{
+  "Languages": [
+    {
+      "language": "Arabic",
+      "translatedAssessmentWelcomeMessage": "نريد أن يكون {CompanyName} مكانًا ممتعًا ومليئًا بالتحديات ومجزٍ للعمل. ساعدنا في تحقيق رؤيتنا لبيئة عمل مرنة على مستوى عالمي من خلال إكمال تقييم أجيليتي هيلث. هذه المراجعة هي فرصتك لتشكيل مستقبل فريقنا وتحسين تجربتك الخاصة في هذه العملية. سيتم جمع ملاحظاتك واستخدامها لتوجيه المزيد من التغييرات الإيجابية في الفريق والمنظمة.",
+      "translatedEmailWelcomeMessage": "{0} مراجعة | {1} نريد أن يكون {CompanyName} مكانًا ممتعًا ومليئًا بالتحديات ومجزٍ للعمل. ساعدنا في تحقيق رؤيتنا لبيئة عمل مرنة على مستوى عالمي من خلال إكمال تقييم أجيليتي هيلث. هذه المراجعة هي فرصتك لتشكيل مستقبل فريقنا وتحسين تجربتك الخاصة في هذه العملية. سيتم جمع ملاحظاتك واستخدامها لتوجيه المزيد من التغييرات الإيجابية في الفريق والمنظمة.",
+      "translatedThankYouMessage": "شكرا لاستكمال تقييم أجيليتي هيلث. يقدر فريقنا {TeamName} تعليقاتك ويتطلع إلى استخدامها لإنشاء فريق وتنظيم أفضل.",
+      "translatedEmailMessageSubject": "{اسم الفريق} | {اسم التقييم} - s الرد"
+    },
+    {
+      "language": "Chinese",
+      "translatedAssessmentWelcomeMessage": "我们希望{CompanyName}成为一个充满乐趣、富有挑战性和回报丰厚的工作场所。 通过完成 AgilityHealth 评估，帮助我们实现世界一流敏捷工作环境的愿景。 这次评估是您帮助塑造我们团队的未来并改善您自己在此过程中的经验的机会。 您的反馈将被汇总并用于指导整个团队和组织的进一步积极变革。",
+      "translatedEmailWelcomeMessage": "{0}评估| {1}我们希望 {CompanyName} 成为一个充满乐趣、富有挑战性且回报丰厚的工作场所。 通过完成 AgilityHealth 评估，帮助我们实现世界一流敏捷工作环境的愿景。 这次评估是您帮助塑造我们团队的未来并改善您自己在此过程中的经验的机会。 您的反馈将被汇总并用于指导整个团队和组织的进一步积极变革。",
+      "translatedThankYouMessage": "感谢您参加 AgilityHealth 评估。 我们的团队 {TeamName} 非常重视您的反馈，并期待利用它来创建更好的团队和组织。",
+      "translatedEmailMessageSubject": "{团队名称} | {AsessmentName} - 请回复"
+    },
+    {
+      "language": "English",
+      "translatedAssessmentWelcomeMessage": "We want {CompanyName} to be a fun, challenging and rewarding place to work. Help us realize our vision of a world-class Agile work environment by completing the AgilityHealth Assessment. This assessment is your opportunity to help shape the future of our team and improve your own experience in the process. Your feedback will be compiled and used to guide further positive changes across the team and organization.",
+      "translatedEmailWelcomeMessage": "{0} Assessment | {1} We want {CompanyName} to be a fun, challenging and rewarding place to work. Help us realize our vision of a world-class Agile work environment by completing the AgilityHealth Assessment. This assessment is your opportunity to help shape the future of our team and improve your own experience in the process. Your feedback will be compiled and used to guide further positive changes across the team and organization.",
+      "translatedThankYouMessage": "Thank you for taking the AgilityHealth assessment. Our team {TeamName} values your feedback and is looking forward to using it to create a better team and organization.",
+      "translatedEmailMessageSubject": "{TeamName} | {AssessmentName} - Please Respond"
+    },
+    {
+      "language": "Korean",
+      "translatedAssessmentWelcomeMessage": "우리는 {CompanyName}이 재미있고 도전적이며 보람 있는 직장이 되기를 바랍니다. AgilityHealth 평가를 완료하여 세계적 수준의 Agile 작업 환경에 대한 비전을 실현할 수 있도록 도와주세요. 이 평가는 우리 팀의 미래를 형성하고 그 과정에서 자신의 경험을 향상시키는 데 도움을 줄 수 있는 기회입니다. 귀하의 피드백은 수집되어 팀과 조직 전체에 긍정적인 변화를 가져오는 데 사용됩니다.",
+      "translatedEmailWelcomeMessage": "{0} 평가 | {1} 우리는 {CompanyName}이 재미있고 도전적이며 보람 있는 직장이 되기를 바랍니다. AgilityHealth 평가를 완료하여 세계적 수준의 Agile 작업 환경에 대한 비전을 실현할 수 있도록 도와주세요. 이 평가는 우리 팀의 미래를 형성하고 그 과정에서 자신의 경험을 향상시키는 데 도움을 줄 수 있는 기회입니다. 귀하의 피드백은 수집되어 팀과 조직 전체에 긍정적인 변화를 가져오는 데 사용됩니다.",
+      "translatedThankYouMessage": "AgilityHealth 평가에 참여해 주셔서 감사합니다. 우리 팀 {TeamName}은 귀하의 피드백을 소중히 여기며 이를 사용하여 더 나은 팀과 조직을 만들기를 기대합니다.",
+      "translatedEmailMessageSubject": "{팀 이름} | {AssessmentName} - 응답해 주세요."
+    },
+    {
+      "language": "Polish",
+      "translatedAssessmentWelcomeMessage": "Chcemy, aby firma {CompanyName} była przyjemnym, pełnym wyzwań i satysfakcjonującym miejscem pracy. Pomóż nam zrealizować naszą wizję światowej klasy Agile środowiska pracy, wypełniając AgilityHealth Assessment. Ta ocena to Twoja szansa na pomoc w kształtowaniu przyszłości naszego zespołu i poprawę własnego doświadczenia w tym procesie. Twoja opinia zostanie skompilowana i wykorzystana do kierowania dalszymi pozytywnymi zmianami w zespole i organizacji.",
+      "translatedEmailWelcomeMessage": "{0} Ocena | {1} Chcemy, aby firma {CompanyName} była przyjemnym, pełnym wyzwań i satysfakcjonującym miejscem pracy. Pomóż nam zrealizować naszą wizję światowej klasy Agile środowiska pracy, wypełniając AgilityHealth Assessment. Ta ocena to Twoja szansa na pomoc w kształtowaniu przyszłości naszego zespołu i poprawę własnego doświadczenia w tym procesie. Twoja opinia zostanie skompilowana i wykorzystana do kierowania dalszymi pozytywnymi zmianami w zespole i organizacji.",
+      "translatedThankYouMessage": "Dziękujemy za przystąpienie do testu AgilityHealth. Nasz zespół {TeamName} ceni sobie Twoje opinie i chętnie wykorzysta je do stworzenia lepszego zespołu i organizacji.",
+      "translatedEmailMessageSubject": "{Nazwa Zespołu} | {AssessmentName} — proszę odpowiedzieć"
+    },
+    {
+      "language": "Portuguese",
+      "translatedAssessmentWelcomeMessage": "Queremos que a {CompanyName} seja um lugar divertido, desafiador e gratificante para se trabalhar. Ajude-nos a concretizar nossa visão de um ambiente de trabalho Agile de classe mundial, completando a Avaliação AgilityHealth. Esta avaliação é a sua oportunidade de ajudar a moldar o futuro da nossa equipe e melhorar a sua própria experiência no processo. Seu feedback será compilado e usado para orientar futuras mudanças positivas na equipe e na organização.",
+      "translatedEmailWelcomeMessage": "{0} Avaliação | {1} Queremos que a {CompanyName} seja um lugar divertido, desafiador e gratificante para se trabalhar. Ajude-nos a concretizar nossa visão de um ambiente de trabalho Agile de classe mundial, completando a Avaliação AgilityHealth. Esta avaliação é a sua oportunidade de ajudar a moldar o futuro da nossa equipe e melhorar a sua própria experiência no processo. Seu feedback será compilado e usado para orientar futuras mudanças positivas na equipe e na organização.",
+      "translatedThankYouMessage": "Obrigado por fazer a avaliação AgilityHealth. Nossa equipe {TeamName} valoriza seu feedback e espera usá-lo para criar uma equipe e uma organização melhores.",
+      "translatedEmailMessageSubject": "{NomedaEquipe} | {AssessmentName} - Por favor, responda"
+    },
+    {
+      "language": "Turkish",
+      "translatedAssessmentWelcomeMessage": "{CompanyName}'nin eğlenceli, zorlu ve ödüllendirici bir çalışma yeri olmasını istiyoruz. AgilityHealth Değerlendirmesini tamamlayarak birinci sınıf bir Çevik çalışma ortamı vizyonumuzu gerçekleştirmemize yardımcı olun. Bu değerlendirme, ekibimizin geleceğini şekillendirmenize ve süreçteki deneyiminizi geliştirmenize yardımcı olma fırsatınızdır. Geri bildiriminiz derlenecek ve ekip ve organizasyon genelinde daha olumlu değişikliklere rehberlik etmek için kullanılacaktır.",
+      "translatedEmailWelcomeMessage": "{0} Değerlendirme | {1} {CompanyName} şirketinin eğlenceli, zorlu ve ödüllendirici bir çalışma yeri olmasını istiyoruz. AgilityHealth Değerlendirmesini tamamlayarak birinci sınıf bir Çevik çalışma ortamı vizyonumuzu gerçekleştirmemize yardımcı olun. Bu değerlendirme, ekibimizin geleceğini şekillendirmenize ve süreçteki deneyiminizi geliştirmenize yardımcı olma fırsatınızdır. Geri bildiriminiz derlenecek ve ekip ve organizasyon genelinde daha olumlu değişikliklere rehberlik etmek için kullanılacaktır.",
+      "translatedThankYouMessage": "AgilityHealth değerlendirmesine katıldığınız için teşekkür ederiz. {TeamName} ekibimiz geri bildirimlerinize değer veriyor ve daha iyi bir ekip ve organizasyon oluşturmak için bunları kullanmayı sabırsızlıkla bekliyor.",
+      "translatedEmailMessageSubject": "{TakımAdı} | {AssessmentName} - Lütfen Yanıtlayın"
+    },
+    {
+      "language": "French",
+      "translatedAssessmentWelcomeMessage": "Nous voulons que {CompanyName} soit un lieu de travail amusant, stimulant et gratifiant. Aidez-nous à réaliser notre vision d'un environnement de travail Agile de classe mondiale en complétant l'évaluation AgilityHealth. Cette évaluation est votre opportunité d'aider à façonner l'avenir de notre équipe et d'améliorer votre propre expérience dans le processus. Vos commentaires seront compilés et utilisés pour guider d'autres changements positifs au sein de l'équipe et de l'organisation.",
+      "translatedEmailWelcomeMessage": "{0} Évaluation | {1} Nous voulons que {CompanyName} soit un lieu de travail amusant, stimulant et gratifiant. Aidez-nous à réaliser notre vision d'un environnement de travail Agile de classe mondiale en complétant l'évaluation AgilityHealth. Cette évaluation est votre opportunité d'aider à façonner l'avenir de notre équipe et d'améliorer votre propre expérience dans le processus. Vos commentaires seront compilés et utilisés pour guider d'autres changements positifs au sein de l'équipe et de l'organisation.",
+      "translatedThankYouMessage": "Merci d'avoir participé à l'évaluation AgilityHealth. Notre équipe {TeamName} apprécie vos commentaires et est impatiente de les utiliser pour créer une meilleure équipe et une meilleure organisation.",
+      "translatedEmailMessageSubject": "{NomÉquipe} | {AssessmentName} - Veuillez répondre"
+    },
+    {
+      "language": "German",
+      "translatedAssessmentWelcomeMessage": "Wir möchten, dass {CompanyName} ein unterhaltsamer, herausfordernder und lohnender Arbeitsplatz ist. Helfen Sie uns, unsere Vision einer erstklassigen agilen Arbeitsumgebung zu verwirklichen, indem Sie das AgilityHealth Assessment absolvieren. Dieses Assessment ist Ihre Gelegenheit, die Zukunft unseres Teams mitzugestalten und dabei Ihre eigenen Erfahrungen zu verbessern. Ihr Feedback wird zusammengestellt und verwendet, um weitere positive Veränderungen im Team und in der Organisation anzuleiten.",
+      "translatedEmailWelcomeMessage": "{0} Bewertung | {1} Wir möchten, dass {CompanyName} ein unterhaltsamer, herausfordernder und lohnender Arbeitsplatz ist. Helfen Sie uns, unsere Vision einer erstklassigen agilen Arbeitsumgebung zu verwirklichen, indem Sie das AgilityHealth Assessment absolvieren. Dieses Assessment ist Ihre Gelegenheit, die Zukunft unseres Teams mitzugestalten und dabei Ihre eigenen Erfahrungen zu verbessern. Ihr Feedback wird zusammengestellt und verwendet, um weitere positive Veränderungen im Team und in der Organisation anzuleiten.",
+      "translatedThankYouMessage": "Vielen Dank, dass Sie am AgilityHealth-Assessment teilgenommen haben. Unser Team {TeamName} schätzt Ihr Feedback und freut sich darauf, es zu nutzen, um ein besseres Team und eine bessere Organisation zu schaffen.",
+      "translatedEmailMessageSubject": "{Teamname} | {AssessmentName} – Bitte antworten Sie"
+    },
+    {
+      "language": "Hungarian",
+      "translatedAssessmentWelcomeMessage": "Azt akarjuk, hogy a {CompanyName} szórakoztató, kihívásokkal teli és kifizetődő munkahely legyen. Az AgilityHealth Assessment kitöltésével segítsen megvalósítani elképzelésünket egy világszínvonalú agilis munkakörnyezetről. Ez az értékelés az Ön lehetősége arra, hogy segítsen kialakítani csapatunk jövőjét, és javítani a folyamat során szerzett tapasztalatait. Visszajelzéseit összegyűjtjük és felhasználjuk a további pozitív változások iránymutatására a csapaton és a szervezeten belül.",
+      "translatedEmailWelcomeMessage": "{0} Értékelés | {1} Azt akarjuk, hogy a {CompanyName} szórakoztató, kihívásokkal teli és kifizetődő munkahely legyen. Az AgilityHealth Assessment kitöltésével segítsen megvalósítani elképzelésünket egy világszínvonalú agilis munkakörnyezetről. Ez az értékelés az Ön lehetősége arra, hogy segítsen kialakítani csapatunk jövőjét, és javítani a folyamat során szerzett tapasztalatait. Visszajelzéseit összegyűjtjük és felhasználjuk a további pozitív változások iránymutatására a csapaton és a szervezeten belül.",
+      "translatedThankYouMessage": "Köszönjük, hogy elvégezte az AgilityHealth felmérést. Csapatunk {TeamName} nagyra értékeli visszajelzéseit, és alig várja, hogy felhasználhassuk egy jobb csapat és szervezet létrehozására.",
+      "translatedEmailMessageSubject": "{TeamName} | {AssessmentName} – Kérem, válaszoljon"
+    },
+    {
+      "language": "Japanese",
+      "translatedAssessmentWelcomeMessage": "{CompanyName} が、楽しく、やりがいがあり、やりがいのある職場になることを願っています。 AgilityHealth アセスメントを完了して、ワールドクラスのアジャイルな職場環境というビジョンを実現してください。この評価は、私たちのチームの将来を形作り、プロセスにおけるあなた自身の経験を改善するのに役立つ機会です.あなたのフィードバックはまとめられ、チームと組織全体でさらに前向きな変化を導くために使用されます。",
+      "translatedEmailWelcomeMessage": "{0}評価 | {1} 私たちは、{CompanyName} が楽しく、やりがいがあり、やりがいのある職場でありたいと考えています。 AgilityHealth アセスメントを完了して、ワールドクラスのアジャイルな職場環境のビジョンを実現するためにご協力ください。この評価は、私たちのチームの将来を形作り、プロセスにおけるあなた自身の経験を改善するのに役立つ機会です.あなたのフィードバックはまとめられ、チームと組織全体でさらに前向きな変化を導くために使用されます。",
+      "translatedThankYouMessage": "AgilityHealth 評価を受けていただきありがとうございます。私たちのチーム {TeamName} はあなたのフィードバックを大切にしており、より良いチームと組織を作るためにそれを使用することを楽しみにしています.",
+      "translatedEmailMessageSubject": "{チーム名} | {AssessmentName} - 返信してください"
+    },
+    {
+      "language": "Spanish",
+      "translatedAssessmentWelcomeMessage": "Queremos que {CompanyName} sea un lugar de trabajo divertido, desafiante y gratificante. Ayúdenos a hacer realidad nuestra visión de un entorno de trabajo Agile de clase mundial completando la Evaluación de AgilityHealth. Esta evaluación es su oportunidad de ayudar a dar forma al futuro de nuestro equipo y mejorar su propia experiencia en el proceso. Sus comentarios se compilarán y utilizarán para guiar cambios positivos adicionales en todo el equipo y la organización.",
+      "translatedEmailWelcomeMessage": "{0} Evaluación | {1} Queremos que {CompanyName} sea un lugar de trabajo divertido, desafiante y gratificante. Ayúdenos a hacer realidad nuestra visión de un entorno de trabajo Agile de clase mundial completando la Evaluación de AgilityHealth. Esta evaluación es su oportunidad de ayudar a dar forma al futuro de nuestro equipo y mejorar su propia experiencia en el proceso. Sus comentarios se compilarán y utilizarán para guiar cambios positivos adicionales en todo el equipo y la organización.",
+      "translatedThankYouMessage": "Gracias por realizar la evaluación de AgilityHealth. Nuestro equipo {TeamName} valora sus comentarios y espera usarlos para crear un mejor equipo y organización.",
+      "translatedEmailMessageSubject": "{Nombre del equipo} | {AssessmentName}: responda"
+    }
+  ]
+}

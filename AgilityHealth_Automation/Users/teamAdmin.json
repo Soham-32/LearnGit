@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_teamadmin@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "companyName": "Automation_TA (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_teamadmin1@agiletransformation.com",
+      "password": "12345678",
+      "newPassword": "asdfasdf",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "user 4",
+      "username": "ah_automation+ui_teamadmin3@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team 2",
+      "lastName": "Admin",
+      "companyName": "Automation_TA (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "translation",
+      "username": "ah_automation+ui_teamadmintranslation@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "TeamTranslation",
+      "lastName": "Admin",
+      "companyName": "Automation_TA (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "member",
+      "username": "ah_automation+uniqueTA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Unique",
+      "lastName": "TA",
+      "type": "Member"
+    },
+    {
+      "description": "facilitator",
+      "username": "ah_automation@agiletransformation.com",
+      "password": "Agile4me",
+      "type": "CompanyAdmin",
+      "firstName": "Automated",
+      "lastName": "Testing"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsTA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "ntier user",
+      "username": "ah_automation+ntierTA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "NTier",
+      "lastName": "TeamAdmin",
+      "companyName": "Automation_N-Tier (DO NOT USE)",
+      "type": "TeamAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "75"
+    },
+    {
+      "environment": "qa",
+      "id": "75"
+    },
+    {
+      "environment": "atqa",
+      "id": "75"
+    },
+    {
+      "environment": "uat",
+      "id": "75"
+    },
+    {
+      "environment": "ttndev",
+      "id": "75"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "75"
+    },
+    {
+      "environment": "preprod",
+      "id": "75"
+    },
+    {
+      "environment": "load",
+      "id": "75"
+    }
+  ]
+}

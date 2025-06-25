@@ -1,0 +1,57 @@
+﻿{
+  "BusinessOutcome": {
+    "Business Outcomes": [
+      "Key Results",
+      "Initiatives",
+      "Child Outcomes",
+      "Obstacles",
+      "Checklist",
+      "Comments",
+      "Custom Fields",
+      "Documents"
+    ],
+    "Initiatives": [
+      "Key Results",
+      "Projects",
+      "Dependencies",
+      "Obstacles",
+      "Checklist",
+      "Comments",
+      "Custom Fields",
+      "Documents",
+      "Financials"
+    ],
+    "Projects": [
+      "Key Results",
+      "Deliverables",
+      "Dependencies",
+      "Obstacles",
+      "Checklist",
+      "Comments",
+      "Custom Fields",
+      "Documents",
+      "Financials"
+    ],
+    "Deliverables": [
+      "Key Results",
+      "Stories",
+      "Dependencies",
+      "Obstacles",
+      "Checklist",
+      "Comments",
+      "Custom Fields",
+      "Documents",
+      "Financials"
+    ],
+    "Stories": [
+      "Key Results",
+      "Dependencies",
+      "Obstacles",
+      "Checklist",
+      "Comments",
+      "Custom Fields",
+      "Documents",
+      "Financials"
+    ]
+  }
+}

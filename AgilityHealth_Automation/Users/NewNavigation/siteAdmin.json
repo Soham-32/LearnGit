@@ -1,0 +1,36 @@
+﻿{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+SiteAdmin@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "Site",
+      "lastName": "Admin",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "SiteAdmin"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_companyadmin@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "companyName": "Automation_CA (DO NOT USE)",
+      "type": "CompanyAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "atqa",
+      "id": "80"
+    },
+    {
+      "environment": "preprod",
+      "id": "80"
+    },
+    {
+      "environment": "uat",
+      "id": "80"
+    }
+  ]
+}

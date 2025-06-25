@@ -1,0 +1,80 @@
+﻿{
+  "ManageCampaignsVerbiage": {
+    "ManageCampaigns": {
+      "ManageCampaignsDashboard": {
+        "ManageCampaignHeaderText": "Manage Campaigns"
+      },
+      "CampaignDetail": {
+        "CreateCampaignHeaderText": "Create Campaign",
+        "SetUpCampaignHeaderText": "Set Up Campaign",
+        "LetsCreateYourCampaignText": "Let's create your campaign! Complete the required fields below, then select your matchmaking and launch strategy.",
+        "CreateCampaignTooltipMessages": [
+          "Enter a name to identify your campaign.",
+          "Select a radar type for your campaign.",
+          "Pick the start date for your campaign.",
+          "Pick the end date for your campaign.",
+          "Please choose a parent team for this campaign. The scope of which teams can be included in this campaign will be limited to all teams that belong to the parent you select. This field cannot be changed after the campaign is created.",
+          "Set the desired number of teams that each facilitator should be assigned."
+        ],
+        "CreateCampaignValidationMessages": [
+          "Campaign Name is required.",
+          "Radar Type is required.",
+          "Start Date is required.",
+          "End date is required.",
+          "Target Number of Teams Per Facilitator is required."
+        ]
+      },
+      "SelectTeams": {
+        "SelectTeamsHeaderText": "Select Teams to Include in the Campaign",
+        "SelectTeamsDescriptionText": "Use the Add Teams button to include teams in your campaign. To remove a selected team, click the checkbox to select the team and click the Remove button.",
+        "SelectTeamPopupText": "Search for a team by name or filter by work type. Team Contact is the main point of contact for the team.",
+        "TeamContactIsAHFTooltip": "Selecting 'Yes' will filter the list to only show teams whose team contact is an AHF. This is in the event you want to only include teams in the campaign whose Team Contacts can contribute facilitations to other teams. This can prevent having more teams who need facilitation than you have facilitators for."
+      },
+      "SelectFacilitators": {
+        "SelectFacilitatorsHeaderText": "Select Facilitators to Include in the Campaign",
+        "SelectFacilitatorsDescriptionText": "Next, select the Facilitators you want to include in this campaign. To remove a selected Facilitator, click the checkbox to select the Facilitator and click the Remove button."
+      },
+      "AutoMatchmaking": {
+        "CreateAutoMatchesHeaderTitleMessageText": "Now click “Create Auto Matches” to automatically assign facilitators to the teams based on the ratio you selected and any additional settings you've setup. You'll be able to edit the assessments or re-run the matches again.",
+        "matchmakingDescriptionAfterCreateAutoMatchesBackAndForth": "Matches have been created with an attempt to minimize the number of people who need to contact each other. You can use the Team Contact and Facilitator Views to confirm this and make adjustments as needed or you can re-create the Auto Matches again.",
+        "TeamContactViewTooltip": "A view of the assignments from the perspective of the team contact.",
+        "FacilitatorViewTooltip": "A view of the assignments from the perspective of the assigned facilitator.",
+        "CreateAutoMatchesTooltip": "Create and Re-create selected facilitator matches to selected teams.",
+        "CreateAutoMatchesGridText": "Click on Create Auto Matches to Generate Matches"
+      },
+      "SetUpAssessment": {
+        "SetUpAssessmentHeaderText": "Set Up Assessments",
+        "SetUpAssessmentDescriptionText": "Getting teams through the process of assessment and retrospective typically happens in one of three ways. In this step, you'll choose which strategy you will use and provide the appropriate dates and times. This will allow the system to automatically open, launch, and close assessments as well as provide you with tools to communicate with campaign participants.",
+        "AssessmentNameTooltip": "As the platform creates assessments for each team, this will be the name given to each. It is sometimes helpful to name assessments with the PI, Quarter, or some other distinction that will help you spot this campaign's assessments when they are mixed in with other assessments on the main assessment dashboard.Pro Tip: Remember that this batch is all for the same radar type. If you are creating multiple campaigns each with a different radar, you may want to put the radar type or kind of assessment in the title as well.",
+        "SplitMeetingTooltip": "Teams will meet once to take the assessment together and then have a separate meeting later to discuss the results.",
+        "OneMeetingTooltip": "Teams hold a single meeting where they take the assessment first, then discuss the results immediately afterwards.",
+        "RetroMeetingTooltip": "Stakeholders and team members take the assessment individually and then meet as a team to discuss the results.",
+        "AssessmentNameValidationMessage": "Assessment Name is required.",
+        "AssessmentTimelineTooltip": [
+         "Required fields are indicated with an asterisk (*)",
+         "All times are in Asia/Calcutta (GMT+05:30) time zone"
+        ],
+        "SplitMeetingDatesTooltip": [
+          "The date and time that stakeholders will receive their invitation to take their short survey.",
+          "The date and time that team members will receive their link to take the full assessment. If you wish facilitators to send teams their assessment links manually, leave this date blank.",
+          "The date and time the platform will no longer accept new assessments from team members or stakeholders.",
+          "The date that the Retrospective window opens. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams.",
+          "The date that the Retrospective window closes. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams."
+        ],
+        "OneMeetingDatesTooltip": [
+          "The date and time that stakeholders will receive their invitation to take their short survey.",
+          "The date and time that the stakeholder feedback window closes. While it may be possible for stakeholders to continue to submit feedback after this window, as soon as the team marks the “Retro Complete” checkbox, stakeholders can no longer submit feedback. Typically this date and time will be used for communication to stakeholders to alert them that their time to submit feedback is coming to a close.",
+          "The date that the Retrospective window opens. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams.",
+          "The date and time that team members will receive their link to take the full assessment. If you wish facilitators to send teams their assessment links manually, leave this date blank.",
+          "The date that the Retrospective window closes. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams."
+        ],
+        "RetroMeetingDatesTooltip": [
+          "The date and time that stakeholders and team members receive their survey (stakeholders) and assessment (team members) links.",
+          "The date and time the platform will no longer accept new assessments from team members and stakeholders.",
+          "The date that the Retrospective window opens. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams.",
+          "The date that the Retrospective window closes. Teams will be expected to complete their Retrospective inside of the Retrospective window. The dates that define this window are used primarily for communication with the teams."
+        ]
+      }
+    }
+  }
+}

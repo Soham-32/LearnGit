@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+PartnerAdmin@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "Partner",
+      "lastName": "Admin",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "PartnerAdmin"
+    },
+    {
+      "description": "user 3",
+      "username": "ah_automation+ui_companyadmin2@agiletransformation.com",
+      "password": "12345678",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "team admin ahf",
+      "username": "ah_automation+ui_teamadmin_ahf@agiletransformation.com",
+      "password": "12345678",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "team admin no ahf",
+      "username": "ah_automation+ui_teamadmin_noahf@agiletransformation.com",
+      "password": "12345678",
+      "type": "TeamAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "qa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "atqa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "uat",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "ttndev",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "preprod",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "load",
+      "id": "76",
+      "teamId1": "4938"
+    }
+  ]
+}

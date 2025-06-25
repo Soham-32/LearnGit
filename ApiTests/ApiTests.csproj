@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C29C05A7-6B53-4068-A95C-2661C7B5BAEE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ApiTests</RootNamespace>
+    <AssemblyName>ApiTests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.17.1.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>..\packages\AngleSharp.0.17.1\lib\net472\AngleSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BitMiracle.LibTiff.NET, Version=2.4.649.0, Culture=neutral, PublicKeyToken=53879b3e20e7a7d6, processorArchitecture=MSIL">
+      <HintPath>..\packages\BitMiracle.LibTiff.NET.2.4.649\lib\net40\BitMiracle.LibTiff.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.6.0.0\lib\net461\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.6.0.0\lib\net461\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.6.0.0\lib\net461\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.6.0.0\lib\net461\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.6.0.0\lib\net461\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.6.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectsComparer, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ObjectsComparer.1.4.1\lib\net45\ObjectsComparer.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.2.1.8\lib\net472\SixLabors.ImageSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp.Drawing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.Drawing.1.0.0\lib\net472\SixLabors.ImageSharp.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.9.0.5\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.1\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.9.0.5\lib\net462\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.5.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analytics\GetAnalyticsRefreshDataTests.cs" />
+    <Compile Include="Analytics\GrowthPlanItemsDetailsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsCompanyAssessmentQuartersTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsIndexDimensionsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsIndexItemsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsGrowthPlanItemsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsDimensionsItemsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsIndexTeamsTests.cs" />
+    <Compile Include="Analytics\PostAnalyticsOvertimeItemsTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\GetAnalyticsRoleAllocationTargetsTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsPeopleByRoleTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsParticipantGroupTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsTeamRoleAllocationAverageTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsTeamWorkTypeTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsTeamStabilityTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PutAnalyticsRoleAllocationTargetsTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsRoleAllocationAverageTests.cs" />
+    <Compile Include="Analytics\StructuralAgility\PostAnalyticsAgileNonAgileTeamsTests.cs" />
+    <Compile Include="Insights\GetInsightsDashboardsTests.cs" />
+    <Compile Include="Insights\GetInsightsPreferencesLocationTests.cs" />
+    <Compile Include="Analytics\GetAnalyticsSyncDateTimeTests.cs" />
+    <Compile Include="Insights\GetInsightsWidgetTheme.cs" />
+    <Compile Include="Insights\InsightsProdApiSmokeTests.cs" />
+    <Compile Include="Insights\PostWidgetPreferences.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCIM\Endpoints\Groups\GetSingleGroupTests.cs" />
+    <Compile Include="SCIM\Endpoints\Groups\GetAllGroupsTests.cs" />
+    <Compile Include="SCIM\Endpoints\Groups\PatchGroupTests.cs" />
+    <Compile Include="SCIM\Endpoints\Users\GetAllUsersTests.cs" />
+    <Compile Include="SCIM\Endpoints\Users\GetSingleUserTests.cs" />
+    <Compile Include="SCIM\Endpoints\Users\AddUserTests.cs" />
+    <Compile Include="SCIM\Endpoints\Users\UpdateUserTests.cs" />
+    <Compile Include="v1\Endpoints\Account\LoginTests.cs" />
+    <Compile Include="v1\Endpoints\Account\GetUserInfoTests.cs" />
+    <Compile Include="v1\Endpoints\AhTrial\AhTrialAddTrialCompanyTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetBusinessOutcomeCardTypeTest.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\GetMeetingNotesPendingNotificationsTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\PatchMeetingNoteActionItemStatusByOwner.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\GetMeetingNoteTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\GetMeetingNotesTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\DeleteMeetingNoteAttachmentTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\PostUploadMeetingNoteAttachmentTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\PutMeetingNoteTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\MeetingNotes\PostMeetingNotesTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\AddCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\DeleteCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\DeletePublishedCampaignsFacilitatorsTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\GetCampaignDetailsTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\GetFacilitatorsTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\GetTeamsIdsTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PatchPublishedCampaignAddFacilitatorTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\GetTeamsTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\GetCampaignSetupTests .cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PatchCampaignSetupTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PatchUpdateAssessmentNameTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PostTeamIdsCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PostAutoMatchmakingCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\PostLaunchCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\Tags\GetTeamWorkTypeTests.cs" />
+    <Compile Include="v1\Endpoints\CampaignsV2\UpdateCampaignTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyMembersRoleAndParticipantGroupsTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseApiTestBase.cs" />
+    <Compile Include="v1\Endpoints\Bulk\BulkBaseTest.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PutBulkStakeHolderTagsTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PutBulkTeamMemberTagsTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\GetBulkTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PatchBulkIdentifiersTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PutBulkMembersTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PutBulkTeamsTests.cs" />
+    <Compile Include="v1\Endpoints\Bulk\PutBulkUsersTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\AddBusinessOutcomesCustomFieldsTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\CreateBusinessOutcomeCategoryLabelTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyMembersTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyParticipantGroupsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyStakeholdersTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesAssessmentsResultsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesUsersTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\PostCompaniesFeaturesTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\CustomTypes\DeleteGrowthPlanCustomTypesTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\CustomTypes\UpdateGrowthPlanCustomTypesTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\DeleteGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\CustomTypes\CreateGrowthPlanCustomTypesTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\CustomTypes\GetGrowthPlanCustomTypesTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\UpdateGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\CreateGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\GrowthPlan\GetGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardGetVotesAllowedTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardResetVotesTests .cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardSetVotesAllowedTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardCardSortingTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardAddCardsTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardCreateGrowthPlanItemTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardDeleteCardTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardGetCardsWithAssessmentUidTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardNotesUpdateBulkCardsTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardDimensionUpdateBulkCardsTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardUpdateGrowthPlanItemTests.cs" />
+    <Compile Include="v1\Endpoints\Ideaboard\IdeaboardUpdateCardTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\CreateParticipantGroupForSpecificParticipantTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\EditIndividualAssessmentAddReviewerTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\BulkEmailTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\EditIndividualAssessmentResendReviewerEmailTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\AddIndividualAssessmentReviewer.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\DeleteIndividualAssessmentBatch.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetParticipantsTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetPermissionsTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2AddEmailTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2AddTeamMembersTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2DeletePulseAssessmentTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetTeamMtEtMembersTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2SavePulseAssessmentTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetPulseAssessmentTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetRadarQuestionsTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetTeamMembersTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2SendBatchEmailTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2UpdateTeamMembersTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetTeamMembersExcludedFromAllQuestionsTests.cs" />
+    <Compile Include="v1\Endpoints\PulseAssessmentV2\PulseAssessmentV2GetAssessmentTypeTests.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetListOfAllReportsTests.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetReportsByIdTests.cs" />
+    <Compile Include="v1\Endpoints\TeamAssessments\GetTeamsThatCompletedAssessment.cs" />
+    <Compile Include="v1\Endpoints\TeamAssessments\GetAssessmentSurveysByTypeTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\EditReviewerRolesTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\GetIndividualAssessmentExcelTemplateTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\GetListOfIndividualAssessmentsWithReviewersTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\IndividualAssessmentImportTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\UpdateIndividualAssessmentReviewerTests.cs" />
+    <Compile Include="v1\Endpoints\BaseV1Test.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\AddBusinessOutcomeMetricTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetBusinessOutcomeByIdTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesCurrentUsageTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesPrimaryCompanyContactTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesPartnersTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\GetIndividualAssessmentTests.cs" />
+    <Compile Include="v1\Endpoints\OAuth\DeleteOauthAppRegistrationTests.cs" />
+    <Compile Include="v1\Endpoints\OAuth\GetOauthAppRegistrationsTests.cs" />
+    <Compile Include="v1\Endpoints\OAuth\PostOauthRegisterTests.cs" />
+    <Compile Include="v1\Endpoints\OAuth\PostOauthTokenTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarQuestionsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\AddTeamSubteamsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\DeleteTeamsSubteamsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamExportTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamsByIdTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamTypeTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamsWithMembersAndSurveyCountTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamsWithMembersAndCompletedAssessmentCountTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarsByTypeTests.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetBusinessOutcomeExcelTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\SortOrderTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\AddExternalLinkTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\DeleteBusinessOutcomeTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\CommentAddTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\EditBusinessOutcomeTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\AddBusinessOutcomeTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetBusinessOutcomeMetricTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetBusinessOutcomeMetricTypesTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetSwimlanesTests.cs" />
+    <Compile Include="v1\Endpoints\BusinessOutcomes\CardView\GetAllCategoryLabelsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesIndustries.cs" />
+    <Compile Include="v1\Endpoints\Companies\AddCompaniesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\DeleteCompaniesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetListCompaniesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\AddCompaniesRadarsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\DeleteCompaniesRadarsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\UpdateCompaniesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyDetailsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesCountriesTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesSuggestedReviewersTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesAssessmentsTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompaniesMembersTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetTeamHierarchyByCompanyIdTests.cs" />
+    <Compile Include="v1\Endpoints\IndividualAssessments\AddIndividualAssessmentTests.cs" />
+    <Compile Include="v1\Endpoints\Utils\GetInternalUtilsSystemInformationTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarByCompanyTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarsDefaultTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarsBySurveyIdTests.cs" />
+    <Compile Include="v1\Endpoints\Radars\GetRadarsDetails.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetGrowthPlanItemsTests.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetIndividualAssessmentResponses.cs" />
+    <Compile Include="v1\Endpoints\Reports\GetMostSelectedRecommendations.cs" />
+    <Compile Include="v1\Endpoints\Tags\UpdateTagsAddMasterTagsToCompanyTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\AddTeamsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\AddTeamMemberTests.cs" />
+    <Compile Include="v1\Endpoints\TeamAssessments\GetAssessmentsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\DeleteTeamStakeholdersTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\DeleteTeamTest.cs" />
+    <Compile Include="v1\Endpoints\Teams\DeleteTeamMemberTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamAssessmentsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamDetailsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamMembersTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamsTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\TeamSubteamsBase.cs" />
+    <Compile Include="v1\Endpoints\Teams\UpdateTeamMemberTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\GetTeamStakeholdersTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\UpdateTeamStakeholdersTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\AddTeamStakeholdersTests.cs" />
+    <Compile Include="v1\Endpoints\Teams\UpdateTeamTests.cs" />
+    <Compile Include="v1\Endpoints\TimeZones\GetTimeZonesTests.cs" />
+    <Compile Include="v1\Endpoints\Companies\GetCompanyRolesTests.cs" />
+    <Compile Include="v1\Endpoints\Users\GetIsSiteAdminTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\TestData\InsightsWidgets\Growth Items.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TalentDevImport.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\TalentDevImport_Invalid.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\TestData\Test_Dataset.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\businessLineAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\companyAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\member.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\orgLeader.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\partnerAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\siteAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Users\teamAdmin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\TestData\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TestData\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AtCommon\AtCommon.csproj">
+      <Project>{0A4917E7-598D-44C7-8B50-E771E227EE73}</Project>
+      <Name>AtCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
+    <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.2.2.10\build\net46\MSTest.TestAdapter.targets')" />
+  <Import Project="..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('..\packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" />
+  <Import Project="..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.1\build\net471\System.ValueTuple.targets')" />
+</Project>

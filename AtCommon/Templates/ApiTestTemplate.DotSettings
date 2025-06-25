@@ -1,0 +1,107 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Description/@EntryValue">API Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Text/@EntryValue">using System.Net;&#xD;
+using System.Threading.Tasks;&#xD;
+using ApiTests.v1.Endpoints;&#xD;
+using AtCommon.Api;&#xD;
+using Microsoft.VisualStudio.TestTools.UnitTesting;&#xD;
+&#xD;
+namespace $rootnamespace$&#xD;
+{&#xD;
+    [TestClass]&#xD;
+    [TestCategory("")]&#xD;
+    public class $safeitemname$ : BaseV1Test&#xD;
+    {&#xD;
+        // 200-201&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public async Task Category_Subcategory_Method_Query_Scenario_StatusCode()&#xD;
+        {&#xD;
+            // given&#xD;
+            var client = await GetAuthenticatedClient();&#xD;
+&#xD;
+            // when&#xD;
+            var response = await client.GetAsync&lt;Dto&gt;(RequestUris.Endpoint());&#xD;
+&#xD;
+            // then&#xD;
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode, "Status code doesn't match.");&#xD;
+        }&#xD;
+&#xD;
+        // 400&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public async Task Category_Subcategory_Method_Query_Scenario_StatusCode()&#xD;
+        {&#xD;
+            // given&#xD;
+            var client = await GetAuthenticatedClient();&#xD;
+&#xD;
+            // when&#xD;
+            var response = await client.GetAsync&lt;Dto&gt;(RequestUris.Endpoint());&#xD;
+&#xD;
+            // then&#xD;
+            Assert.AreEqual(HttpStatusCode.BadRequest, response.StatusCode, "Status code doesn't match.");&#xD;
+        }&#xD;
+&#xD;
+        // 401&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public async Task Category_Subcategory_Method_Query_Scenario_StatusCode()&#xD;
+        {&#xD;
+            // given&#xD;
+            var client = GetUnauthenticatedClient();&#xD;
+&#xD;
+            // when&#xD;
+            var response = await client.GetAsync&lt;Dto&gt;(RequestUris.Endpoint());&#xD;
+&#xD;
+            // then&#xD;
+            Assert.AreEqual(HttpStatusCode.Unauthorized, response.StatusCode, "Status code doesn't match.");&#xD;
+        }&#xD;
+&#xD;
+        // 403&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public async Task Category_Subcategory_Method_Query_Scenario_StatusCode()&#xD;
+        {&#xD;
+            // given&#xD;
+            var client = await GetAuthenticatedClient();&#xD;
+&#xD;
+            // when&#xD;
+            var response = await client.GetAsync&lt;Dto&gt;(RequestUris.Endpoint());&#xD;
+&#xD;
+            // then&#xD;
+            Assert.AreEqual(HttpStatusCode.Forbidden, response.StatusCode, "Status code doesn't match.");&#xD;
+        }&#xD;
+&#xD;
+        // 404&#xD;
+        [TestMethod]&#xD;
+        [TestCategory("")]&#xD;
+        public async Task Category_Subcategory_Method_Query_Scenario_StatusCode()&#xD;
+        {&#xD;
+            // given&#xD;
+            var client = await GetAuthenticatedClient();&#xD;
+&#xD;
+            // when&#xD;
+            var response = await client.GetAsync&lt;Dto&gt;(RequestUris.Endpoint());&#xD;
+&#xD;
+            // then&#xD;
+            Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode, "Status code doesn't match.");&#xD;
+        }&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/CustomProperties/=FileName/@EntryIndexedValue">ApiTest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=rootnamespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=rootnamespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=rootnamespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=rootnamespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=safeitemname/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=safeitemname/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=safeitemname/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=53D0CF1F5E3E7F45B68386DF25655B60/Field/=safeitemname/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

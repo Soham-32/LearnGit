@@ -1,0 +1,554 @@
+﻿{
+  "Languages": [
+    {
+      "language": "Spanish",
+      "loginPageResponse": {
+        "Title": "Acceder a tu cuenta",
+        "TitleDescription": "Inicie sesión a continuación para ver la salud de sus equipos.",
+        "Email": "Correo electrónico",
+        "Password": "Contraseña",
+        "ForgotPassword": "¡Ups! Olvidé mi contraseña",
+        "KeepMeLoggedIn": "Mantenme conectado",
+        "DoNotHaveAccount": "¿No tienes una cuenta?\r\nContáctenos",
+        "LoginButton": "Acceso",
+        "EmailValidation": "Error: el campo Correo electrónico es obligatorio.",
+        "PasswordValidation": "Error: el campo Contraseña es obligatorio."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Administracion de COMPAÑIA",
+        "AddACompanyButton": "Agregar una empresa",
+        "Companyname": "Automatización_CA (NO UTILIZAR)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Agregar Un Equipo",
+        "DashboardList": [
+          "Panel de Equipos",
+          "Panel de Administración",
+          "Panel de la Empresa",
+          "Artículos de Crecimiento",
+          "Panel de Evaluación",
+          "Panel del Facilitador"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Evaluaciones Del Equipo Del Equipo De Radar De Automatización",
+        "DashboardList": [
+          "Panel de evaluación",
+          "Viaje de crecimiento",
+          "Elementos de crecimiento"
+        ],
+        "AddAnAssessmentButton": "Agregar Una Evaluación",
+        "THRadar": "TH2.5Radar (No eliminar)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - NO UTILIZAR Radar"
+      }
+    },
+    {
+      "language": "English",
+      "loginPageResponse": {
+        "Title": "Access Your Account",
+        "TitleDescription": "Log in below to view your teams' health.",
+        "Email": "Email",
+        "Password": "Password",
+        "ForgotPassword": "Oops! I forgot my password",
+        "KeepMeLoggedIn": "Keep me logged in",
+        "DoNotHaveAccount": "Don't have an account?\r\nContact Us",
+        "LoginButton": "Log in",
+        "EmailValidation": "Error: The Email field is required.",
+        "PasswordValidation": "Error: The Password field is required."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Company Management",
+        "AddACompanyButton": "Add a Company",
+        "Companyname": "Automation_CA (DO NOT USE)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Add A Team",
+        "DashboardList": [
+          "Teams Dashboard",
+          "Admin Dashboard",
+          "Enterprise Dashboard",
+          "Growth Items",
+          "Assessment Dashboard",
+          "Facilitator Dashboard"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Automation Radar Team Team Assessments",
+        "DashboardList": [
+          "Assessment Dashboard",
+          "Growth Journey",
+          "Growth Items"
+        ],
+        "AddAnAssessmentButton": "Add An Assessment",
+        "THRadar": "TH2.5Radar(DoNotDelete)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - DO NOT USE Radar"
+      }
+    },
+    {
+      "language": "Portuguese",
+      "loginPageResponse": {
+        "Title": "Acesse sua conta",
+        "TitleDescription": "Faça login abaixo para ver a saúde de suas equipes.",
+        "Email": "E-mail",
+        "Password": "Senha",
+        "ForgotPassword": "Ops! Esqueci a minha senha",
+        "KeepMeLoggedIn": "Mantenha-me conectado",
+        "DoNotHaveAccount": "Não tem uma conta?\r\nContate-nos",
+        "LoginButton": "Conecte-se",
+        "EmailValidation": "Erro: O campo Email é obrigatório.",
+        "PasswordValidation": "Erro: O campo Senha é obrigatório."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Gestão da companhia",
+        "AddACompanyButton": "Adicionar uma empresa",
+        "Companyname": "Automation_CA (NÃO USE)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Adicionar Uma Equipe",
+        "DashboardList": [
+          "Painel de Equipes",
+          "Painel de Administração",
+          "Painel da Empresa",
+          "Itens de Crescimento",
+          "Painel de Avaliação",
+          "Painel do Facilitador"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Avaliações Da Equipe Do Automation Radar Team",
+        "DashboardList": [
+          "Painel de avaliação",
+          "Jornada de Crescimento",
+          "Itens de Crescimento"
+        ],
+        "AddAnAssessmentButton": "Adicionar Uma Avaliação",
+        "THRadar": "TH2.5Radar (Não excluir)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - NÃO USE Radar"
+
+      }
+    },
+
+    {
+      "language": "Korean",
+      "loginPageResponse": {
+        "Title": "귀하의 계정에 액세스하십시오",
+        "TitleDescription": "아래에서 로그인하여 팀의 상태를 확인하세요.",
+        "Email": "이메일",
+        "Password": "비밀번호",
+        "ForgotPassword": "이런! 비밀번호를 잊어버렸어요",
+        "KeepMeLoggedIn": "나를 로그인 유지",
+        "DoNotHaveAccount": "계정이 없나요?\r\n문의하기",
+        "LoginButton": "로그인",
+        "EmailValidation": "오류: 이메일 필드는 필수입니다.",
+        "PasswordValidation": "오류: 비밀번호 필드는 필수입니다."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "회사 관리",
+        "AddACompanyButton": "회사 추가",
+        "Companyname": "Automation_CA(사용하지 않음)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "팀 추가",
+        "DashboardList": [
+          "팀 대시보드",
+          "관리 대시보드",
+          "엔터프라이즈 대시보드",
+          "성장아이템",
+          "평가 대시보드",
+          "진행자 대시보드"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "자동화 레이더 팀 팀 평가",
+        "DashboardList": [
+          "평가 대시보드",
+          "성장 여정",
+          "성장아이템"
+        ],
+        "AddAnAssessmentButton": "평가 추가",
+        "THRadar": "TH2.5Radar(삭제하지 않음)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - 레이더를 사용하지 마세요"
+
+      }
+    },
+    {
+      "language": "Polish",
+      "loginPageResponse": {
+        "Title": "Uzyskaj dostęp do swojego konta",
+        "TitleDescription": "Zaloguj się poniżej, aby zobaczyć stan swoich drużyn.",
+        "Email": "E-mail",
+        "Password": "Hasło",
+        "ForgotPassword": "Ups! zapomniałem hasła",
+        "KeepMeLoggedIn": "Pozostaw mnie zalogowanym",
+        "DoNotHaveAccount": "Nie masz konta?\r\nSkontaktuj się z nami",
+        "LoginButton": "Zaloguj sie",
+        "EmailValidation": "Błąd: Pole e-mail jest wymagane.",
+        "PasswordValidation": "Błąd: pole Hasło jest wymagane."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Zarządzanie firmą",
+        "AddACompanyButton": "Dodaj firmę",
+        "Companyname": "Automation_CA (NIE UŻYWAĆ)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Dodaj Zespół",
+        "DashboardList": [
+          "Panel zespołów",
+          "Panel administracyjny",
+          "Panel korporacyjny",
+          "Przedmioty wzrostu",
+          "Panel oceny",
+          "Panel Facylitatora"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Oceny Zespołów Zespołów Radarowych Ds. Automatyzacji",
+        "DashboardList": [
+          "Pulpit nawigacyjny oceny",
+          "Podróż do rozwoju",
+          "Przedmioty wzrostu"
+        ],
+        "AddAnAssessmentButton": "Dodaj Ocenę",
+        "THRadar": "Radar TH2.5 (Nie usuwaj)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar (DoNotDelete) - AT - TH2.5 - NIE UŻYWAJ Radaru"
+
+      }
+    },
+    {
+      "language": "Japanese",
+      "loginPageResponse": {
+        "Title": "アカウントにアクセスする",
+        "TitleDescription": "チームの状態を確認するには、以下にログインしてください。",
+        "Email": "Eメール",
+        "Password": "パスワード",
+        "ForgotPassword": "おっとっと！パスワードを忘れた",
+        "KeepMeLoggedIn": "ログイン状態を保つ",
+        "DoNotHaveAccount": "アカウントをお持ちでない場合は、\r\nお問い合わせ",
+        "LoginButton": "ログイン",
+        "EmailValidation": "エラー: 電子メールフィールドは必須です。",
+        "PasswordValidation": "エラー: パスワードフィールドは必須です。"
+      },
+      "companyDashboardPageResponse": {
+        "Title": "会社経営",
+        "AddACompanyButton": "会社を追加する",
+        "Companyname": "Automation_CA (使用しないでください)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "チームを追加する",
+        "DashboardList": [
+          "チームダッシュボード",
+          "管理者ダッシュボード",
+          "エンタープライズダッシュボード",
+          "成長 アイテム",
+          "評価ダッシュボード",
+          "ファシリテーターダッシュボード"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "自動化レーダー チーム チームの評価",
+        "DashboardList": [
+          "評価ダッシュボード",
+          "成長の旅",
+          "成長アイテム"
+        ],
+        "AddAnAssessmentButton": "評価を追加する",
+        "THRadar": "TH2.5レーダー(削除不可)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5レーダー(削除しない) - AT - TH2.5 - レーダーを使用しないでください"
+
+
+      }
+    },
+
+    {
+      "language": "Hungarian",
+      "loginPageResponse": {
+        "Title": "Hozzáférés a fiókjához",
+        "TitleDescription": "Jelentkezzen be alább, hogy megtekinthesse csapatai egészségi állapotát.",
+        "Email": "Email",
+        "Password": "Jelszó",
+        "ForgotPassword": "Hoppá! elfelejtettem a jelszavamat",
+        "KeepMeLoggedIn": "Maradjak bejelentkezve",
+        "DoNotHaveAccount": "Nincs fiókja?\r\nLépjen kapcsolatba velünk",
+        "LoginButton": "Belépés",
+        "EmailValidation": "Hiba: Az E-mail mező kitöltése kötelező.",
+        "PasswordValidation": "Hiba: A Jelszó mező kitöltése kötelező."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Cégvezetés",
+        "AddACompanyButton": "Vállalat hozzáadása",
+        "Companyname": "Automation_CA (NE HASZNÁLJA)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Csapat Hozzáadása",
+        "DashboardList": [
+          "Teams irányítópult",
+          "Rendszergazdai irányítópult",
+          "Vállalati irányítópult",
+          "Növekedési cikkek",
+          "Értékelési irányítópult",
+          "Facilitátor irányítópult"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Automatizálási Radarcsapat Csapatértékelései",
+        "DashboardList": [
+          "Értékelési irányítópult",
+          "Növekedési utazás",
+          "Növekedési cikkek"
+        ],
+        "AddAnAssessmentButton": "Adjon Hozzá Egy Értékelést",
+        "THRadar": "TH2.5 Radar (Ne törölje)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - NE HASZNÁLJON Radart"
+      }
+    },
+    {
+      "language": "German",
+      "loginPageResponse": {
+        "Title": "Greife auf dein Konto zu",
+        "TitleDescription": "Melden Sie sich unten an, um den Gesundheitszustand Ihrer Teams anzuzeigen.",
+        "Email": "Email",
+        "Password": "Passwort",
+        "ForgotPassword": "Hoppla! Ich habe mein Passwort vergessen",
+        "KeepMeLoggedIn": "Eingeloggt bleiben",
+        "DoNotHaveAccount": "Sie haben noch kein Konto?\r\nKontaktiere uns",
+        "LoginButton": "Anmeldung",
+        "EmailValidation": "Fehler: Das E-Mail-Feld ist erforderlich.",
+        "PasswordValidation": "Fehler: Das Feld „Passwort“ ist erforderlich."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Firmenmanagement",
+        "AddACompanyButton": "Fügen Sie ein Unternehmen hinzu",
+        "Companyname": "Automation_CA (NICHT VERWENDEN)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Fügen Sie Ein Team Hinzu",
+        "DashboardList": [
+          "Teams - Dashboard",
+          "Admin - Dashboard",
+          "Unternehmens - Dashboard",
+          "Wachstumselemente",
+          "Bewertungs - Dashboard",
+          "Moderator - Dashboard"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Teambewertungen Des Automatisierungsradar-Teams",
+        "DashboardList": [
+          "Bewertungs-Dashboard",
+          "Wachstumsreise",
+          "Wachstumselemente"
+        ],
+        "AddAnAssessmentButton": "Fügen Sie Eine Bewertung Hinzu",
+        "THRadar": "TH2.5Radar(DoNotDelete)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) – AT – TH2.5 – Radar NICHT VERWENDEN"
+      }
+    },
+    {
+      "language": "French",
+      "loginPageResponse": {
+        "Title": "Accéder à votre compte",
+        "TitleDescription": "Connectez-vous ci-dessous pour consulter la santé de vos équipes.",
+        "Email": "E-mail",
+        "Password": "Mot de passe",
+        "ForgotPassword": "Oops! j'ai oublié mon mot de passe",
+        "KeepMeLoggedIn": "Rester connecté",
+        "DoNotHaveAccount": "Vous n'avez pas de compte ?\r\nContactez-nous",
+        "LoginButton": "Se connecter",
+        "EmailValidation": "Erreur : Le champ Email est obligatoire.",
+        "PasswordValidation": "Erreur : Le champ Mot de passe est obligatoire."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Gestion de l'entreprise",
+        "AddACompanyButton": "Ajouter une entreprise",
+        "Companyname": "Automation_CA (NE PAS UTILISER)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Ajouter Une Équipe",
+        "DashboardList": [
+          "Tableau de bord des équipes",
+          "Tableau de bord d'administration",
+          "Tableau de bord d'entreprise",
+          "Articles de croissance",
+          "Tableau de bord d'évaluation",
+          "Tableau de bord du facilitateur"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Évaluations De L’Équipe De L’Équipe Automation Radar",
+        "DashboardList": [
+          "Tableau de bord d´évaluation",
+          "Parcours de croissance",
+          "Articles de croissance"
+        ],
+        "AddAnAssessmentButton": "Ajouter Une Évaluation",
+        "THRadar": "TH2.5Radar (Ne pas supprimer)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar (DoNotDelete) - AT - TH2.5 - NE PAS UTILISER Le Radar"
+
+      }
+    },
+    {
+      "language": "Chinese",
+      "loginPageResponse": {
+        "Title": "访问您的帐户",
+        "TitleDescription": "在下面登录以查看您团队的健康状况。",
+        "Email": "电子邮件",
+        "Password": "密码",
+        "ForgotPassword": "哎呀！我忘记了我的密码",
+        "KeepMeLoggedIn": "保持登录状态",
+        "DoNotHaveAccount": "没有帐户？\r\n联系我们",
+        "LoginButton": "登录",
+        "EmailValidation": "错误：电子邮件字段为必填项。",
+        "PasswordValidation": "错误：密码字段为必填项。"
+      },
+      "companyDashboardPageResponse": {
+        "Title": "公司管理",
+        "AddACompanyButton": "添加公司",
+        "Companyname": "Automation_CA（请勿使用）"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "添加团队",
+        "DashboardList": [
+          "团队仪表板",
+          "管理仪表板",
+          "公司控制面板",
+          "成长物品",
+          "评估仪表板",
+          "协调员仪表板"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "自动化雷达团队团队评估",
+        "DashboardList": [
+          "评估仪表板",
+          "成长之旅",
+          "成长物品"
+        ],
+        "AddAnAssessmentButton": "添加评估",
+        "THRadar": "TH2.5雷达(请勿删除)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5雷达（请勿删除）- AT - TH2.5 - 请勿使用雷达"
+
+
+      }
+    },
+    {
+      "language": "Turkish",
+      "loginPageResponse": {
+        "Title": "Hesabınıza Erişin",
+        "TitleDescription": "Takımlarınızın durumunu görüntülemek için aşağıdan oturum açın.",
+        "Email": "E-posta",
+        "Password": "Şifre",
+        "ForgotPassword": "Hata! Şifremi Unuttum",
+        "KeepMeLoggedIn": "Oturumumu açık tut",
+        "DoNotHaveAccount": "Hesabınız yok mu?\r\nBize Ulaşın",
+        "LoginButton": "Giriş yapmak",
+        "EmailValidation": "Hata: E-posta alanı zorunludur.",
+        "PasswordValidation": "Hata: Şifre alanı zorunludur."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "Şirket yönetimi",
+        "AddACompanyButton": "Şirket Ekle",
+        "Companyname": "Automation_CA (KULLANMAYIN)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "Ekip Ekle",
+        "DashboardList": [
+          "Ekipler Kontrol Paneli",
+          "Yönetici Kontrol Paneli",
+          "Kurumsal Kontrol Paneli",
+          "Büyüme Öğeleri",
+          "Değerlendirme Kontrol Paneli",
+          "Kolaylaştırıcı Kontrol Paneli"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "Otomasyon Radar Ekibi Ekip Değerlendirmeleri",
+        "DashboardList": [
+          "Değerlendirme Kontrol Paneli",
+          "Büyüme Yolculuğu",
+          "Büyüme Öğeleri"
+        ],
+        "AddAnAssessmentButton": "Değerlendirme Ekle",
+        "THRadar": "TH2.5Radar(Silme)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar(DoNotDelete) - AT - TH2.5 - Radar KULLANMAYIN"
+      }
+    },
+    {
+      "language": "Arabic",
+      "loginPageResponse": {
+        "Title": "الوصول إلى حسابك",
+        "TitleDescription": "قم بتسجيل الدخول أدناه لعرض صحة فريقك.",
+        "Email": "بريد إلكتروني",
+        "Password": "كلمة المرور",
+        "ForgotPassword": "أُووبس! لقد نسيت كلمة المرور",
+        "KeepMeLoggedIn": "أبق تسجيل دخولي",
+        "DoNotHaveAccount": "ليس لديك حساب؟\r\nاتصل بنا",
+        "LoginButton": "تسجيل الدخول",
+        "EmailValidation": "خطأ: حقل البريد الإلكتروني مطلوب.",
+        "PasswordValidation": "خطأ: حقل كلمة المرور مطلوب."
+      },
+      "companyDashboardPageResponse": {
+        "Title": "إدارة الشركة",
+        "AddACompanyButton": "أضف شركة",
+        "Companyname": "Automation_CA (لا تستخدمه)"
+      },
+      "teamDashboardPageResponse": {
+        "AddATeamButton": "إضافة فريق",
+        "DashboardList": [
+          "الفرق لوحة التحكم",
+          "المشرف لوحة التحكم",
+          "المؤسسة لوحة التحكم",
+          "النمو العناصر",
+          "التقييم لوحة المعلومات",
+          "الميسر لوحة التحكم"
+        ]
+      },
+      "teamAssessmentDashboardPageResponse": {
+        "Title": "تقييمات فريق رادار الأتمتة",
+        "DashboardList": [
+          "لوحة معلومات التقييم",
+          "رحلة النمو",
+          "عناصر النمو"
+        ],
+        "AddAnAssessmentButton": "إضافة تقييم",
+        "THRadar": "رادار TH2.5 (عدم الحذف)"
+      },
+
+      "AssessmentPageResponse": {
+        "Title": "TH2.5Radar (لا تحذف) - AT - TH2.5 - لا تستخدم الرادار"
+      }
+    }
+  ]
+}

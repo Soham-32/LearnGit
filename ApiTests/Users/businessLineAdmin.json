@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+api_bladmin@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Business",
+      "lastName": "Line",
+      "companyName": "Automation_NewGrowthPlan (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsBL@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Business",
+      "lastName": "Line",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "qa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "atqa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "uat",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "ttndev",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "uat",
+      "id": "79",
+      "teamId1": "7131"
+    },
+    {
+      "environment": "preprod",
+      "id": "79",
+      "teamId1": "7131"
+    }
+  ]
+}

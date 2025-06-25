@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+companyAdmin_feature_permission@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_UserPermission (DO NOT USE)",
+      "firstName": "Company",
+      "lastName": "Admin",
+      "type": "CompanyAdmin"
+    },
+     {
+      "description": "manage permission bl user",
+      "username": "ah_automation+businesslineAdmin_feature_permission@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_UserPermission (DO NOT USE)",
+      "firstName": "Business Line",
+      "lastName": "Admin",
+      "type": "BusinessLineAdmin"
+    },
+     {
+      "description": "manage permission ol user",
+      "username": "ah_automation+orgLeader_feature_permission@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_UserPermission (DO NOT USE)",
+      "firstName": "Organizational",
+      "lastName": "Leader",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "manage permission ta user",
+      "username": "ah_automation+teamAdmin_feature_permission@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Team",
+      "lastName": "Admin",
+      "companyName": "Automation_UserPermission (DO NOT USE)",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "insights user",
+      "username": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "companyName": "",
+      "type": "CompanyAdmin"
+    }
+  ],
+
+  "companies": [
+    {
+      "environment": "atqa",
+      "id": "107"
+    },
+    {
+      "environment": "uat",
+      "id": "107"
+    },
+    {
+      "environment": "preprod",
+      "id": "107"
+    }
+  ]
+}

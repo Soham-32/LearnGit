@@ -1,0 +1,942 @@
+﻿{
+  "language": "Spanish",
+  "confirmIdentityPopup": [
+    {
+      "translatedConfirmIdentityTitle": "Confirmar identidad",
+      "translatedHeaderTitle": "Hola, AT_Mem 2",
+      "translatedHeaderTitleSubtext": "Los resultados de este enlace personalizado se registrarán para AT_Mem 2",
+      "translatedContinueButtonText": "Continuar",
+      "translatedThatNotMeButtonText": "Ese no soy yo",
+      "FooterText": "Sus resultados permanecerán anónimos."
+    }
+  ],
+  "welcomePage": [
+    {
+      "leftSidePanelText": "Bienvenidos",
+      "welcomeMessage": "Queremos que Automation_CA2 (DO NOT USE) sea un lugar de trabajo divertido, desafiante y gratificante. Ayúdenos a hacer realidad nuestra visión de un entorno de trabajo ágil de clase mundial completando la Evaluación del estado del equipo. Esta evaluación es su oportunidad de ayudar a dar forma al futuro de nuestro equipo y mejorar su propia experiencia en el proceso. Sus comentarios se compilarán y utilizarán para guiar cambios positivos adicionales en todo el equipo y la organización.",
+      "startButtonText": "COMENZAR"
+    }
+  ],
+  "surveyAssessmentEmailSubject": [
+    {
+      "subject": "Por Favor Responde"
+    }
+  ],
+  "RadarCompetencyPopup": [
+    {
+      "CompetencyProfilePopupName": "Perfil de Competencia",
+      "GrowthPortal": "Portal de Crecimiento",
+      "AvgResponse": "Promedio Respuesta",
+      "Question": [ "Preguntas", "Pregunta" ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "Claridad",
+      "subDimension": [
+        {
+          "headerName": "Claridad - Planificación",
+          "descriptionOne": "Un equipo saludable tiene claridad sobre su hoja de ruta a corto, mediano y largo plazo. Por ejemplo, piense en iteraciones, sprints, cadencia semanal como su plan a corto plazo.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable tiene claridad sobre su hoja de ruta a corto, mediano y largo plazo. Por ejemplo, piense en iteraciones, sprints, cadencia semanal como su plan a corto plazo.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Trimestral/Hoja de ruta",
+              "competencyAbbreviation": "Trimestral/ Hoja de ruta",
+              "competencyId": 3625,
+              "question": [
+                {
+                  "question": "Trimestral/hoja de ruta:Rastreo: Realmente no tenemos una hoja de ruta más allá del trimestre/lanzamiento actual.Walk: Tenemos una hoja de ruta trimestral aproximada, pero solo se comparte con algunas personas, no con todo el equipo.Ejecutar: tenemos visibilidad de nuestra hoja de ruta que contiene entregas de alto nivel para los próximos trimestres/lanzamientos.Fly: tenemos reuniones de planificación trimestrales periódicas en las que obtenemos visibilidad de nuestra estrategia general, los resultados anuales y cómo nuestra hoja de ruta trimestral se alinea con la estrategia.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 1 de 50 (2%)",
+                  "questionTooltips": "Reemplace mentalmente trimestralmente con su propia cadencia, como trimestres. Equipos Kanban: puede seleccionar N/A si no planea o desea planificar trimestralmente.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Mensual/ Lanzamiento",
+              "competencyAbbreviation": "Mensual/ Lanzamiento",
+              "competencyId": 3626,
+              "question": [
+                {
+                  "question": "Mensual/Lanzamiento:Rastreo: sabemos cuál es nuestro plan para la iteración/mes actual, pero no tenemos un plan más allá de eso.Walk: tenemos un plan para las próximas iteraciones/meses, pero cambia con tanta frecuencia que es difícil ejecutarlo.Ejecutar: tenemos un plan estable para las próximas iteraciones/meses que incorpora dependencias entre equipos.Volar: somos efectivos en la ejecución predecible de nuestro plan para los próximos meses y en el cumplimiento de todos los objetivos comprometidos mientras nos adaptamos al cambio e incorporamos los comentarios de las partes interesadas/clientes.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 2 de 50 (4%)",
+                  "questionTooltips": "Ejemplo: hemos planeado para los próximos 3 meses, el lanzamiento o el incremento del proyecto. Equipos Kanban: puede seleccionar N/A si no planea mensualmente.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Semanal/ Iteración",
+              "competencyAbbreviation": "Semanal/ Iteración",
+              "competencyId": 3627,
+              "question": [
+                {
+                  "question": "Semanal/Iteración:Crawl: No tenemos un plan semanal o de iteraciones. Hacemos el trabajo día a día sin un plan o estrategia real.Caminar: por lo general, planeamos nuestra próxima iteración, pero el plan cambia con frecuencia, lo que hace que varios elementos no se completen y no se completen.Ejecutar: tenemos un plan de iteración estable contra el que podemos ejecutar de manera predecible y podemos administrar el trabajo no planificado.Fly: dentro de cada iteración, nos hemos vuelto efectivos para maximizar el rendimiento, eliminar los cuellos de botella e incorporar comentarios de nuestros clientes/usuarios.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 3 de 50 (6%)",
+                  "questionTooltips": "Ejemplo: hemos planeado para los próximos 3 meses, el lanzamiento o el incremento del proyecto. Equipos Kanban: puede seleccionar N/A si no planea mensualmente.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Claridad - Planificación\""
+            }
+          ]
+        },
+        {
+          "headerName": "Claridad - Papeles",
+          "descriptionOne": "En un equipo saludable, todos tienen claro su rol individual y el rol y las expectativas de cada miembro del equipo. Entienden y practican el concepto de generalizar especialistas (salir de mi rol para ayudar a otros según sea necesario).\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "En un equipo saludable, todos tienen claro su rol individual y el rol y las expectativas de cada miembro del equipo. Entienden y practican el concepto de generalizar especialistas (salir de mi rol para ayudar a otros según sea necesario).\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Papeles",
+              "competencyAbbreviation": "Papeles",
+              "competencyId": 3628,
+              "question": [
+                {
+                  "question": "Roles y expectativas:Rastreo: no estamos seguros de quién hace qué en el equipo O no estoy seguro de que tengamos las personas/roles adecuados que necesitamos.Walk: Tengo claridad sobre mi rol y lo que se necesita de mí, pero no tengo claro qué se espera que hagan algunos de los otros roles.Ejecutar: Hemos creado expectativas claras de lo que necesitamos de cada rol, y medimos contra estas expectativas para inspeccionar y adaptar. Confío en que contamos con las personas adecuadas para cumplir con nuestros entregables actuales.Volar: Nos sentimos cómodos y seguros dándonos comentarios abiertos/honestos. Nos alentamos y apoyamos mutuamente para crecer en su rol a través de emparejamientos frecuentes y capacitación cruzada.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 4 de 50 (8%)",
+                  "questionTooltips": "Reemplace mentalmente trimestralmente con su propia cadencia, como trimestres. Equipos Kanban: puede seleccionar N/A si no planea o desea planificar trimestralmente.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Generalizando Especialistas",
+              "competencyAbbreviation": "Generalizando Especialistas",
+              "competencyId": 3629,
+              "question": [
+                {
+                  "question": "Especialistas generalizadores:Especialista en generalización (en forma de T) se refiere a tener individuos que están profundamente especializados o capacitados en un área y adquieren nuevas habilidades en un área relacionada o deseada. Esto permite que los equipos se vuelvan interdisciplinarios y multifuncionales para que puedan ofrecer valor de extremo a extremo y reducir los cuellos de botella.Rastreo: no estoy seguro de qué significa \"especialista en generalización\" o \"en forma de T\". Yo hago mis propias tareas y los demás hacen las suyas.Walk: entendemos el concepto y el valor de ser un especialista en generalización, y algunos miembros del equipo colaboran para ayudar fuera de su función.Run: Hemos invertido en entrenamiento cruzado. Varios de nosotros estamos dispuestos, somos capaces y, a menudo, salimos de nuestros propios roles para ayudar cuando ocurren cuellos de botella.Volar: todos los miembros del equipo tienen una copia de seguridad que puede hacerse cargo de su trabajo si no están disponibles. Todos se acercan proactivamente para ayudar.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 5 de 50 (10%)",
+                  "questionTooltips": "Definición: Generalizar especialista (en forma de T) se refiere a tener individuos profundamente especializados o expertos en un área y adquirir nuevas habilidades en un área relacionada o deseada. Esto permite a los equipos convertirse en disciplinados y multifuncionales para que puedan ofrecer un valor de extremo a extremo y reducir los cuellos de botella. Ejemplo: un desarrollador que codifica, pero aún puede probar el código para otros desarrolladores.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Claridad - Papeles\""
+            }
+          ]
+        },
+        {
+          "headerName": "Claridad - Visión",
+          "descriptionOne": "Un equipo saludable tiene claridad sobre su visión y propósito con medidas claramente definidas para el éxito. Entienden cómo su trabajo se alinea con los objetivos estratégicos de la empresa y han establecido una propiedad colectiva para alcanzar los objetivos actuales.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable tiene claridad sobre su visión y propósito con medidas claramente definidas para el éxito. Entienden cómo su trabajo se alinea con los objetivos estratégicos de la empresa y han establecido una propiedad colectiva para alcanzar los objetivos actuales.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Visión y Propósito",
+              "competencyAbbreviation": "Visión y Propósito",
+              "competencyId": 3623,
+              "question": [
+                {
+                  "question": "Visión y Propósito:Rastreo: Nuestro equipo no tiene claridad sobre nuestra visión y propósito. No estamos seguros de hacia dónde nos dirigimos y no tenemos prioridades claras.Caminar: algunos miembros de nuestro equipo, que trabajan en estrecha colaboración con el propietario del producto, entienden nuestro propósito, dirección y prioridades. Tenemos una comprensión general de las necesidades de nuestros clientes/usuarios.Run: Todos tenemos claridad sobre la visión de nuestro equipo y dónde debemos enfocarnos ahora. Tenemos claridad sobre las necesidades de nuestros clientes y estamos alineados con la estrategia y metas trimestrales.Volar: nos relacionamos con nuestros clientes a menudo y nos alineamos en torno a sus necesidades y los resultados comerciales deseados. Estamos comprometidos con la evolución de nuestra visión y dirección futura.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 6 de 50 (12%)",
+                  "questionTooltips": "Los clientes pueden ser sus clientes externos, usuarios internos o incluso otros equipos que consumen su trabajo. El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Metas y Resultados",
+              "competencyAbbreviation": "Metas y Resultados",
+              "competencyId": 3624,
+              "question": [
+                {
+                  "question": "Metas y resultados:Rastreo: en realidad no tenemos objetivos definidos ni resultados medibles.Caminata: Creamos metas y medidas para el éxito. Sin embargo, se centran en el 'resultado' y no en el 'valor', y no todo el mundo los conoce.Ejecutar: Estamos creando metas impulsadas por 'resultados' que están bien definidas. Sin embargo, no rastreamos cómo lo estamos haciendo contra ellos.Fly: Establecemos objetivos a corto plazo basados en 'resultados' y revisamos nuestro progreso con respecto a ellos con frecuencia. Todos los miembros del equipo pueden dar un discurso de ascensor de 60 segundos describiendo nuestros resultados.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 7 de 50 (14%)",
+                  "questionTooltips": "La salida mide cuánto valor estamos produciendo ( # de elementos completados, puntos de historia, # de defectos). Las medidas de resultado se centran en el valor comercial que se entrega para el cliente (satisfacción del cliente, mayor retención, participación del cliente) y nuestra capacidad para mejorar nuestra entrega (capacidad para responder más rápido, eliminación de defectos, escalabilidad, actualización de tecnología más nueva).",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Claridad - Visión\"",
+              "notesAnsDataId": "998"
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Salvar",
+          "questionLabel": "Pregunta",
+          "sectionLabel": "Sección",
+          "saveMessage": "Salvado"
+        }
+      ]
+    },
+    {
+      "dimensionName": "Desempeño",
+      "subDimension": [
+        {
+          "headerName": "Desempeño - Confianza",
+          "descriptionOne": "Un equipo saludable analiza más de cerca el nivel de confianza del propietario del producto, las partes interesadas y los miembros de su propio equipo como una forma de comprender si se están moviendo en la dirección correcta o no. Analizar la variación entre los niveles de confianza abre una conversación saludable para ayudar al equipo a inspeccionar y adaptarse.\r\nSolo responda a las preguntas que correspondan a su función. Seleccione N/A para otros.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable analiza más de cerca el nivel de confianza del propietario del producto, las partes interesadas y los miembros de su propio equipo como una forma de comprender si se están moviendo en la dirección correcta o no. Analizar la variación entre los niveles de confianza abre una conversación saludable para ayudar al equipo a inspeccionar y adaptarse.\r\nSolo responda a las preguntas que correspondan a su función. Seleccione N/A para otros.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Equipo",
+              "competencyAbbreviation": "Equipo",
+              "competencyId": 3631,
+              "question": [
+                {
+                  "question": "Confianza del equipo:Nuestro equipo tiene el conocimiento, las habilidades, la motivación y las herramientas adecuadas para cumplir con los objetivos actuales.Crawl: No estoy nada seguro.Caminar: Tengo algo de confianza.Ejecutar: Estoy mayormente confiado.Mosca: Estoy completamente seguro.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 8 de 50 (16%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Desempeño - Confianza\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Salvar",
+          "questionLabel": "Pregunta",
+          "sectionLabel": "Sección",
+          "saveMessage": "Salvado"
+        }
+      ]
+    },
+    {
+      "dimensionName": "Liderazgo",
+      "subDimension": [
+        {
+          "headerName": "Liderazgo - Facilitador de equipo",
+          "descriptionOne": "Un equipo saludable tiene un facilitador de equipo efectivo que asegura que los procesos, reuniones y prácticas Agile o Lean del equipo sean saludables y efectivos. El facilitador del equipo tiene como objetivo ayudar a su equipo a lograr la autoorganización, el alto rendimiento y una cultura saludable.\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable tiene un facilitador de equipo efectivo que asegura que los procesos, reuniones y prácticas Agile o Lean del equipo sean saludables y efectivos. El facilitador del equipo tiene como objetivo ayudar a su equipo a lograr la autoorganización, el alto rendimiento y una cultura saludable.\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Facilitación efectiva",
+              "competencyAbbreviation": "Facilitación efectiva",
+              "competencyId": 3599,
+              "question": [
+                {
+                  "question": "Facilitación efectiva:\r\n\r\nGatear: Nuestro equipo tiene varios problemas interpersonales y de dinámica de equipo que impiden nuestras reuniones, y nuestro facilitador lucha por controlarlos.\r\n\r\nCaminar: Nuestro equipo tiene algunos problemas interpersonales y de dinámica de equipo, pero nuestro facilitador de equipo es bueno para ayudar a nuestro equipo con esos problemas.\r\n\r\nCorrer: Ocasionalmente ocurren problemas interpersonales y de dinámica de equipo, pero nuestro facilitador de equipo es excelente para ayudar a nuestro equipo a generar consenso, resolver conflictos y manejar disfunciones.\r\n\r\nVolar: El facilitador de nuestro equipo ha ayudado a elevar la cultura y la dinámica de nuestro equipo a nuevos niveles de madurez basados en la confianza, el respeto, la responsabilidad y la toma de decisiones en colaboración.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 9 de 50 (18%)",
+                  "questionTooltips": "El facilitador del equipo se usa indistintamente con el papel de Scrum Master. El facilitador del equipo se usa para describir este papel para los equipos que usan Scrum, Kanban u otros marcos Lean que no usan el título Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Facilitación efectiva",
+              "competencyAbbreviation": "Facilitación efectiva",
+              "competencyId": 3599,
+              "question": [
+                {
+                  "question": "Facilitación efectiva:\r\n\r\nGatear: no tenemos un facilitador de equipo efectivo O nuestras reuniones son una pérdida de tiempo y no están orientadas a resultados.\r\n\r\nCaminar: Tenemos un facilitador de equipo efectivo que administra y dirige las reuniones de nuestro equipo, pero hay espacio para mejorar.\r\n\r\nCorrer: nuestras reuniones son valiosas porque contamos con un facilitador de equipo eficaz que planifica con anticipación, ejecuta bien las sesiones de colaboración y administra los elementos de seguimiento.\r\n\r\nVolar: Cualquiera en nuestro equipo puede facilitar de manera efectiva cualquiera de nuestras sesiones de equipo sin necesidad de nuestro facilitador de equipo. Invertimos continuamente en mejorar nuestras habilidades de facilitación.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 10 de 50 (20%)",
+                  "questionTooltips": "El facilitador del equipo se usa indistintamente con el papel de Scrum Master. El facilitador del equipo se usa para describir este papel para los equipos que usan Scrum, Kanban u otros marcos Lean que no usan el título Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3600,
+              "question": [
+                {
+                  "question": "Liderazgo:\r\n\r\nGatear: El facilitador de nuestro equipo lidera utilizando un estilo controlador/directivo. No estamos facultados para plantear problemas o preocupaciones.\r\n\r\nCaminar: el facilitador de nuestro equipo brinda una guía efectiva y nos ayuda a mantenernos enfocados en nuestras metas.\r\n\r\nCorrer: nuestro facilitador de equipo predica con el ejemplo y tiene las características clave de un líder de servicio (sirve, escucha activamente, entrena y empodera a otros).\r\n\r\nVolar: El facilitador de nuestro equipo ha empoderado completamente a nuestro equipo para que podamos autoorganizarnos. Varias personas de nuestro equipo han desarrollado habilidades de liderazgo.GATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 11 de 50 (22%)",
+                  "questionTooltips": "Si su equipo no tiene este papel, no dude en seleccionar N/A. El facilitador del equipo se usa indistintamente con el papel de Scrum Master. El facilitador del equipo se usa para describir este papel para los equipos que usan Scrum, Kanban u otros marcos Lean que no usan el título Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Gestión de Impedimentos",
+              "competencyAbbreviation": "Gestión de Imped.",
+              "competencyId": 3601,
+              "question": [
+                {
+                  "question": "Gestión de Impedimentos:\r\n\r\n]Gatear: como equipo, nos atascamos con frecuencia y nuestro facilitador no elimina o aborda los impedimentos de manera oportuna.\r\n\r\nCaminar: El facilitador de nuestro equipo está comenzando a manejar los impedimentos y protegernos de las distracciones lo mejor que puede.\r\n\r\nCorrer: nuestro facilitador de equipo es eficaz para facilitar la eliminación de nuestros impedimentos y gestionar las dependencias dentro y fuera de nuestro equipo.\r\n\r\nVolar: Nosotros, como equipo, estamos totalmente facultados para eliminar impedimentos y distracciones y gestionar las dependencias dentro y fuera del equipo para que podamos lograr nuestros objetivos.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 12 de 50 (24%)",
+                  "questionTooltips": "El facilitador del equipo se usa indistintamente con el papel de Scrum Master. El facilitador del equipo se usa para describir este papel para los equipos que usan Scrum, Kanban u otros marcos Lean que no usan el título Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Liderazgo - Facilitador de equipo\""
+            }
+          ]
+        },
+        {
+          "name": "Liderazgo - Lead (s) técnico (s)",
+          "headerName": "Liderazgo - Líder(es) técnico(s)",
+          "descriptionOne": "Un equipo saludable tiene un papel responsable de traducir la visión empresarial en una visión técnica y luego respaldar la ejecución técnica exitosa de esa visión. El líder técnico puede ser el arquitecto, el desarrollador senior o el líder de ingeniería.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable tiene un papel responsable de traducir la visión empresarial en una visión técnica y luego respaldar la ejecución técnica exitosa de esa visión. El líder técnico puede ser el arquitecto, el desarrollador senior o el líder de ingeniería.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3602,
+              "question": [
+                {
+                  "question": "Liderazgo:\r\n\r\nGatear: nuestro líder técnico/experto en la materia utiliza un estilo controlador/directivo. No recibimos mucho entrenamiento o tutoría de ellos.\r\n\r\nCaminar: nuestro líder técnico/experto en la materia brinda buenas soluciones y recomendaciones, pero está demasiado ocupado para entrenar/orientar a otros.\r\n\r\nCorrer: nuestro líder técnico/experto en la materia invierte en entrenamiento, tutoría, emparejamiento y mejora de nuestras habilidades individualmente y como equipo.\r\n\r\nVolar: Muchos de nosotros en el equipo hemos adquirido sólidas habilidades técnicas en diferentes dominios. No dependemos sólo de una o dos\r\n\r\npersonas.GATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 13 de 50 (26%)",
+                  "questionTooltips": "Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Conocimientos Técnicos",
+              "competencyAbbreviation": "Conocimientos técnicos",
+              "competencyId": 3603,
+              "question": [
+                {
+                  "question": "Conocimientos técnicos:\r\nGatear: No tenemos liderazgo técnico o alguien a quien acudir; resolvemos las cosas por nuestra cuenta sin mucha orientación o validación.\r\n\r\nCaminar: nuestro líder técnico tiene un conocimiento de nivel intermedio en el área temática y brinda orientación general cuando es necesario.\r\n\r\nCorrer: nuestro líder técnico tiene un gran conocimiento y experiencia, brinda una orientación sólida y ayuda al equipo a resolver los impedimentos técnicos.\r\n\r\nVolar: Nuestro líder técnico es un verdadero experto. Colaboran constantemente con el equipo para diseñar las mejores soluciones que se alineen con nuestra dirección estratégica y arquitectura empresarial.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 14 de 50 (28%)",
+                  "questionTooltips": "Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Conocimientos Técnicos",
+              "competencyAbbreviation": "Conocimientos técnicos",
+              "competencyId": 3603,
+              "question": [
+                {
+                  "question": "Conocimientos técnicos:\r\n\r\nGatear: nuestro líder técnico no interactúa con nuestros clientes y usuarios comerciales.\r\n\r\nCaminar: nuestro líder técnico ocasionalmente interactúa con el negocio para comprender y ayudar a satisfacer sus necesidades inmediatas.\r\n\r\nCorrer: nuestro líder técnico se relaciona con frecuencia con el negocio para definir soluciones prácticas a corto y largo plazo. Han adquirido experiencia tanto técnica como empresarial.\r\n\r\nVolar: nuestro líder técnico es un socio de confianza para la OP y los clientes. Colaboran de manera proactiva para alinear la tecnología con los resultados comerciales deseados.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 15 de 50 (30%)",
+                  "questionTooltips": "Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Liderazgo - Líder(es) técnico(s)\""
+            }
+          ]
+        },
+        {
+          "name": "Liderazgo - Propietario del producto",
+          "headerName": "Liderazgo - Dueño del Producto",
+          "descriptionOne": "El Product Owner es la persona responsable de maximizar el valor comercial entregado por el equipo. Deben poder definir, comunicar y traducir claramente la visión del negocio en una cartera de pedidos exitosa y definir objetivos a corto plazo.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "El Product Owner es la persona responsable de maximizar el valor comercial entregado por el equipo. Deben poder definir, comunicar y traducir claramente la visión del negocio en una cartera de pedidos exitosa y definir objetivos a corto plazo.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Compromiso",
+              "competencyAbbreviation": "Compromiso",
+              "competencyId": 3604,
+              "question": [
+                {
+                  "question": "Compromiso con el equipo:\r\n\r\nGatear: no tenemos un propietario del producto que represente a nuestros clientes, pero tenemos un representante que lo reemplaza; O tenemos un propietario del producto que no está comprometido ni autorizado para tomar decisiones.\r\n\r\nCaminar: Tenemos un propietario del producto, pero él/ella está ocupado y tiene un tiempo limitado para participar y responder preguntas, lo que provoca la repetición del trabajo.\r\n\r\nCorrer: nuestro Product Owner interactúa con frecuencia con nuestro equipo y está disponible para tomar decisiones cuando sea necesario.\r\n\r\nVolar: Nuestro compromiso con el Product Owner es tan efectivo que ahora muchos miembros de nuestro equipo pueden predecir y anticipar sus necesidades y forma de pensar.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 16 de 50 (32%)",
+                  "questionTooltips": "Un proxy es otra persona que tiene el conocimiento y es delegado por el propietario del producto para ser el representante del cliente. El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Compromiso con el patrocinador/clientes/partes interesadas:",
+              "competencyAbbreviation": "Compromiso",
+              "competencyId": 3604,
+              "question": [
+                {
+                  "question": "Compromiso con el patrocinador/clientes/stakeholder:\r\n\r\nGatear: nuestro propietario del producto no representa a nuestros clientes y tiene poco compromiso con las partes interesadas y los usuarios reales.\r\n\r\nCaminar: Nuestro Propietario del producto ocasionalmente interactúa con nuestro patrocinador, las partes interesadas y los usuarios. A veces esto nos lleva a perder algunos de sus requisitos.\r\n\r\nCorrer: nuestro Product Owner interactúa con frecuencia con nuestro patrocinador, las partes interesadas y los usuarios. Manejan bien las expectativas de las partes interesadas y de los usuarios.\r\n\r\nVolar: Nuestro Propietario de Producto representa de manera eficaz la voz de nuestro equipo ante los demás y constantemente nos involucra directamente con los clientes.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 17 de 50 (34%)",
+                  "questionTooltips": "El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Gestión Backlog",
+              "competencyAbbreviation": "Gestión Backlog",
+              "competencyId": 3605,
+              "question": [
+                {
+                  "question": "Gestión de la cartera de pedidos:\r\n\r\nGatear: nuestro propietario del producto realmente no administra ni refina nuestra cartera de pedidos. Él / ella delega esto a otros.\r\n\r\nCaminar: Nuestro Product Owner gestiona nuestro backlog, aunque las historias no suelen estar bien definidas al comienzo de la iteración.\r\n\r\nCorrer: nuestro propietario del producto es eficaz para mantener clasificado y refinado el trabajo pendiente. Las historias tienen buenos criterios de aceptación y, por lo general, están listas para incorporarse a una iteración.\r\n\r\nVolar: nuestro propietario del producto, en colaboración con el equipo, gestiona de manera magistral nuestra cartera de pedidos y planifica con eficacia futuras iteraciones. Las historias están claramente escritas, divididas adecuadamente y siempre están listas para que el equipo las extraiga.\r\n\r\nGATEAR: 1-2 | CAMINAR: 3-5 | CORRER: 6-8 | VOLAR: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 18 de 50 (36%)",
+                  "questionTooltips": "El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Gestión Backlog",
+              "competencyAbbreviation": "Gestión Backlog",
+              "competencyId": 3605,
+              "question": [
+                {
+                  "question": "Gestión de la cartera de pedidos:\r\n\r\nRastreo: nuestro propietario del producto realiza cambios frecuentes en nuestras prioridades; no podemos terminar lo que empezamos.\r\n\r\nCaminar: nuestro propietario del producto nos permite centrarnos en lo que planeamos hacer dentro de una iteración con cambios mínimos, pero aun así recibimos solicitudes de otros.\r\n\r\nEjecutar: todo nuestro trabajo es administrado por nuestro propietario del producto y nos brinda un enfoque para terminar lo que comenzamos a través de una acumulación clasificada y priorizada.\r\n\r\nFly: nuestro propietario del producto trabaja de manera proactiva con las partes interesadas/clientes para que tengamos suficiente trabajo pendiente \"listo\" para aprovechar. Él/Ella nos protege de demasiadas distracciones.\r\n\r\nRASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 19 de 50 (38%)",
+                  "questionTooltips": "El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3606,
+              "question": [
+                {
+                  "question": "Liderazgo:Crawl: Nuestro Product Owner se enfoca en liderar la ejecución táctica de nuestro trabajo (planificación, gestión de backlog, compromiso del equipo, retroalimentación).Walk: Nuestro propietario del producto está muy centrado en ofrecer el mayor valor tangible al cliente con una gran experiencia de usuario.Ejecutar: nuestro propietario del producto está alineado con la dirección estratégica (visión, hoja de ruta) y realiza el descubrimiento para nuestro próximo lanzamiento/trimestre de trabajo.Fly: Además, nuestro Product Owner inspira al equipo a resolver los problemas de los clientes de forma creativa e innovadora. Nuestro equipo ahora puede anticipar las necesidades de nuestros clientes.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 20 de 50 (40%)",
+                  "questionTooltips": "El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Liderazgo - Dueño del Producto\""
+            }
+          ]
+        },
+        {
+          "name": "Liderazgo - Administración",
+          "headerName": "Liderazgo - Administración",
+          "descriptionOne": "En un equipo saludable, los gerentes se enfocan menos en la gestión de tareas y más en el desarrollo de personas, la mejora de procesos y la alineación estratégica. Demuestran las características de los líderes de servicio y saben cuándo brindar dirección, cuándo ayudar y cuándo dar un paso atrás y empoderar al equipo.\r\n\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "En un equipo saludable, los gerentes se enfocan menos en la gestión de tareas y más en el desarrollo de personas, la mejora de procesos y la alineación estratégica. Demuestran las características de los líderes de servicio y saben cuándo brindar dirección, cuándo ayudar y cuándo dar un paso atrás y empoderar al equipo.\r\n\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Liderazgo:Responda esta pregunta en referencia a su Gerente. Esta pregunta proporciona detalles sobre el impacto en el equipo por el rol del gerente.Seleccione N/A si su Gerente no es parte de la organización. Consulte el texto de ayuda para obtener más información.Rastreo: mi gerente todavía administra mis tareas y puede ser directivo/controlador.Walk: Mi gerente se ha alejado de la gestión de tareas y nos empodera a mí y al equipo para autoorganizarnos y tomar decisiones en torno a nuestro trabajo.Ejecutar: mi gerente es un modelo a seguir que sigue el camino y representa bien nuestros valores fundamentales de liderazgo (tal como los define su empresa).Fly: Mi gerente me ha inspirado con el propósito de nuestro equipo y nuestro trabajo. Son un socio de confianza para el negocio, nuestro Product Owner y facilitador/ScrumMaster del equipo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 21 de 50 (42%)",
+                  "questionTooltips": "Las preguntas de gestión bajo liderazgo están destinadas a resaltar cómo el equipo experimenta la gestión y el liderazgo en la organización. Probablemente hay más de un gerente que supervisa un equipo ágil cruzado cruzado. El enfoque de esta pregunta es demostrar la experiencia del equipo. Si su supervisor no forma parte de la organización o usted es un contratista, debe seleccionar NA para esta pregunta. Si tiene a alguien a quien informa que es parte de la organización a pesar de no ser un empleado, solicite claridad sobre cómo responder esta pregunta del facilitador de AgilityHealth o facilitador de equipo/Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Liderazgo:Responda esta pregunta en referencia a su Gerente. Esta pregunta proporciona detalles sobre el impacto en el equipo por el rol del gerente.Seleccione N/A si su Gerente no es parte de la organización. Consulte el texto de ayuda para obtener más información.Crawl: No veo a mi jefe muy a menudo, y cuando nos reunimos, estamos concentrados en mis tareas.Caminar: Mi gerente ocasionalmente trabaja conmigo para desarrollar mis habilidades y destrezas.Run: Mi gerente se reúne conmigo con la frecuencia necesaria y me ha ayudado a crecer en mi rol y en mis habilidades interpersonales.Fly: Mi gerente me ha dado poder para elegir mi camino de crecimiento futuro e invertir en mi propio aprendizaje. Me he convertido en un mentor para otros.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 22 de 50 (44%)",
+                  "questionTooltips": "Las preguntas de gestión bajo liderazgo están destinadas a resaltar cómo el equipo experimenta la gestión y el liderazgo en la organización. Probablemente hay más de un gerente que supervisa un equipo ágil cruzado cruzado. El enfoque de esta pregunta es demostrar la experiencia del equipo. Si su supervisor no forma parte de la organización o usted es un contratista, debe seleccionar NA para esta pregunta. Si tiene a alguien a quien informa que es parte de la organización a pesar de no ser un empleado, solicite claridad sobre cómo responder esta pregunta del facilitador de AgilityHealth o facilitador de equipo/Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Liderazgo",
+              "competencyAbbreviation": "Liderazgo",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Liderazgo:Esta pregunta se aplica al equipo de gestión en general.Seleccione N/A si esta es su línea de base (primera evaluación).Rastreo: Nuestro(s) gerente(s) no está(n) comprometido(s) para resolver los obstáculos organizacionales y los elementos de crecimiento que hemos identificado.Caminar: nuestros gerentes intentan resolver los obstáculos organizacionales y los elementos de crecimiento, pero muchos problemas están fuera de su control, por lo que no vemos tracción ni visibilidad.Ejecutar: Nuestros gerentes han resuelto muchos de los obstáculos organizacionales y elementos de crecimiento y lo hacen con transparencia y comunicación para que siempre estemos informados sobre su progreso.Fly: La diligencia de nuestro equipo de liderazgo para resolver obstáculos organizacionales y elementos de crecimiento ha mejorado significativamente la madurez y el desempeño de nuestro equipo. Esto ha aumentado la confianza en el liderazgo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 23 de 50 (46%)",
+                  "questionTooltips": "Las preguntas de gestión bajo liderazgo están destinadas a resaltar cómo el equipo experimenta la gestión y el liderazgo en la organización. Probablemente hay más de un gerente que supervisa un equipo ágil cruzado cruzado. El enfoque de esta pregunta es demostrar la experiencia del equipo. Si su supervisor no forma parte de la organización o usted es un contratista, debe seleccionar NA para esta pregunta. Si tiene a alguien a quien informa que es parte de la organización a pesar de no ser un empleado, solicite claridad sobre cómo responder esta pregunta del facilitador de AgilityHealth o facilitador de equipo/Scrum Master. Las preguntas de liderazgo en esta evaluación se centran en el papel de liderazgo, no en el desempeño del individuo en el papel.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Liderazgo - Administración\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Salvar",
+          "questionLabel": "Pregunta",
+          "sectionLabel": "Sección",
+          "saveMessage": "Salvado"
+        }
+      ]
+    },
+    {
+      "dimensionName": "Cultura",
+      "subDimension": [
+        {
+          "headerName": "Cultura - Dinámica de Equipo",
+          "descriptionOne": "Un equipo saludable tiene una cultura saludable, esto significa que han trabajado en su capa debajo de la superficie y se han movido de Yo y Yo a Nosotros. Practican una comunicación abierta y honesta, trabajan en colaboración y abordan los conflictos de manera saludable.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo saludable tiene una cultura saludable, esto significa que han trabajado en su capa debajo de la superficie y se han movido de Yo y Yo a Nosotros. Practican una comunicación abierta y honesta, trabajan en colaboración y abordan los conflictos de manera saludable.\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Felicidad",
+              "competencyAbbreviation": "Felicidad",
+              "competencyId": 3610,
+              "question": [
+                {
+                  "question": "Felicidad:Crawl: ¡Ojalá hubiera trabajado en otro lugar!Walk: Tengo algunos miembros del equipo con los que disfruto trabajar, pero algunos... no tanto. El trabajo no inspira.Run: Disfruto trabajar con este equipo. Seguimos mejorando nuestro trabajo e invirtiendo en nuestras relaciones.Fly: Me encanta trabajar con este equipo y me inspira el trabajo que hacemos para nuestros clientes. ¡No puedo imaginarme trabajando en otro lugar!RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 24 de 50 (48%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Colaboración",
+              "competencyAbbreviation": "Colaboración",
+              "competencyId": 3611,
+              "question": [
+                {
+                  "question": "Colaboración:Crawl: Trabajamos principalmente como individuos y solo hablamos cuando es necesario.Caminar: Estamos cooperando entre nosotros al tener un objetivo común, compartir información y coordinar el trabajo para alcanzar este objetivo.Ejecutar: estamos colaborando entre nosotros al hacer que sea seguro compartir ideas, tener debates saludables y honestos, empoderar roles específicos para tomar decisiones o llegar a un consenso como equipo.Fly: Juntos hemos diseñado soluciones sólidas que resuelven las necesidades más altas de nuestros clientes. Fomentamos la diversidad de ideas desde dentro y fuera de nuestro equipo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 25 de 50 (50%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Confianza y Respeto",
+              "competencyAbbreviation": "Confianza y Respeto",
+              "competencyId": 3612,
+              "question": [
+                {
+                  "question": "Confianza y respeto:Crawl: Tenemos problemas de confianza y respeto dentro de este equipo. Varios miembros tienen miedo de hablar o sienten que tienen que cuidarse las espaldas.Caminar: Hemos mejorado nuestros problemas de confianza. Varios miembros del equipo se sienten más cómodos compartiendo sus ideas, pero no todos.Run: Hablamos abiertamente de confianza y respeto. Hemos mejorado proactivamente nuestra confianza y respeto mutuo. Hemos creado un ambiente abierto, transparente y seguro.Mosca: Asumimos una intención positiva en las acciones de las personas, y hemos adquirido las habilidades para resolver nuestros conflictos internos de manera sana.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 26 de 50 (52%)",
+                  "questionTooltips": "Suponga la intención positiva: usted cree que las personas tienen buenas intenciones detrás de sus acciones, incluso si su enfoque o estilo no era saludable. No guardas rencor ni te cuentas historias negativas.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Creatividad e Innovación",
+              "competencyAbbreviation": "Creatividad e Innovación",
+              "competencyId": 3613,
+              "question": [
+                {
+                  "question": "Creatividad e Innovación:Rastreo: Estamos enfocados en hacer el trabajo como se ha definido para nosotros. Nadie tiene tiempo para ser creativo, ni se anima.Camine: Se nos anima a pensar fuera de la caja. Sin embargo, estamos limitados por las soluciones existentes. No es seguro fallar o probar cosas nuevas.Ejecutar: Estamos facultados para diseñar ideas creativas para resolver problemas y desafiar las soluciones existentes. Es seguro experimentar y aprender.Fly: ¡Hemos diseñado varias soluciones innovadoras con las que nuestros clientes han quedado encantados! Hacemos tiempo para la innovación (por ejemplo, hack-a-thons, ciclos de innovación).RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 27 de 50 (54%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Responsabilidad",
+              "competencyAbbreviation": "Responsab.",
+              "competencyId": 3614,
+              "question": [
+                {
+                  "question": "Responsabilidad:Rastreo: varios miembros de nuestro equipo no tienen un sentido de responsabilidad o compromiso. ¡Es frustrante!Caminata: traemos visibilidad sobre quién es responsable de qué (por ejemplo, durante la reunión diaria). Sin embargo, todavía señalamos con el dedo cuando no se cumplen los compromisos.Corre: la mayoría de nosotros hacemos lo que decimos que haremos o pedimos ayuda a otros cuando es necesario. Estamos dispuestos a ayudar cuando se le solicite.Fly: Todos somos mutuamente responsables del éxito de nuestro equipo y nos involucramos muchas veces para ayudarnos unos a otros. ¡Estamos en esto juntos!RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 28 de 50 (56%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Cultura - Dinámica de Equipo\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Salvar",
+          "questionLabel": "Pregunta",
+          "sectionLabel": "Sección",
+          "saveMessage": "Salvado"
+        }
+      ]
+    },
+    {
+      "dimensionName": "Fundación",
+      "subDimension": [
+        {
+          "headerName": "Fundación - Agilidad",
+          "descriptionOne": "Un equipo no logra un alto rendimiento sin tener una base sólida para el éxito. Estas áreas fundamentales son críticas y afectan directamente el ritmo y la salud de su equipo.\r\n\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "Un equipo no logra un alto rendimiento sin tener una base sólida para el éxito. Estas áreas fundamentales son críticas y afectan directamente el ritmo y la salud de su equipo.\r\n\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Marcha Sostenible",
+              "competencyAbbreviation": "Marcha Sostenible",
+              "competencyId": 3615,
+              "question": [
+                {
+                  "question": "Marcha sostenible:Rastreo: Nuestro equipo está muy estresado, con frecuencia trabaja horas extras y no tiene una idea clara de nuestra capacidad. Nos estamos quemando.Caminar: Nuestro equipo está empezando a hablar de nuestra capacidad. Sin embargo, todavía nos comprometemos en exceso y nos queda trabajo para la próxima iteración.Ejecutar: nuestro equipo generalmente trabaja a un ritmo sostenible. Hacemos tiempo para mejorar nuestra calidad y deuda técnica. Invertimos en la formación de equipos y el aprendizaje.Fly: entregamos rápidamente soluciones de alta calidad y podemos mantener este ritmo. Planificamos proactivamente con anticipación las limitaciones de capacidad.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 29 de 50 (57%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Autoorganización",
+              "competencyAbbreviation": "Auto Organización",
+              "competencyId": 3616,
+              "question": [
+                {
+                  "question": "Organización propia:Rastreo: nuestro equipo siempre debe pedir a nuestros gerentes/líderes instrucciones, aprobaciones y soluciones.Caminar: Nuestro equipo pide indicaciones cuando es necesario. Estamos facultados para tomar algunas decisiones.Ejecutar: nuestro equipo está facultado para definir CÓMO cumplir con la visión de nuestro Product Owner dentro de sus límites. Gestionamos nuestro propio tiempo y tareas.Fly: Nuestro equipo tiene total autonomía para diseñar la estrategia para cumplir con la visión. Esto puede incluir el diseño de nuestro equipo, la selección de miembros, la definición de experimentos y la interacción con los clientes finales cuando sea necesario.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 30 de 50 (60%)",
+                  "questionTooltips": "El propietario del producto habla sobre el rol de propietario del producto ágil identificado en los marcos ágiles. Para esta evaluación, el propietario del producto se usa indistintamente con el propietario de producto ágil.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Software/Hardware:Rastreo: no tenemos la infraestructura y las herramientas suficientes para lograr lo que se nos pide.Walk: Tenemos el software y las herramientas básicas que necesitamos para hacer nuestro trabajo. Sin embargo, es difícil aprovecharlos debido a las brechas de proceso/habilidades.Ejecutar: Hemos adquirido todas las herramientas/hardware necesarios que necesitamos, y estamos invirtiendo en desarrollar nuestras habilidades para aprovecharlas.Fly: aprovechamos continuamente nuestras herramientas empresariales y han mejorado significativamente la calidad, la velocidad, la transparencia y la previsibilidad de nuestra entrega.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 31 de 50 (62%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Prácticas Técnicas:Crawl: No tenemos mejores prácticas técnicas claramente definidas, ni es una prioridad para nuestros líderes. Se nos pide que simplemente hagamos el trabajo.Walk: Hemos definido las mejores prácticas técnicas específicas que todos deben seguir. Sin embargo, solo les siguen unos pocos.Ejecutar: Todos los miembros de nuestro equipo entienden y siguen nuestras mejores prácticas técnicas.Fly: Estamos continuamente evaluando, probando e incorporando nuevas prácticas y tecnologías. Estamos invirtiendo en el conocimiento y las habilidades de los miembros del equipo en torno a las prácticas técnicas según sea necesario.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 32 de 50 (64%)",
+                  "questionTooltips": "Para equipos de software, prácticas de muestra: revisiones de código, compilaciones diarias, TDD, cobertura de código, automatización de pruebas, CI/CD.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Pruebas:Rastreo: solo realizamos pruebas manuales. No tenemos el tiempo, las habilidades/roles o las herramientas que necesitamos para automatizar nuestras pruebas.Walk: Tenemos pruebas automatizadas creadas para nuestros casos de prueba de ruta crítica mínima. Disponemos de informes diarios sobre el estado de nuestras pruebas.Ejecutar: hemos automatizado todos nuestros casos de prueba objetivo. Estamos cumpliendo con nuestros objetivos de cobertura de prueba.Fly: construimos calidad a través de la inversión continua en automatización de pruebas y pruebas de extremo a extremo (usabilidad, funcionalidad, rendimiento).RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 33 de 50 (66%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Prácticas de desarrollo:Rastreo: no tenemos las mejores prácticas de ingeniería claramente definidas, ni es una prioridad para nuestros líderes. Se nos pide que simplemente hagamos el trabajo.Walk: Hemos definido las mejores prácticas de ingeniería específicas (como: confirmaciones de código frecuentes, pruebas unitarias, compilaciones automatizadas y diseño/revisión de código) que todos deben seguir. Sin embargo, solo les siguen unos pocos.Ejecutar: la mayoría de los miembros de nuestro equipo siguen nuestras mejores prácticas de ingeniería anteriores, y algunos practican métodos más avanzados (como TDD, emparejamiento o propiedad de código colectivo y otras prácticas de XP).Fly: Estamos continuamente evaluando, probando e incorporando nuevas prácticas y tecnologías. Estamos invirtiendo en la transferencia de conocimientos y el desarrollo de habilidades para los miembros de nuestro equipo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 34 de 50 (68%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Lanzamiento e implementación:Rastreo: tenemos solicitudes de cambio manual y scripts para escribir, e implementaciones y validaciones manuales seguidas de regresión manual.Walk: hemos invertido en la creación de scripts para compilar, implementar scripts y realizar pruebas. Sin embargo, se ejecutan manualmente y las aprobaciones también son manuales.Ejecutar: estamos aprovechando nuestras herramientas empresariales para automatizar la ejecución de los procesos de compilación, implementación y prueba (integración continua). La promoción del código entre diferentes entornos es manual junto con el proceso de aprobación.Volar: tenemos una canalización de entrega de extremo a extremo de implementación con un solo clic. Hemos automatizado la promoción del código de un entorno a otro. Las aprobaciones ahora utilizan un flujo de trabajo automatizado.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 35 de 50 (70%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Excelencia Técnica",
+              "competencyAbbreviation": "Excelencia Técnica",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Arquitectura:Rastreo: Tenemos sistemas heredados o aplicaciones que son muy riesgosas de tocar o modificar. Nuestros sistemas son frágiles.Caminata: nuestro líder técnico facilita las sesiones de revisión de código y diseño. Él / Ella proporciona orientación sobre nuestra arquitectura.Ejecutar: nuestra arquitectura surge a través de la colaboración y el diseño en equipo. Inspeccionamos y adaptamos intencionalmente para garantizar la alineación con la dirección estratégica de nuestra organización.Fly: Nuestra arquitectura ha permitido escalabilidad, estabilidad, extensibilidad, seguridad, adaptabilidad y facilidad de uso. Contamos con aplicaciones de alto rendimiento.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 36 de 50 (72%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Planificación y Estimación",
+              "competencyAbbreviation": "Planificación y Estimación",
+              "competencyId": 3618,
+              "question": [
+                {
+                  "question": "Planificación y estimación:Rastreo: nos cuesta desglosar y dimensionar nuestro trabajo, O alguien más puede dimensionar nuestro trabajo en nombre del equipo.Caminar: Dividimos el trabajo en partes más pequeñas que pueden caber en un espacio de tiempo corto. Aprovechamos el tamaño relativo (o la duración) para estimar nuestro trabajo. Dimensionamos nuestro trabajo colaborativamente como un equipo.Ejecutar: Manejamos bien la complejidad de nuestro trabajo y podemos dimensionar nuestra cartera de pedidos con relativa facilidad y rapidez. Planeamos varias iteraciones por adelantado (si es necesario).Fly: nuestro equipo puede predecir de manera proactiva nuestro rendimiento. Ajustamos efectivamente el plan a medida que aprendemos más.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 37 de 50 (74%)",
+                  "questionTooltips": "Volar por los asientos de nuestros pantalones = no planificar con anticipación. Dimensionamiento relativo = Uso de métricas como puntos de historia o dimensionamiento de camiseta donde cada elemento se compara como más grande/más pequeño que el que está al lado. Métodos de tamaño de muestra = puntos de historia, tiempo de ciclo, rendimiento, horas, días.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Reuniones efectivas > Planificación:Crawl: No planificamos, solo ejecutamos las tareas que nos asignan.Caminar: Planificamos nuestro trabajo. Sin embargo, las historias no tienen ni claridad ni definición.Ejecutar: Estamos preparados para planificar con prioridades y definiciones claras para cada historia.Fly: nuestro equipo aprovecha los modelos visuales y las herramientas modernas para planificar nuestro trabajo. Aprovechamos los modelos a lo largo de la entrega (ejemplo: personas, trabajos por hacer, BDD, wireframes, hipótesis lean).RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 38 de 50 (76%)",
+                  "questionTooltips": "Los marcos ágiles generalmente fomentan el uso de 'ceremonias' con preferencia al término 'reuniones'.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Reuniones efectivas > Reunión diaria:Rastreo: no tenemos stand-ups diarios, O los tenemos de manera inconsistente. Son reuniones de estado.Caminar: tenemos reuniones diarias de pie, pero duran más de 15 minutos. No todos asisten a tiempo.Ejecutar: Completamos nuestro stand-up en 15 min. Superamos los impedimentos y nos responsabilizamos unos a otros. Tenemos un tiempo efectivo de colaboración posterior al stand-up.Fly: nuestro equipo organiza de forma orgánica el stand-up diario con o sin el facilitador de nuestro equipo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 39 de 50 (78%)",
+                  "questionTooltips": "El marco ágil generalmente fomenta el uso de 'ceremonias' con preferencia al término 'reuniones'.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "ARRASTRE 1-2 | CAMINAR 3-5 | CARRERA: 6-8 | VUELO: 9-10Reuniones de revisión y demostración:Rastreo: la revisión y las demostraciones no se programan ni asisten regularmente. El propietario del producto no asiste a estas reuniones con regularidad.Caminar: los miembros de nuestro equipo revisan el trabajo completado con nuestro propietario del producto en una cadencia regular. Revisamos nuestro progreso contra nuestro plan. Venimos bien preparados para esta reunión.Ejecutar: nuestro propietario del producto y algunos miembros del equipo facilitan la demostración de nuestro trabajo completo a nuestro patrocinador y partes interesadas. Aprovechamos este tiempo para recibir sus comentarios y celebrar el éxito.Fly: nuestro propietario del producto involucra a nuestros usuarios/clientes reales para obtener comentarios e incorporamos sus comentarios en el trabajo que hacemos. Esto permite a nuestro equipo escuchar la voz de los clientes directamente.",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 40 de 50 (80%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "ARRASTRE 1-2 | CAMINAR 3-5 | CARRERA: 6-8 | VUELO: 9-10Retrospectivo:Crawl: No tenemos tiempo para hacer retrospectivas O las tenemos pero no agregan valor.Caminata: Programamos retrospectivas en una cadencia regular acordada. Se muestran elementos de acción claros.Ejecutar: los elementos de las retrospectivas se activan inmediatamente (se incluyen en nuestro trabajo de iteración) o se escalan según sea necesario. Los repasamos en la próxima retrospectiva.Fly: aprovechamos las nuevas técnicas y los cambios de lugar para que los retros sigan siendo atractivos y efectivos. Hemos crecido considerablemente debido al impacto de nuestros elementos de crecimiento retrospectivo.",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 41 de 50 (82%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Reuniones efectivas > Revisión y demostración:Rastreo: la revisión y las demostraciones no se programan ni asisten regularmente. El propietario del producto no asiste a estas reuniones con regularidad.Caminar: los miembros de nuestro equipo revisan el trabajo completado con nuestro propietario del producto en una cadencia regular. Revisamos nuestro progreso contra nuestro plan. Venimos bien preparados para este encuentro.Ejecutar: nuestro propietario del producto y algunos miembros del equipo facilitan demostraciones de nuestro trabajo completo a nuestro patrocinador y partes interesadas. Aprovechamos este tiempo para recibir sus comentarios y celebrar el éxito.Fly: todo el equipo involucra a nuestros usuarios/clientes reales para obtener comentarios, e incorporamos sus comentarios en el trabajo que hacemos. Esto permite a nuestro equipo escuchar la voz de los clientes directamente.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 42 de 50 (84%)",
+                  "questionTooltips": "El marco ágil generalmente fomenta el uso de 'ceremonias' con preferencia al término 'reuniones'.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Reuniones Efectivas",
+              "competencyAbbreviation": "Reuniones Efectivas",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Reunión Efectiva > Retrospectiva:Crawl: No tenemos tiempo para hacer retrospectivas, O las tenemos pero no agregan valor.Caminata: Programamos retrospectivas en una cadencia regular acordada. Se muestran elementos de acción claros.Ejecutar: los elementos de las retrospectivas se activan inmediatamente (se incluyen en nuestro trabajo de iteración) o se escalan según sea necesario. Los repasamos en la próxima retrospectiva.Fly: aprovechamos las nuevas técnicas y los cambios de lugar para que los retros sigan siendo atractivos y efectivos. Hemos crecido considerablemente debido al impacto de nuestros elementos de crecimiento retrospectivo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 43 de 50 (86%)",
+                  "questionTooltips": "El marco ágil generalmente fomenta el uso de 'ceremonias' con preferencia al término 'reuniones'.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Fundación - Agilidad\""
+            }
+          ]
+        },
+        {
+          "headerName": "Fundación - Estructura de equipo",
+          "descriptionOne": "La estructura de su equipo (tamaño, habilidades, entorno de trabajo físico o virtual) tiene un GRAN impacto en su desempeño.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "descriptionTwo": "La estructura de su equipo (tamaño, habilidades, entorno de trabajo físico o virtual) tiene un GRAN impacto en su desempeño.\r\n\r\n\r\n¿Hasta qué punto está de acuerdo con las siguientes afirmaciones? Califique de acuerdo con la escala CRAWL (1-2), WALK (3-5), RUN (6-8), FLY (9-10), teniendo en cuenta que cada nivel asume que ha alcanzado el nivel anterior.",
+          "competencies": [
+            {
+              "competencyName": "Tamaño y Habilidades",
+              "competencyAbbreviation": "Tamaño y Habilidades",
+              "competencyId": 3620,
+              "question": [
+                {
+                  "question": "Tamaño y habilidades:Rastreo: no contamos con las personas o las habilidades adecuadas para lograr nuestros objetivos actuales. Tenemos expertos limitados con capacidad restringida y no buscamos ayuda externa cuando es necesario.Caminar: Tenemos algunas de las personas o habilidades adecuadas en nuestros equipos, pero tenemos una fuerte dependencia de personas o equipos externos.Ejecutar: nuestro equipo tiene el tamaño adecuado y las habilidades necesarias para ofrecer valor de extremo a extremo.Fly: hemos dominado el \"aprendizaje continuo\" y podemos adquirir de manera efectiva las nuevas habilidades que necesitamos para lograr nuestros objetivos y resultados actuales.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 44 de 50 (88%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Asignación y Estabilidad",
+              "competencyAbbreviation": "Asignación y Estabilidad",
+              "competencyId": 3621,
+              "question": [
+                {
+                  "question": "Asignación y Estabilidad:Rastreo: muchos en nuestro equipo realizan múltiples tareas en otros equipos y están reasignados a otras prioridades.Caminar: algunos miembros del equipo central son estables, pero varios otros aún realizan múltiples tareas.Ejecutar: nuestro equipo central es dedicado y estable con poca transferencia de recursos.Volar: estamos coordinando proactivamente fuera de nuestro equipo según sea necesario, y rara vez nos encontramos con problemas con recursos externos. Inspeccionamos y adaptamos nuestra asignación y coordinación externa proactiva con regularidad.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 45 de 50 (90%)",
+                  "questionTooltips": "-",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Espacio de Trabajo",
+              "competencyAbbreviation": "Espacio de Trabajo",
+              "competencyId": 3622,
+              "question": [
+                {
+                  "question": "Espacio de trabajo físico: (Seleccione N/A si es remoto)Rastreo: los miembros de nuestro equipo están dispersos en varias oficinas/pisos sin un espacio de colaboración efectivo. Trabajamos en silos.Caminar: colaboramos programando reuniones de equipo, pero tenemos una colaboración física limitada más allá de estas sesiones.Ejecutar: hemos logrado la ubicación conjunta y todos nos sentamos en el mismo espacio de trabajo. Tenemos las herramientas de colaboración adecuadas.Fly: ¡Nos inspiramos en nuestro espacio de trabajo! Lo hemos diseñado intencionalmente para que sea divertido y eficaz para la colaboración y la visualización de nuestro trabajo.RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 46 de 50 (92%)",
+                  "questionTooltips": "Ejemplo de herramientas virtuales: intercambio de pantalla, pizarras virtuales, videos, chat, lluvia de ideas virtual, etc.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            },
+            {
+              "competencyName": "Espacio de Trabajo",
+              "competencyAbbreviation": "Espacio de Trabajo",
+              "competencyId": 3622,
+              "question": [
+                {
+                  "question": "Espacio de trabajo remoto: (Seleccione N/A si no trabaja de forma remota)Rastreo: como individuo, no tengo un espacio de trabajo remoto efectivo y no estoy configurado con las herramientas adecuadas. Nuestro equipo tiene varios desafíos trabajando de forma remota.Caminar: individualmente y en equipo, hemos invertido en la tecnología básica y las herramientas necesarias para trabajar de manera efectiva como un equipo remoto.Run: Individualmente y en equipo, hemos establecido acuerdos de trabajo, reuniones y la disciplina necesaria para trabajar de manera efectiva como un equipo remoto.Fly: Somos altamente productivos, comprometidos y colaborativos trabajando como un equipo remoto. ¡Hemos clavado el trabajo remoto!RASTREO: 1-2 | PASEO: 3-5 | CARRERA: 6-8 | VUELO: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Pregunta 47 de 50 (94%)",
+                  "questionTooltips": "Ejemplo de herramientas virtuales: intercambio de pantalla, pizarras virtuales, videos, chat, lluvia de ideas virtual, etc.",
+                  "validationMessage": "Responda esta pregunta para continuar"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Agregue cualquier pensamiento adicional sobre \"Fundación - Estructura de equipo\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Salvar",
+          "questionLabel": "Pregunta",
+          "sectionLabel": "Sección",
+          "validationMessage": "No has completado todas las preguntas. 0 de 19 preguntas respondidas",
+          "saveMessage": "Salvado"
+        }
+      ]
+    },
+    {
+      "dimensionName": "Finalizar",
+      "Finish": [
+        {
+          "openEndQuestionList": [
+            {
+              "openEndQuestionId": 3639,
+              "openEndQuestion": "¿Cuál ha sido el mayor logro de este equipo?",
+              "openEndQuestionDetail": "Pregunta 48 de 50 (96%)"
+            },
+            {
+              "openEndQuestionId": 3640,
+              "openEndQuestion": "¿Cuáles son uno o dos impedimentos principales fuera del control de este equipo que sus líderes deben abordar para llegar al siguiente nivel de madurez?",
+              "openEndQuestionDetail": "Pregunta 49 de 50 (98%)"
+            },
+            {
+              "openEndQuestionId": 6294,
+              "openEndQuestion": "Para que este equipo alcance el siguiente nivel de madurez y mejore la entrega de valor, ¿cuáles son una o dos mejoras (oportunidades de crecimiento) en las que debe centrarse este equipo?",
+              "openEndQuestionDetail": "Pregunta 50 de 50 (100%)"
+            }
+          ],
+          "footerButtonText": [
+            {
+              "saveButton": "Salvar",
+              "questionLabel": "Pregunta",
+              "sectionLabel": "Sección",
+              "finishButton": "Finalizar"
+            }
+          ],
+          "confirmFinishingDialogBox": [
+            {
+              "title": "Completar Evaluación",
+              "description": "¿Está seguro de que desea completar la evaluación? Después de completarlo, ya no podrá cambiar las respuestas ni las respuestas textuales.",
+              "okButton": "OK",
+              "cancelButton": "Cancelar"
+            }
+          ],
+          "lastPageMessage": [
+            {
+              "submitMessage": "Enviando su evaluación...",
+              "thankyouMessage": "Gracias"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+  

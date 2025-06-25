@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_orgleader_newnavigation@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Org",
+      "lastName": "Leader",
+      "companyName": "Automation_CA_NewNavigation (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "preprod",
+      "id": "80"
+    },
+    {
+      "environment": "atqa",
+      "id": "80"
+    },
+    {
+      "environment": "uat",
+      "id": "80"
+    }
+  ]
+}

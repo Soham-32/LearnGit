@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_bladmin@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Business Line",
+      "lastName": "Admin",
+      "companyName": "Automation_BL (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_bladmin1@agiletransformation.com",
+      "password": "12345678",
+      "newPassword": "asdfasdf",
+      "firstName": "Business Line1",
+      "lastName": "Admin",
+      "companyName": "Automation_BL (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "user 4",
+      "username": "ah_automation+ui_bladmin2@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_BL (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "translation",
+      "username": "ah_automation+ui_bladmintranslation@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_BL (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "member",
+      "username": "ah_automation+uniqueBL@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Unique",
+      "lastName": "BL",
+      "type": "Member"
+    },
+    {
+      "description": "facilitator",
+      "username": "ah_automation@agiletransformation.com",
+      "password": "Agile4me",
+      "type": "CompanyAdmin",
+      "firstName": "Automated",
+      "lastName": "Testing"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsBL@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Business",
+      "lastName": "Line",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "ntier user",
+      "username": "ah_automation+ntierBLA@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "NTier",
+      "lastName": "BLAdmin",
+      "companyName": "Automation_N-Tier (DO NOT USE)",
+      "type": "BusinessLineAdmin"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "73"
+    },
+    {
+      "environment": "qa",
+      "id": "73"
+    },
+    {
+      "environment": "atqa",
+      "id": "73"
+    },
+    {
+      "environment": "uat",
+      "id": "73"
+    },
+    {
+      "environment": "ttndev",
+      "id": "73"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "73"
+    },
+    {
+      "environment": "preprod",
+      "id": "73"
+    },
+    {
+      "environment": "load",
+      "id": "73"
+    }
+  ]
+}

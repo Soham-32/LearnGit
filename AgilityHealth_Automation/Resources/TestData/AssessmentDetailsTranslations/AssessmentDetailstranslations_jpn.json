@@ -1,0 +1,229 @@
+﻿{
+  "language": "Japanese",
+  "headerJumpLinkNames": [
+    "アイデアボード",
+    "レーダー",
+    "分析",
+    "寸法注記",
+    "成長の機会",
+    "障害",
+    "強み",
+    "成長計画",
+    "指標の概要"
+  ],
+  "filterSidebarSection": [
+    "フィルターアウェイ！",
+    "下のフィルターをクリックすると、ページが少し見やすくなります。",
+    "* の参加者グループは、そのコンピテンシーの質問に回答した人が 2 人未満であるため、そのコンピテンシーは空白です。"
+  ],
+  "assessmentDetails": {
+    "radarViewDropDownValues": [
+      "概要",
+      "詳細",
+      "ベンチマーク"
+    ],
+    "benchmarkingPopupDetails": [
+      {
+        "benchmarkingPopupTitle": "ベンチマーク オプション",
+        "benchmarkingPopupViewMessage": "ベンチマークを使用すると、自分のチームが他のチームに対してどのように行動しているかを分析できます。 以下のベンチマーク オプションを選択してください。",
+        "benchmarkingOption": "ベンチマーク オプション",
+        "benchmarkingOptionsDropdownValues": [
+          "すべてのチーム",
+          "仕事の種類",
+          "成熟"
+        ],
+        "benchmarkingWorkType": "仕事の種類",
+        "workTypeDropdown": [
+          "事業運営",
+          "機能チーム",
+          "個人のグループ",
+          "売店",
+          "SAFe - リリース管理",
+          "サービスとサポート",
+          "ソフトウェア配信"
+        ],
+        "benchmarkingMaturity": "成熟",
+        "maturityDropDown": [
+          "プレクロール",
+          "クロール",
+          "歩く",
+          "走る",
+          "飛ぶ",
+          "わからない"
+        ],
+        "benchmarkingPopupButton": [
+          "キャンセル",
+          "選択する"
+        ]
+      }
+    ]
+  },
+  "actionIconSection": {
+    "actionIconNames": [
+      "レポートの生成",
+      "質問キーの生成",
+      "PDFにエクスポート",
+      "非表示のコメントをビューから削除"
+    ],
+    "exportToPDFPopup": {
+      "exportToPDFPopupTitle": "PDF を生成する",
+      "exportToPDFPopupQuestion": "何を含めますか？",
+      "exportToPDFPopupOptions": [
+        "分析",
+        "詳細レーダー",
+        "ノート",
+        "成長計画",
+        "サマリーレーダー",
+        "成長の機会",
+        "障害",
+        "強み",
+        "評価メモ",
+        "評価チェックリスト"
+      ],
+      "exportToPDFPopupCreatePDFButton": "PDFを作成"
+    },
+    "removeHideCommentsViewPopup": {
+      "hideCommentsViewPopupTitle": "非表示のコメントをビューから削除",
+      "hideCommentsViewPopupMessages": [
+        "非表示のすべてのコメントをビューから削除しようとしています。 これにより、現在非表示になっているすべてのコメントが画面から消えます。",
+        "これを実行してもよろしいですか？"
+      ],
+      "hideCommentsPopupButtons": [
+        "いいえ、キャンセルします",
+        "はい、続行します"
+      ]
+    },
+    "displayHiddenCommentsPopup": {
+      "displayHiddenCommentsPopupTitle": "非表示のコメントを表示",
+      "DisplayHiddenCommentsPopuViewMessage": [
+        "非表示のコメントをすべて表示しようとしています。 これにより、現在削除されている非表示のコメントがすべて画面に表示されます。",
+        "これを実行してもよろしいですか？"
+      ],
+      "unHideCommentsPopupButtons": [
+        "いいえ、キャンセルします",
+        "はい、続行します"
+      ]
+    }
+  },
+  "analyticsSection": {
+    "analyticsHeaderTitle": "分析",
+    "analyticsCards": [
+      {
+        "topFiveCompetencies": [
+          {
+            "topFiveCompetenciesTitle": [
+              "トップ5",
+              "コンピテンシー"
+            ]
+          }
+        ],
+        "lowestFiveCompetencies": [
+          {
+            "lowestFiveCompetenciesTitle": [
+              "最低 5",
+              "コンピテンシー"
+            ]
+          }
+        ],
+        "fiveHighestConsensusCompetencies": [
+          {
+            "fiveHighestConsensusCompetenciesTitle": [
+              "5 最高のコンセンサス",
+              "コンピテンシー"
+            ],
+            "tooltipConsensus": {
+              "fiveHighestConsensusTooltipDescription": "上位 5 つのコンセンサス コンピテンシーは、チームが全員同じ認識を持っており、特定のコンピテンシーが最大の成長機会であっても、そのコンピテンシーに関して全員が同じように感じていることを示しています。",
+              "fiveHighestConsensusTooltipSupportArticleLink": "サポート記事: コンセンサスはどのように計算されますか?"
+            }
+          }
+        ],
+        "fiveLowestConsensusCompetencies": [
+          {
+            "fiveLowestConsensusCompetenciesTitle": [
+              "5 最低のコンセンサス",
+              "コンピテンシー"
+            ],
+            "tooltipConsensus": {
+              "fiveLowestConsensusTooltipDescription": "コンセンサス コンピテンシーが最も低い上位 5 つは、チーム メンバーの意見が一致しておらず、これらのコンピテンシーについて非常に異なる見解や意見を持っていることを示しています。",
+              "fiveLowestConsensusTooltipSupportArticleLink": "サポート記事: コンセンサスはどのように計算されますか?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "commentSection": {
+    "teamCommentsTitle": "チームのコメント",
+    "stakeholderCommentsTitle": "利害関係者のコメント",
+    "hideAllTeamCommentsButton": "すべてのチーム コメントを非表示",
+    "hideAllStakeholderCommentsButton": "利害関係者のコメントを非表示",
+    "hideAllTeamCommentsPopup": {
+      "hideAllTeamCommentsPopupTitle": "すべてのチーム コメントを非表示",
+      "hideAllTeamCommentsInfo": [
+        "すべてのチーム コメントを非表示にしようとしています。",
+        "本気ですか？"
+      ],
+      "yesProceedButton": "はい、続行します",
+      "noCancelButton": "いいえ、キャンセルします"
+    },
+    "unHideAllTeamCommentsButton": "すべてのチーム コメントを再表示",
+    "unHideAllTeamCommentsPopup": {
+      "unHideAllTeamCommentsPopupTitle": "すべてのチーム コメントを再表示",
+      "unHideAllTeamCommentsInfo": [
+        "すべてのチーム コメントを再表示しようとしています",
+        "本気ですか？"
+      ],
+      "yesProceedPopupButton": "はい、続行します",
+      "noCancelPopupButton": "いいえ、キャンセルします"
+    },
+    "hideAllStakeholderCommentsPopup": {
+      "hideAllStakeholderCommentsPopupTitle": "利害関係者のコメントを非表示",
+      "hideAllStakeholderCommentsInfo": [
+        "すべての利害関係者のコメントを非表示にしようとしています。",
+        "本気ですか？"
+      ],
+      "yesProceedButton": "はい、続行します",
+      "noCancelButton": "いいえ、キャンセルします"
+    },
+    "unHideAllStakeholderCommentsButton": "すべての利害関係者のコメントを再表示",
+    "unHideAllStakeholderCommentsPopup": {
+      "unHideAllStakeholderCommentsPopupTitle": "すべての利害関係者のコメントを再表示",
+      "unHideAllStakeholderCommentsInfo": [
+        "すべての利害関係者のコメントを再表示しようとしています",
+        "本気ですか？"
+      ],
+      "yesProceedPopupButton": "はい、続行します",
+      "noCancelPopupButton": "いいえ、キャンセルします"
+    },
+    "buttons": {
+      "editButton": "編集",
+      "updateAndCancelButton": {
+        "updateButton": "アップデート",
+        "cancelButton": "キャンセル"
+      },
+      "hideButton": "隠す",
+      "unHideButton": "再表示"
+    }
+  },
+  "growthOpportunitiesSection": {
+    "growthOpportunitiesTitle": "成長の機会",
+    "description": "説明"
+  },
+  "impedimentsSection": {
+    "impedimentsTitle": "障害",
+    "description": "説明"
+  },
+  "strengthsSection": {
+    "strengthsTitle": "強み",
+    "description": "説明"
+  },
+  "growthPlanSection": {
+    "growthPlanTitle": "成長計画",
+    "growthPlanDescription": [
+      "あなたのチームの成長計画は、これの実際のアウトプットですTeamHealth 3.0評価。 チームの成長バックログと考えてください。",
+      "今後数か月でチームの健全性とパフォーマンスを次のレベルに引き上げることができる実用的な項目を特定します。"
+    ],
+    "addNewItemButton": "新しいアイテムを追加する",
+    "touchActionDescription": "列ヘッダーをドラッグしてここにドロップし、その列でグループ化します"
+  }
+}

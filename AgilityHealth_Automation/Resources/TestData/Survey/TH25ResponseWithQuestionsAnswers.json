@@ -1,0 +1,1307 @@
+{
+  "surveyId": 131,
+  "surveyUid": "a838865d-ad07-ea11-828b-0004ffe2d821",
+  "name": "AT - TH2.5 - DO NOT USE",
+  "dimensions": [
+
+    {
+      "dimensionId": 638,
+      "name": "Clarity",
+      "subdimensions": [
+        {
+          "subdimensionId": 1226,
+          "name": "Vision",
+          "competencies": [
+            {
+              "competencyId": 4414,
+              "name": "Goals & Outcomes",
+            
+              "questions": [
+                {
+                  "questionId": 6198,
+                  "questionValue": [
+                    {
+                      "Value": "10"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Goals &amp; Outcomes:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not really have any defined goals or measurable outcomes. </p><p>Walk: We do create goals and measures for success. However, they are 'output' not 'value' focused, and not everyone is aware of them. </p><p>Run: We are creating 'outcome' driven goals that are well defined. However, we don't track how we're doing against them. </p><p>Fly: We set short-term 'outcome' driven goals, and we review our progress against them frequently. Everyone on the team can give a 60 second elevator speech describing our outcomes.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4415,
+              "name": "Vision & Purpose",
+             
+              "questions": [
+                {
+                  "questionId": 6199,
+                  "questionValue": [
+                    {
+                      "Value": "9"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Vision &amp; Purpose:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our team does not have clarity on our vision and purpose. We are not sure where we are headed and do not have clear priorities.</p><p>Walk: A few members of our team, who work closely with the Product Owner, understand our purpose, direction, and priorities. We have a general understanding of our customer/user needs.</p><p>Run: We all have clarity on our team's vision and where we should focus now. We have clarity on our customer's needs, and we are aligned with the quarterly strategy and goals.</p><p>Fly: We engage with our customers often and are aligned around their needs and desired business outcomes. We are engaged in evolving our vision and future direction.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1227,
+          "name": "Planning",
+          "competencies": [
+            {
+              "competencyId": 4416,
+              "name": "Weekly/ Iteration",
+           
+              "questions": [
+                {
+                  "questionId": 6200,
+                  "questionValue": [
+                    {
+                      "Value": "8"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Weekly/Iteration:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have a daily or weekly plan. We just get work done day by day with no plan or strategy.</p><p>Walk: We do plan our upcoming iteration (usually 1-4 weeks). Our plan changes frequently causing several items to fall through and not be completed. </p><p>Run: We have a stable weekly iteration plan that we can predictably execute against. We now manage unplanned work effectively. </p><p>Fly: We have become effective at maximizing throughput, eliminating bottlenecks, and incorporating feedback from of our customers/users into our plans.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4417,
+              "name": "Monthly/ Release",
+         
+              "questions": [
+                {
+                  "questionId": 6201,
+                  "questionValue": [
+                    {
+                      "Value": "7"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Monthly/Release:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We know what we are doing in the current iteration/month (2- 4 weeks) but don't have a plan beyond that. </p><p>Walk: We have a plan for the next few iterations/months, but it changes so frequently it is hard to execute against it. </p><p>Run: We have a stable release/monthly plan that incorporates cross-team dependencies (if applicable).</p><p>Fly: We have become effective at executing against our release/monthly plan while adapting to change and incorporating learnings from customers.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4418,
+              "name": "Quarterly/ Roadmap",
+             
+              "questions": [
+                {
+                  "questionId": 6202,
+                  "questionValue": [
+                    {
+                      "Value": "6"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Quarterly/Roadmap:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We don't really have a plan past the current quarter or release. </p><p>Walk: We have a rough quarterly plan but it is only shared with a few people, not the entire team. </p><p>Run: We have visibility and clarity on the high level deliverables for the next few quarters/releases.</p><p>Fly: We have regular reviews of our quarterly/release roadmap, understand and collaborate on changes, and ensure alignment across our teams with the overall vision and strategy.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1228,
+          "name": "Roles",
+          "competencies": [
+            {
+              "competencyId": 4419,
+              "name": "Generalizing Specialists",
+             
+              "questions": [
+                {
+                  "questionId": 6203,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Generalizing Specialists:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I am not sure what \"Generalizing Specialist\" or \"T-Shaped\" means.  I do my own tasks, and others do theirs. </p><p>Walk: We understand the concept and value of being a Generalizing Specialist, and a few team members pitch in to help outside of their role. </p><p>Run: We have invested in cross-training. Several of us are willing, capable, and often step outside of our own roles to help when bottlenecks occur. </p><p>Fly: Everyone on the team has a backup that can take over their work if they are not available. Everyone proactively steps up to help.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4420,
+              "name": "Roles ",
+            
+              "questions": [
+                {
+                  "questionId": 6204,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Roles &amp; Expectations:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We are not sure who does what on the team OR I am not confident we even have the right people/roles we need.</p><p>Walk: I have clarity on my role and what others on the team do. I feel confident we have the right people and roles we need to meet our current deliverables. </p><p>Run: We have created clear expectations of what we need from each role, and we measure against these expectations to inspect and adapt. </p><p>Fly: We are comfortable and feel safe giving each other open/honest feedback to help each other grow in their role to meet the team's expectations.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": 635,
+      "name": "Leadership",
+      "subdimensions": [
+        {
+          "subdimensionId": 1219,
+          "name": "Team Facilitator",
+          "competencies": [
+            {
+              "competencyId": 4390,
+              "name": "Impediment Management",
+           
+              "questions": [
+                {
+                  "questionId": 6159,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Impediment Management:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We get stuck frequently. We face many impediments and distractions that are beyond our control and impact our delivery. </p><p>Walk: Our team facilitator is starting to manage impediments and shield us from distractions to the best of their ability.</p><p>Run: Our team facilitator is effective at facilitating the removal of our impediments and managing dependencies in and outside of our team. </p><p>Fly: We as a team are fully empowered to remove impediments and distractions and manage dependencies inside and outside the team so that we can achieve our goals.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4391,
+              "name": "Leadership",
+            
+              "questions": [
+                {
+                  "questionId": 6160,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our team facilitator leads using a controlling/directive style. We are not empowered to bring up issues or concerns. </p><p>Walk: Our team facilitator provides effective guidance and helps us stay focused on our goals. </p><p>Run: Our team facilitator leads by example and has the key traits of a servant leader (serves, actively listens, coaches, and empowers others). </p><p>Fly: Our team facilitator has fully empowered our team so that we are self-organizing. Several individuals on our team have developed leadership skills.&nbsp;</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4392,
+              "name": "Effective Facilitation",
+            
+              "questions": [
+                {
+                  "questionId": 6161,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Facilitation:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our team has several interpersonal and team dynamic issues that impede our meetings, and our facilitator struggles to control these.</p><p>Walk: Our team has some interpersonal and team dynamic issues, but our team facilitator is good at helping our team with those issues.</p><p>Run: Interpersonal and team dynamic issues happen occasionally, but our team facilitator is great at helping our team with consensus building, resolving conflict, and managing dysfunctions. </p><p>Fly: Our team facilitator has helped elevate our team culture and dynamics to new levels of maturity that built on trust, respect, accountability, and collaborative decision making.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6162,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Facilitation:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have an effective team facilitator OR our meetings are a waste of time and not results driven. </p><p>Walk: We have an effective team facilitator who manages and runs our team meetings, but there is room for improvement. </p><p>Run: Our meetings are valuable because we have an effective team facilitator who plans ahead, executes collaborative sessions well, and manages follow up items. </p><p>Fly: Anyone on our team can effectively facilitate any of our team sessions without the need for our team facilitator. We continuously invest in improving our facilitation skills.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1220,
+          "name": "Technical Lead(s)",
+          "competencies": [
+            {
+              "competencyId": 4393,
+              "name": "Technical  Expertise",
+             
+              "questions": [
+                {
+                  "questionId": 6163,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Technical Expertise:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Technical Lead does not engage with our business customers and users.</p><p>Walk: Our Technical Lead occasionally engages with the business to understand and help meet their immediate needs.</p><p>Run: Our Technical Lead frequently engages with the business to define practical short-term and long-term solutions. They have acquired both technical and business expertise.</p><p>Fly: Our Technical Lead is a trusted partner to the PO and customers. They proactively collaborate to align technology with desired business outcomes.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6164,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Technical Expertise:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have technical leadership or someone to go to; we figure things out on our own without much guidance or validation.</p><p>Walk: Our technical lead has intermediate level knowledge in the subject area and provides general guidance when needed.</p><p>Run: Our technical lead has strong knowledge and experience, provides solid guidance, and helps the team solve technical impediments.</p><p>Fly: Our technical lead is a true expert. They consistently collaborate with the team to design the best solutions that align with our strategic direction and enterprise architecture.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4394,
+              "name": "Leadership",
+            
+              "questions": [
+                {
+                  "questionId": 6165,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Technical lead uses a controlling/directive style. We do not get much coaching or mentoring from them. </p><p>Walk: Our Technical lead provides good solutions and recommendations but is too busy to coach/mentor others. </p><p>Run: Our Technical lead invests in coaching, mentoring, pairing, and improving our skills individually and as a team. </p><p>Fly: Many of us on the team have acquired strong technical skills in different domains. We do not rely on only one or two individuals.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1221,
+          "name": "Product Owner",
+          "competencies": [
+            {
+              "competencyId": 4395,
+              "name": "Leadership",
+           
+              "questions": [
+                {
+                  "questionId": 6166,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership (Tech Debt Management):</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our product owner drives us towards completing business related backlog items and makes no time or capacity for the team to manage technical debt items. </p><p>Walk: Our Product Owner works with our Technical Lead to balance the backlog with business deliverables along with technical debt items. </p><p>Run: Our Product Owner and Technical Lead work to ensure our architectural runway aligns well with the overall direction and strategy. We make time to work on technical debt and maturing our architecture.</p><p>Fly: Our Product Owner enables our team to dedicate entire iterations, or even releases, to catching up on technical debt and investing in strengthening our core foundation.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6167,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Product Owner is focused at leading the tactical execution of our work (planning, backlog management, team engagement, feedback).</p><p>Walk: Our Product Owner is very focused on delivering the highest tangible customer value with great user experience. </p><p>Run: Our Product Owner is aligned to the strategic direction (vision, roadmap) and performs discovery for our next release/quarter of work. </p><p>Fly: Additionally, our Product Owner inspires the team to solve customer problems in creative and innovative ways. Our team can now anticipate our customer needs.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4396,
+              "name": "Backlog Management",
+            
+              "questions": [
+                {
+                  "questionId": 6168,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Backlog Management:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Product Owner makes frequent changes to our priorities; we can't finish what we start.</p><p>Walk: Our Product Owner lets us focus on what we planned to do within an iteration with minimal changes, but we still get requests from others.</p><p>Run: All our work is managed by our Product Owner and provides focus to us to finish what we start. </p><p>Fly: Our Product Owner proactively works ahead with stakeholders/customers to define their needs. They protect us from too many distractions.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6169,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Backlog Management:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Product Owner does not really manage or refine our backlog. He/she delegates this&nbsp;to others. </p><p>Walk: Our Product Owner manages our backlog, although stories are usually not well defined at the start of the iteration.</p><p>Run: Our Product Owner is effective at keeping the backlog ranked and refined. Stories have good acceptance criteria and are usually ready to bring into an iteration. </p><p>Fly: Our Product Owner, collaboratively with the team, masterfully manages our backlog and effectively plans ahead for future iterations. Stories are clearly written, sliced appropriately, and are always ready for the team to pull.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4397,
+              "name": "Engagement",
+             
+              "questions": [
+                {
+                  "questionId": 6170,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Engagement with Sponsor/Customers/Stakeholders:&nbsp;&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our Product Owner does not represent our customers and has little engagement with stakeholders and actual users. </p><p>Walk: Our Product Owner occasionally engages with our sponsor, stakeholders, and users.  Sometimes this leads to us missing some of their requirements. </p><p>Run: Our Product Owner frequently engages with our sponsor, stakeholders, and users.  They manage stakeholder and user expectations well.</p><p>Fly: Our Product Owner effectively represents the voice of our team to others and consistently engages us directly with customers.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6171,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Engagement with Team:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have a Product Owner representing our customers but have a proxy filling in for them; OR we have a Product Owner who is not engaged or empowered to make decisions. </p><p>Walk: We have a Product Owner, but he/she is busy and has limited time to engage and answer questions which causes rework. </p><p>Run: Our Product Owner engages frequently with our team and is available for decisions when needed.</p><p>Fly: Our Product Owner engagement is so effective that now many members of our team can predict and anticipate their needs and way of thinking.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1222,
+          "name": "Management",
+          "competencies": [
+            {
+              "competencyId": 4398,
+              "name": "Process Improvement",
+            
+              "questions": [
+                {
+                  "questionId": 6172,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership:</strong><br><em>This applies to the manager you report to. Select N/A if this doesn't apply.</em></p><div class=\"breakHereForQuestion\"></div><p>Crawl: My manager is too busy managing work and fighting fires. So, we are stuck living with how things currently operate. </p><p>Walk: My manager tries to improve processes and remove obstacles we have identified, but many issues are out of their control. </p><p>Run: My manager makes it a priority to remove our obstacles and implement lean process improvements. They have built healthy relationships with stakeholders. </p><p>Fly: My manager has actually removed significant obstacles and/or made process improvements which have resulted in measurable gains to our speed and quality.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4399,
+              "name": "Develop People",
+             
+              "questions": [
+                {
+                  "questionId": 6173,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Leadership:</strong><br><em>This applies to the manager you report to. Select N/A if this doesn't apply.</em></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I do not see my manager very often, and when we meet, we are focused on my tasks. </p><p>Walk: My manager occasionally works with me to develop my skills and abilities.</p><p>Run: My manager meets with me as often as needed and has helped me grow in my role and interpersonal skills.</p><p>Fly: My manager has empowered me to chose my future growth path and invest in my own learning. I've become a mentor for others.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4400,
+              "name": "Leadership",
+            
+              "questions": [
+                {
+                  "questionId": 6174,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><em></em><strong>Leadership:</strong></p><div class=\"breakHereForQuestion\"></div><p><strong></strong><em>This applies to the manager you report to. Select N/A if this doesn't apply.&nbsp;</em></p><p>Crawl: My manager still manages my tasks and can be directive/controlling. </p><p>Walk: My manager has stepped back from managing tasks and empowers me and the team to self-organize and make decisions around our work. </p><p>Run: My manager is a role model who walks the walk and represents our core leadership values well (as defined by your company).</p><p>Fly: My manager has inspired me with the purpose of our team and our work. They are a trusted partner for the business, our Product Owner, and team facilitator/ScrumMaster.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": 636,
+      "name": "Culture",
+      "subdimensions": [
+        {
+          "subdimensionId": 1223,
+          "name": "Team Dynamics",
+          "competencies": [
+            {
+              "competencyId": 4401,
+              "name": "Accountability",
+            
+              "questions": [
+                {
+                  "questionId": 6175,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Accountability:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Several members of our team do not have a sense of accountability or commitment. It's frustrating!</p><p>Walk: We bring visibility into who is accountable for what (ex: during Daily Stand-up). However, we still point fingers when commitments are not met. </p><p>Run: The majority of us do what we say we will do or ask others for help when needed. We are willing to help when asked. </p><p>Fly: We are all mutually accountable for our team's success and step in many times to help each other. We are in this together!</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4402,
+              "name": "Creativity & Innovation",
+            
+              "questions": [
+                {
+                  "questionId": 6176,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Creativity &amp; Innovation:</strong>&nbsp;</p><div class=\"breakHereForQuestion\"></div><p>Crawl: We are focused on getting work done as it's been defined for us. No one has time to be creative, nor is it encouraged.</p><p>Walk: We are encouraged to think outside-of-the-box. However, we are constrained by existing solutions. It is not safe to fail or try new things. </p><p>Run: We are empowered to design creative ideas to solve problems and challenge existing solutions. It is safe to experiment and learn. </p><p>Fly: We have designed several innovative solutions that our customers have been thrilled with! We make time for innovation (ex: hack-a-thons, innovation cycles).</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4403,
+              "name": "Trust & Respect",
+             
+              "questions": [
+                {
+                  "questionId": 6177,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Trust &amp; Respect:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We have trust and respect issues within this team. Several members have fear of speaking up or feel like they have to watch their back. </p><p>Walk: We have improved our trust issues. Several team members are more comfortable sharing their ideas, but not all. </p><p>Run: We talk openly about trust and respect. We have pro-actively improved our trust and respect for each other. We have created an open, transparent, and safe atmosphere. </p><p>Fly: We assume positive intent in people's actions, and we have acquired the skills to resolve our internal conflicts in a healthy way.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4404,
+              "name": "Collaboration",
+            
+              "questions": [
+                {
+                  "questionId": 6178,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Collaboration:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We work mostly as individuals and only talk when necessary.</p><p>Walk: We are cooperating with each other by having a common goal, sharing information, and coordinating work to reach this goal. </p><p>Run: We are collaborating with each other by making it safe to share ideas, having healthy and honest debates, empowering specific roles to make decisions, or reaching consensus as a team. </p><p>Fly: We have designed strong solutions together that solve our highest customer needs. We encourage diversity of ideas from inside and outside of our team.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4405,
+              "name": "Happiness",
+            
+              "questions": [
+                {
+                  "questionId": 6179,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Happiness:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I wish I worked somewhere else!</p><p>Walk: I have some team members that I enjoy working with, but a few...not so much. Work is not inspiring.</p><p>Run: I enjoy working with this team. We continue to improve our work and invest in our relationships. </p><p>Fly: I love working with this team, and I am inspired by the work we do for our customers. I cannot imagine working anywhere else!</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": 637,
+      "name": "Foundation",
+      "subdimensions": [
+        {
+          "subdimensionId": 1224,
+          "name": "Agility",
+          "competencies": [
+            {
+              "competencyId": 4406,
+              "name": "Effective Meetings",
+            
+              "questions": [
+                {
+                  "questionId": 6180,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Meeting &gt; Retrospective:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have time to do retrospectives, OR we do have them but they do not add value.&nbsp;</p><p>Walk: We schedule retrospectives on a regular agreed upon cadence. Clear action items are surfaced.&nbsp;</p><p>Run: Items from retrospectives are immediately actioned (included in our iteration work), or escalated as needed. We review them in the next retrospective.&nbsp;</p><p>Fly: We leverage new techniques and venue changes to keep retros engaging and effective. We have grown measurably due to the impact of our retrospective growth items.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6181,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Meetings &gt; Review and Demo:</strong>&nbsp;</p><div class=\"breakHereForQuestion\"></div><p>Crawl: Review and demos are not regularly scheduled or attended. Product Owner does not attend these meetings regularly.&nbsp;</p><p>Walk: Our team members review the completed work with our Product Owner on a regular cadence. We review our progress against our plan. We come well prepared for this meeting.&nbsp;</p><p>Run: Our Product Owner and a few team members facilitate demos of our completed work to our sponsor and stakeholders. We leverage this time to get their feedback and celebrate success.&nbsp;</p><p>Fly: The entire team engages our actual users/customers to get feedback, and we incorporate their feedback into the work we do. This enables our team to hear the voice of customers directly.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6182,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><span style=\"font-size: 12px\">CRAWL 1-2 | WALK 3-5 | RUN: 6-8 | FLY: 9-10</span></p><div class=\"breakHereForQuestion\"></div><p><strong><span style=\"font-size: 12px\"></span>Retrospective:</strong></p><p>Crawl: We do not have time to do retrospectives OR we do have them but they do not add value. </p><p>Walk: We schedule retrospectives on a regular agreed upon cadence. Clear action items are surfaced. </p><p>Run: Items from retrospectives are immediately actioned (included in our iteration work), or escalated as needed. We review them in the next retrospective. </p><p>Fly: We leverage new techniques and venue changes to keep retros engaging and effective. We have grown measurably due to the impact of our retrospective growth items.</p>"
+                },
+                {
+                  "questionId": 6183,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p>CRAWL 1-2 | WALK 3-5 | RUN: 6-8 | FLY: 9-10</p><div class=\"breakHereForQuestion\"></div><p><strong>Review and Demo Meetings:&nbsp;</strong></p><p>Crawl: Review and demos are not regularly scheduled or attended. Product Owner does not attend these meetings regularly </p><p>Walk: Our team members review the completed work with our Product Owner on a regular cadence. We review our progress against our plan. We come prepared well for this meeting.   \n</p><p>Run: Our Product Owner and a few team members facilitate the demo of our completed work to our sponsor and stakeholders. We leverage this time to get their feedback and celebrate success. </p><p>Fly: Our Product Owner engages our actual users/customers to get feedback and we incorporate their feedback into the work we do. This enables our team to hear the voice of customers directly.</p>"
+                },
+                {
+                  "questionId": 6184,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Meetings &gt; Daily Stand-Up:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have daily stand-ups, OR we have them inconsistently. They are status meetings. </p><p>Walk: We do have daily standup meetings, but they go over 15 min. Not everyone attends on time. </p><p>Run: We completed our stand-up within 15 min. We surface impediments and hold each other accountable. We have effective post stand-up collaboration time. </p><p>Fly: Our team organically runs the daily stand-up with or without our team facilitator.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6185,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Effective Meetings &gt; Planning:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not plan, we just execute tasks assigned to us. </p><p>Walk: We do plan our work. However, the stories do not have clarity or definition. </p><p>Run: We are prepared to plan with clear priorities and definitions for each story.</p><p>Fly: Our team leverages visual models and modern tools to plan our work. We leverage the models throughout delivery (example: personas, jobs-to-be-done, BDD, wireframes, lean hypothesis).</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4407,
+              "name": "Planning & Estimating",
+            
+              "questions": [
+                {
+                  "questionId": 6186,
+
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Planning &amp; Estimating:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We struggle with breaking down and sizing our work, OR someone else may size our work on the team's behalf. </p><p>Walk: We break work into smaller pieces that can fit within a short time-box. We leverage relative sizing (or duration) to estimate our work. We size our work collaboratively as a team. </p><p>Run: We have a strong handle on the complexity of our work and can size our backlog relatively easily and quickly. We plan several iterations in advance (if needed). </p><p>Fly: Our team can proactively predict our throughput. We effectively adjust the plan as we learn more.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4408,
+              "name": "Technical Excellence",
+            
+              "questions": [
+                {
+                  "questionId": 6187,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Architecture:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl:\nWe\nhave legacy systems or applications that are very risky to touch or make\nchanges to. Our systems are fragile. </p><p>Walk:\nOur\ntech lead facilitates design and code review sessions. He/She provides guidance on\nour architecture. </p><p>Run:\nOur\narchitecture emerges through team collaboration and design. We intentionally\ninspect and adapt to ensure alignment with strategic direction of our\norganization. </p><p>Fly:\nOur\narchitecture has enabled scalability, stability, extensibility, security,\nadaptability, and usability. We have high performing applications.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6188,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Release and Deployment:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl:\nWe\nhave manual change requests and scripts to be written, and manual deployments\nand validations followed by manual regression. </p><p>Walk:\nWe have\ninvested in creating scripts for building, deploying scripts, and testing. However, they are manually executed, and approvals are still manual as well.</p><p>Run:\nWe’re\nleveraging our enterprise tools to automate the execution of the build, deploy, and test processes (continuous integration). Code promotion between different\nenvironments is manual along with the approval process.</p><p>Fly:\nWe\nhave one-click deploy end to end delivery pipeline. We have automated code\npromotion from one environment to another. Approvals are now using an automated\nworkflow. </p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6189,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Development Practices:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl:\nWe do not have clearly defined engineering best practices, nor is this a priority for our leaders. We are asked to just get work done.</p><p>Walk:\nWe have defined specific engineering best practices (such\nas: frequent code commits, unit testing, automated builds and code design/review) that everyone\nshould follow. However, they are only followed by a few.</p><p>Run:\nA\nmajority of our\nteam members follow\nour engineering best practices above, and a few practice more advanced methods (such as\nTDD, pairing or collective code ownership and other XP practices).&nbsp;</p><p>Fly:\nWe are continuously evaluating, testing, and incorporating new practices and\ntechnologies. We are investing in the knowledge transfer and skill development\nfor our team\nmember.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6190,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Testing:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl:\nWe perform manual testing only. We do not have the time, skills/roles, or tools\nwe need to automate our tests. </p><p>Walk: We\nhave automated tests created for our minimal critical path\ntest cases. We have daily reports on the status of our tests. \n</p><p>Run:\nWe have automated all of\nour target test cases.\nWe're meeting our test coverage goals. </p><p>Fly: We\nbuild quality through the continuous investment in test automation and end-to-end\ntesting (usability, functionality, performance).</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6191,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Technical Practices:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have clearly defined technical best practices, nor is this a priority for our leaders. We are asked to just get work done. </p><p>Walk: We have defined specific technical best practices that everyone should follow. However, they are only followed by a few. </p><p>Run: All of our team members understand and follow our top technical best practices.</p><p>Fly: We are continuously evaluating, testing, and incorporating new practices and technologies. We are investing in the knowledge and skills of team members around technical practices as needed.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6192,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Software/Hardware:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have the sufficient infrastructure &amp; tools to accomplish what we're asked to do.</p><p>Walk: We have the basic software and tools we need to do our work. However, it's hard to leverage them because of process/skills gaps. </p><p>Run: We have acquired all the necessary tools/hardware we need, and we're investing in building our skills to leverage them. </p><p>Fly: We continuously leverage our enterprise tools, and they have significantly improved the quality, speed, transparency, and predictability of our delivery.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4409,
+              "name": "Self Organization",
+            
+              "questions": [
+                {
+                  "questionId": 6193,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Self Organization:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our team needs to always ask our managers/leaders for direction, approvals, and solutions. </p><p>Walk: Our team asks for direction when needed. We are empowered to make some decisions. </p><p>Run: Our team is empowered to define HOW to deliver on our Product Owner's vision within their boundaries. We manage our own time and tasks.</p><p>Fly: Our team has full autonomy to design the strategy for delivering on the vision. This may include designing our team, selecting members, defining experiments, and engaging with end customers when needed.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p><p></p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4410,
+              "name": "Sustainable Pace",
+            
+              "questions": [
+                {
+                  "questionId": 6194,
+                  "questionValue": [
+                    {
+                      "Value": "4"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Sustainable Pace:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Our team is very stressed, frequently works overtime, and has no clear grasp of our capacity. We are burning out. </p><p>Walk: Our team is starting to talk about our capacity. However, we still over-commit and have left over work for the next iteration.</p><p>Run: Our team generally works at a sustainable pace. We make time to improve our quality and technical debt. We invest in team building and learning. </p><p>Fly: We rapidly deliver high quality solutions and can sustain at this pace. We proactively plan ahead for capacity constraints.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1225,
+          "name": "Team Structure",
+          "competencies": [
+            {
+              "competencyId": 4411,
+              "name": "Workspace",
+           
+              "questions": [
+                {
+                  "questionId": 6195,
+                  "questionValue": [
+                    {
+                      "Value": "3"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Workspace:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We are distributed across multiple sites/offices/floors with no effective collaboration rooms or tools. </p><p>Walk: We collaborate by scheduling team meetings but have limited collaboration beyond these sessions. </p><p>Run: We have achieved co-location (we all sit in the same workspace), OR we have acquired the necessary virtual collaboration tools. </p><p>Fly: We are inspired by our workspace! We have intentionally designed it to be fun, inspiring, and effective for collaboration and visualization our work.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4412,
+              "name": "Allocation & Stability",
+            
+              "questions": [
+                {
+                  "questionId": 6196,
+                  "questionValue": [
+                    {
+                      "Value": "2"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Allocation &amp; Stability:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: Many on our team are multi-tasking across other teams and re-assigned to other priorities. </p><p>Walk: Some core team members are stable, but several others are still multi-tasking. </p><p>Run: Our core team is dedicated and stable with little resource shifting.</p><p>Fly: We are pro-actively coordinating outside our team as needed, and we rarely run into issues with external resources. We inspect and adapt our allocation and pro-active external coordination regularly.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4413,
+              "name": "Size & Skills",
+            
+              "questions": [
+                {
+                  "questionId": 6197,
+                  "questionValue": [
+                    {
+                      "Value": "1"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Size &amp; Skills:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not have the right people or skills to deliver our current goals. We have limited experts with constrained capacity and do not seek outside help when needed. </p><p>Walk: We have some of the right people or skills on our teams, but we have strong dependency on outside individuals or teams. </p><p>Run: Our team is the right size and has the necessary skills to deliver end-to-end value. </p><p>Fly: We have mastered \"Continuous Learning\" and can effectively acquire new skills we need to deliver our current goals and outcomes.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dimensionId": 639,
+      "name": "Performance",
+      "subdimensions": [
+        {
+          "subdimensionId": 1229,
+          "name": "Confidence",
+          "competencies": [
+            {
+              "competencyId": 4421,
+              "name": "Stakeholder",
+             
+              "questions": [
+                {
+                  "questionId": 6205,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p></p><div class=\"breakHereForQuestion\"></div><p>Using this scale from 1 to 10, how likely are you to recommend working with this team to others?</p>"
+                },
+                {
+                  "questionId": 6206,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Confidence:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I have no confidence that this team will meet the current goals. I have no visibility into their progress or capabilities.  </p><p>Walk: I am somewhat confident that this team will meet the current goals. I have some visibility into their progress and capabilities. </p><p>Run: I am mostly confident that this team will meet the current goals. I am engaged and satisfied with the results and quality they deliver. </p><p>Fly: I am completely confident that this team will meet or exceed the current goals. I am very engaged and happy with the results, quality, and timeliness of their work.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4422,
+              "name": "Team",
+             
+              "questions": [
+                {
+                  "questionId": 6207,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Confidence:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I am not at all confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Walk: I am somewhat confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Run: I am mostly confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Fly: I am completely confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4423,
+              "name": "Product Owner",
+           
+              "questions": [
+                {
+                  "questionId": 6208,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Product Owner Confidence:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: I am not at all confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Walk: I am somewhat confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Run: I am mostly confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals. </p><p>Fly: I am completely confident that our team has the right knowledge, skills, motivation, and tools to meet the current goals.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subdimensionId": 1230,
+          "name": "Measurements",
+          "competencies": [
+            {
+              "competencyId": 4424,
+              "name": "Response to Change",
+             
+              "questions": [
+                {
+                  "questionId": 6209,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Dependencies:</strong></p><div class=\"breakHereForQuestion\"></div><p>Typically, how many teams does it take to complete a feature?</p><p>Pre-Crawl (1-2): We don’t track the number of teams needed to complete one feature. </p><p>Crawl (3-4): 5+ teams.</p><p>Walk (5-6): 3-4 teams.</p><p>Run (7-8): 2 teams.</p><p>Fly (9-10): 1 team.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6210,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Impediments: </strong></p><div class=\"breakHereForQuestion\"></div><p>What % of your work is blocked by factors outside of your control? Example: Waiting for approvals, decisions, other teams, etc...&nbsp;</p><p>Pre-Crawl (1-2): We are usually blocked on 7 out of 10 stories.&nbsp;</p><p>Crawl (3-4): We are usually blocked on 5 out of 10 stories.</p><p>Walk (5-6): We are sometimes blocked on 3 out of 10 stories.</p><p>Run (7-8): We are sometimes blocked on 2 out of 10 stories.</p><p>Fly (9-10): We are rarely blocked on our stories and can often complete them with minimal wait. </p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6211,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Feature Cycle Time:</strong> </p><div class=\"breakHereForQuestion\"></div><p>On average, how long does it take to deliver a feature to production once it’s pulled by the team? </p><p>Pre-Crawl (1-2): within 3+ months.&nbsp;</p><p>Crawl (3-4): within 8 weeks.&nbsp;</p><p>Walk (5-6): within 6 weeks.&nbsp;</p><p>Run (7-8): within 4 weeks.&nbsp;</p><p>Fly (9-10): within 2 weeks.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p><p></p>"
+                },
+                {
+                  "questionId": 6212,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Story Cycle Time:</strong></p><div class=\"breakHereForQuestion\"></div><p>On average, how long does it take to deliver a story to production once it’s pulled by the team? If you don’t use Stories, then measure a work item. </p><p>Pre-Crawl (1-2): within 1 month+.</p><p>Crawl (3-4): within 3 weeks.</p><p>Walk (5-6): within 2 weeks.</p><p>Run (7-8): within 1 week.</p><p>Fly (9-10): Less than 3 days.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6213,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Response to Change:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We have too much change that's hard to manage OR we have a thick, slow process for any change. </p><p>Walk: Our product owner is trying to manage the volume of change, but we are still struggling to respond and manage it. </p><p>Run: Our team can adjust to change quickly and relatively easily with minor churn. We have metrics to track our responsiveness. </p><p>Fly: We have proven ways to support rapid changes in business needs and can manage unplanned work effectively.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4425,
+              "name": "Quality",
+             
+              "questions": [
+                {
+                  "questionId": 6214,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Quality Confidence Rating (answered by everyone including PO and stakeholders):</strong></p><div class=\"breakHereForQuestion\"></div><p>How confident are you with the quality that <span style=\"text-decoration: underline\">will be produced</span> by this team? (performance, escaped defects...)</p><p>10 = Extremely confident, 1 = Extremely not confident</p>"
+                },
+                {
+                  "questionId": 6215,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Defect Ratio: </strong></p><div class=\"breakHereForQuestion\"></div><p>What is the average ratio of escaped defects to stories / work items in your backlog? Use either count of items or points. </p><p>Pre-Crawl (1-2): Our defect ratio is at 50%+ (example: We have 5 escaped defects for every 10 stories).</p><p>Crawl (3-4): Our defect ratio is at 30%+.</p><p>Walk (5-6): Our defect ratio is at 20%+.</p><p>Run (7-8): Our defect ratio is at 10%+.</p><p>Fly (9-10): Our defect ratio is 5% or less.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6216,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Test Automation: </strong></p><div class=\"breakHereForQuestion\"></div><p>How well have we matured towards our test automation goals?</p><p>Pre-Crawl (1-2): We don’t have any test automation goals OR We've automated 25% or less of our target goals.</p><p>Crawl (3-4): We've automated 60% of our target goals.</p><p>Walk (5-6): We've automated 80% of our target goals.</p><p>Run (7-8): We've automated 95% of our target goals.</p><p>Fly (9-10): We've fully automated 99%+ of our target goals.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6217,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Change Failure Rate:</strong></p><div class=\"breakHereForQuestion\"></div><p>What % of your production releases over the last quarter have resulted in high severity incidents? For example, ones that lead to unplanned outages, severe performance degradations, or require a hotfix, roll-back, etc.</p><p>Pre-Crawl (1-2): ~ 40%+ (4 in every 10 releases).&nbsp;</p><p>Crawl (3-4): ~ 30% (3 in every 10 releases).&nbsp;</p><p>Walk (5-6): ~ 20% (2 in every 10 releases).&nbsp;</p><p>Run (7-8): &nbsp;~ 10%  (1 in every 10 releases).&nbsp;</p><p>Fly (9-10): ~ 5% or less&nbsp; (1 in every 20 releases).&nbsp;</p><p>PRE-CRAWL: 1-2 | &nbsp;CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6218,
+                  "questionValue": [
+                {
+                  "Value": "5"
+                },
+                {
+                  "Value": "1"
+                }
+
+              ],
+                  "text": "<p><strong>MTTR (Mean Time To Recover):</strong></p><div class=\"breakHereForQuestion\"></div><p>On average, how long does it take to recover from a high severity production incident? </p><p>Pre-Crawl (1-2): &gt; = to 8 hrs.&nbsp;</p><p>Crawl (3-4): &lt; 8 hrs.&nbsp;</p><p>Walk (5-6): &lt; 6 hrs.&nbsp;</p><p>Run (7-8): &lt; 2 hrs.&nbsp;</p><p>Fly (9-10): Minutes or seconds.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6219,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Quality:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We have many quality issues. They are holding us back and frustrating our customers. We don't track our escaped defects or have a definition of done. </p><p>Walk: We have a few escaped defects after each release and have metrics to track our quality. We have agreed upon our definition of done as a team. </p><p>Run: We have very little to no quality issues or escaped defects. We ensure we're always meeting our definition of done. We review and inspect our metrics regularly.</p><p>Fly: We are proactive about monitoring and identifying quality issues before they occur. Our metrics reflect our high quality.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4426,
+              "name": "Value Delivered",
+             
+              "questions": [
+                {
+                  "questionId": 6220,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Feature Throughput:</strong></p><div class=\"breakHereForQuestion\"></div><p>Of the targeted feature work, how many does your team release every 10-12 weeks on average?</p><p>Pre-Crawl (1-2): We don't track the number of features delivered OR We deliver 1-2 features. &nbsp;</p><p>Crawl (3-4): We release 3-4 features.</p><p>Walk (5-6): We release 5-6 features.</p><p>Run (7-8): We release 7-8 features.</p><p>Fly (9-10): We release 9-10+ features.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6221,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Business Outcomes:</strong></p><div class=\"breakHereForQuestion\"></div><p>How well does this team deliver on the planned business outcomes or goals?</p><p>Pre-Crawl (1-2): We don’t define measurable business outcomes/metrics or understand the value/impact of our work to our customers. </p><p>Crawl (3-4): We deliver 50% of our planned outcomes. </p><p>Walk (5-6): We deliver 60%+ of our planned outcomes.</p><p>Run (7-8): We deliver 75%+ of our planned outcomes.</p><p>Fly (9-10): We deliver 95+ of our planned outcomes.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6222,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Throughput Increase:</strong></p><div class=\"breakHereForQuestion\"></div><p>How much improvement have you had over <span style=\"text-decoration: underline\">your baseline</span> (example: <span style=\"text-decoration: underline\">first month of Agile adoption</span>) in throughput? You can measure your number of work items OR number of story points delivered. </p><p>Pre-Crawl (1-2): We have improved by 0-20%. &nbsp;</p><p>Crawl (3-4): We have improved by 20-40%.&nbsp;</p><p>Walk (5-6): We have improved by 40-60%.&nbsp;</p><p>Run (7-8): We have improved by 60-80%.</p><p>Fly (9-10): We have improved by &gt;80%.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6223,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Value Delivered:&nbsp;</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not understand the value of our work to our customer or organization. We are just focused on getting it done.</p><p>Walk: Our Product Owner/Customer does communicate the value of our work, but we do not define outcomes or metrics to track value. </p><p>Run: We have clear value outcomes and metrics for our backlog items at story/epic/initiative level. Our team is delivering against the highest value items. </p><p>Fly: We deliver on our target outcomes consistently, and our customers are thrilled with the value and impact we are making.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4427,
+              "name": "Time to Market",
+              
+              "questions": [
+                {
+                  "questionId": 6224,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Lead Time to Deploy/Change: </strong></p><div class=\"breakHereForQuestion\"></div><p><strong></strong>On average, how long does it take from final code commit to code successfully running in production?</p><p>Pre-Crawl (1-2): 1+ month.</p><p>Crawl (3-4): Within 1-3 weeks.</p><p>Walk (5-6): Within 2+ days.</p><p>Run (7-8): Within 1 day.</p><p>Fly (9-10): Less than 1 hour or within minutes.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6225,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Deployment Frequency:</strong></p><div class=\"breakHereForQuestion\"></div><p>How often <span style=\"text-decoration: underline\"><strong>COULD</strong></span> your team deploy value to production?</p><p>Pre-Crawl (1-2): We could deploy every 5+ weeks.</p><p>Crawl (3-4): We could deploy every 3-4 weeks.</p><p>Walk (5-6): We could deploy every 1-2 weeks.</p><p>Run (7-8): We could deploy once per day.</p><p>Fly (9-10): We could deploy multiple times per day or on demand.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6226,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Deployment Frequency:</strong></p><div class=\"breakHereForQuestion\"></div><p>How often <span style=\"text-decoration: underline\"><strong>DOES</strong></span> your team deploy to production?</p><p>Pre-Crawl (1-2): We deploy every 3+ months.</p><p>Crawl (3-4): We deploy every month.</p><p>Walk (5-6): We deploy every 1-2 weeks.</p><p>Run (7-8): We deploy and release on demand.</p><p>Fly (9-10): We deploy continuously and release on demand.</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6227,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Time to Market:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We are very slow to deliver value and always hear \"it's taking too long\" from our Product Owner OR Customers. </p><p>Walk: We deliver value to our Product Owner/Customer, but not as frequently as desired. </p><p>Run: We deliver value to our Product Owner/Customer as frequently as they desire. We have metrics to track this. </p><p>Fly: Our customers are thrilled with how fast we deliver value and our ability to stay ahead of the market and their needs.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            },
+            {
+              "competencyId": 4428,
+              "name": "Predictable Delivery",
+             
+              "questions": [
+                {
+                  "questionId": 6228,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Predictability: </strong></p><div class=\"breakHereForQuestion\"></div><p><strong></strong>How predictable is your team? What % of your target work items (or SLA if you are a support team) do you meet within your time-box (ex: iteration/week)? </p><p>Pre-Crawl (1-2): We don’t set targets OR we meet less than 50% of our planned items / SLA.</p><p>Crawl (3-4): We meet 50%+ of our planned items (we miss 5 out of 10).</p><p>Walk (5-6): We meet 70%+ of our planned items (we miss 3 out of 10).</p><p>Run (7-8): We meet 80%+ of our planned items (we miss 2 out of 10).</p><p>Fly (9-10): We meet 90%+ of our planned items (we miss 1 out of 10).&nbsp;</p><p>PRE-CRAWL: 1-2 | CRAWL: 3-4 | WALK: 5-6 | RUN: 7-8 | FLY: 9-10</p>"
+                },
+                {
+                  "questionId": 6229,
+                  "questionValue": [
+                    {
+                      "Value": "5"
+                    },
+                    {
+                      "Value": "1"
+                    }
+
+                  ],
+                  "text": "<p><strong>Predictable Delivery:</strong></p><div class=\"breakHereForQuestion\"></div><p>Crawl: We do not really size/estimate our work at the moment or plan our capacity.</p><p>Walk: We do estimate and size items on our backlog, but we still do not have a steady velocity, throughput, or cycle time.</p><p>Run: We have clarity on our velocity/throughput/cycle time. We measure our target vs our actual delivery and can now predict our future delivery.</p><p>Fly: We are predictable in our delivery and consistently deliver within 10 - 15% of our target. We track and share our delivery metrics.</p><p>CRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

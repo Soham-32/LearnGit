@@ -1,0 +1,430 @@
+﻿{
+  "environments": [
+    {
+      "name": "appx",
+      "Companyname": "Paychex",
+      "companyId": 2,
+      "databaseName": "AgilityHealthAppx"
+    },
+    {
+      "name": "citi",
+      "Companyname": "Citi",
+      "companyId": 326,
+      "databaseName": "sdb-cus-citi-prd"
+    },
+    {
+      "name": "appx",
+      "Companyname": "Mindex",
+      "companyId": 376,
+      "databaseName": "AgilityHealthAppx"
+    },
+    {
+      "name": "appx",
+      "Companyname": "ITX Corp",
+      "companyId": 637,
+      "databaseName": "AgilityHealthAppx"
+    },
+    {
+      "name": "bloomberg",
+      "Companyname": "Bloomberg",
+      "companyId": 474,
+      "databaseName": "sdb-cus-bloomberg-prd"
+    },
+    {
+      "name": "truist",
+      "Companyname": "Truist Bank",
+      "companyId": 886,
+      "databaseName": "AgilityHealthTruist"
+    },
+    {
+      "name": "insperity",
+      "Companyname": "Insperity",
+      "companyId": 511,
+      "databaseName": "sdb-cus-insperity-prd"
+    },
+    {
+      "name": "federalreserve",
+      "Companyname": "Federal Reserve",
+      "companyId": 703,
+      "databaseName": "sdb-cus-federalreserve-prd"
+    },
+    {
+      "name": "ameriprise",
+      "Companyname": "Ameriprise",
+      "companyId": 913,
+      "databaseName": "AgilityHealth-Ameriprise"
+    },
+    {
+      "name": "amtrak",
+      "Companyname": "Amtrak",
+      "companyId": 911,
+      "databaseName": "AgilityHealthAmtrak"
+    },
+    {
+      "name": "amway",
+      "Companyname": "Amway",
+      "companyId": 812,
+      "databaseName": "AgilityHealthAmway"
+    },
+    {
+      "name": "bcbsla",
+      "Companyname": "BCBS of Louisiana",
+      "companyId": 36,
+      "databaseName": "db-agilityhealth-cus-bcbsla"
+    },
+    {
+      "name": "citizensfla",
+      "Companyname": "Citizens Property Insurance Corporation",
+      "companyId": 820,
+      "databaseName": "sdb-cus-citizensfla-prd"
+    },
+    {
+      "name": "cvs",
+      "Companyname": "CVS Health",
+      "companyId": 840,
+      "databaseName": "AgilityHealthCVS"
+    },
+    {
+      "name": "equifax",
+      "Companyname": "Equifax",
+      "companyId": 493,
+      "databaseName": "db-agilityhealth-prd-equifax"
+    },
+    {
+      "name": "fbi",
+      "Companyname": "FBI",
+      "companyId": 969,
+      "databaseName": "AgilityHealthFBI"
+    },
+    {
+      "name": "app",
+      "Companyname": "Focus on the Family",
+      "companyId": 160,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Honeywell",
+      "companyId": 679,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "IGM Wealth Management",
+      "companyId": 565,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "New York Life",
+      "companyId": 225,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Norfolk Southern",
+      "companyId": 657,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "northerntrust",
+      "Companyname": "Northern Trust",
+      "companyId": 533,
+      "databaseName": "sdb-cus-northerntrust-prd"
+    },
+    {
+      "name": "prudential",
+      "Companyname": "Prudential Financial, Incorporated",
+      "companyId": 865,
+      "databaseName": "AgilityHealthPrudential"
+    },
+    {
+      "name": "quad",
+      "Companyname": "Quad",
+      "companyId": 525,
+      "databaseName": "sdb-cus-quad-prd"
+    },
+    {
+      "name": "raytheon",
+      "Companyname": "Raytheon",
+      "companyId": 784,
+      "databaseName": "AgilityHealthRaytheon"
+    },
+    {
+      "name": "app",
+      "Companyname": "Scotiabank",
+      "companyId": 243,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Society Insurance",
+      "companyId": 232,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Starbucks",
+      "companyId": 564,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "ntt",
+      "Companyname": "NTT (Internal Use)",
+      "companyId": 871,
+      "databaseName": "AgilityHealthNTT"
+    },
+    {
+      "name": "app",
+      "Companyname": "College of Western Idaho",
+      "companyId": 349,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "erieinsurance",
+      "Companyname": "Erie Insurance Group",
+      "companyId": 785,
+      "databaseName": "sdb-cus-erie-prd"
+    },
+    {
+      "name": "cummins",
+      "Companyname": "Cummins",
+      "companyId": 640,
+      "databaseName": "sdb-cus-cummins-prd"
+    },
+    {
+      "name": "7eleven",
+      "Companyname": "7-Eleven",
+      "companyId": 477,
+      "databaseName": "AgilityHealth7Eleven"
+    },
+    {
+      "name": "alithya",
+      "Companyname": "Alithya",
+      "companyId": 356,
+      "databaseName": "AgilityHealthAlithya"
+    },
+    {
+      "name": "cah",
+      "Companyname": "Cardinal Health",
+      "companyId": 656,
+      "databaseName": "sdb-cus-cah-prd"
+    },
+    {
+      "name": "dtcc",
+      "Companyname": "DTCC",
+      "companyId": 995,
+      "databaseName": "AgilityHealthDTCC"
+    },
+    {
+      "name": "wellmark",
+      "Companyname": "Wellmark BCBS",
+      "companyId": 956,
+      "databaseName": "AgilityHealthWellmark"
+    },
+    {
+      "name": "astrazeneca",
+      "Companyname": "AstraZeneca",
+      "companyId": 563,
+      "databaseName": "AgilityHealthAstraZeneca"
+    },
+    {
+      "name": "app",
+      "Companyname": "Australian Taxation Office",
+      "companyId": 758,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "BCI",
+      "companyId": 512,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "elevancehealth",
+      "Companyname": "Elevance Health",
+      "companyId": 186,
+      "databaseName": ""
+    },
+    {
+      "name": "eu",
+      "Companyname": "Ministry of Health",
+      "companyId": 582,
+      "databaseName": ""
+    },
+    {
+      "name": "nngroup",
+      "Companyname": "NN Group - Hungary",
+      "companyId": 454,
+      "databaseName": ""
+    },
+    {
+      "name": "eu",
+      "Companyname": "RCMC",
+      "companyId": 580,
+      "databaseName": ""
+    },
+    {
+      "name": "app",
+      "Companyname": "Schneider Electric",
+      "companyId": 813,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "shell",
+      "Companyname": "Shell",
+      "companyId": 485,
+      "databaseName": "db-agilityhealth-prd-shell"
+    },
+    {
+      "name": "epic",
+      "Companyname": "EPiC Agile",
+      "companyId": 84,
+      "databaseName": "sdb-weu-agilityhealth-epic"
+    },
+    {
+      "name": "merck",
+      "Companyname": "Merck",
+      "companyId": 551,
+      "databaseName": "AgilityHealthMerck"
+    },
+    {
+      "name": "waters",
+      "Companyname": "Waters Corp",
+      "companyId": 755,
+      "databaseName": "db-agilityhealth-prd-waters"
+    },
+    {
+      "name": "nasa",
+      "Companyname": "NASA",
+      "companyId": 920,
+      "databaseName": "AgilityHealthNasa"
+    },
+    {
+      "name": "ntt",
+      "Companyname": "NTT (Internal Use)",
+      "companyId": 871,
+      "databaseName": "AgilityHealthNTT"
+    },
+    {
+      "name": "prudential",
+      "Companyname": "Prudential",
+      "companyId": 865,
+      "databaseName": "AgilityHealthPrudential"
+    },
+    {
+      "name": "bcbsla",
+      "Companyname": "BCBSLA",
+      "companyId": 36,
+      "databaseName": "db-agilityhealth-cus-bcbsla"
+    },
+    {
+      "name": "erieinsurance",
+      "Companyname": "Erie Insurance Group",
+      "companyId": 785,
+      "databaseName": "sdb-cus-erie-prd"
+    },
+    {
+      "name": "eu",
+      "Companyname": "IQbusiness (EU)",
+      "companyId": 515,
+      "databaseName": "db-agilityhealth-prd-eu"
+    },
+    {
+      "name": "usaf",
+      "Companyname": "USAF",
+      "companyId": 775,
+      "databaseName": "AgilityHealthUSAF"
+    },
+    {
+      "name": "petronas",
+      "Companyname": "Petronas",
+      "companyId": 902,
+      "databaseName": "AgilityHealth-Petronas"
+    },
+    {
+      "name": "flexential",
+      "Companyname": "Flexential",
+      "companyId": 902,
+      "databaseName": "AgilityHealth-Flexential"
+    },
+    {
+      "name": "agilityHealth",
+      "Companyname": "AgilityHealth (not app)",
+      "companyId": 902,
+      "databaseName": "AgilityHealth"
+    },
+    {
+      "name": "app",
+      "Companyname": "Blue Cross Blue Shield of MA",
+      "companyId": 504,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Cognizant",
+      "companyId": 417,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Geico",
+      "companyId": 879,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "IQBusiness",
+      "companyId": 718,
+      "databaseName": "db-agilityhealth-prd-eu"
+    },
+    {
+      "name": "app",
+      "Companyname": "Prudential Financial, Incorporated - PGIM",
+      "companyId": 773,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Union Bank & Trust",
+      "companyId": 1023,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "CDW (Atkco)",
+      "companyId": 756,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "Eliassen Group",
+      "companyId": 789,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "app",
+      "Companyname": "SendoAgil",
+      "companyId": 285,
+      "databaseName": "AgilityHealth-App"
+    },
+    {
+      "name": "eu",
+      "Companyname": "Accenture",
+      "companyId": 169,
+      "databaseName": "db-agilityhealth-prd-eu"
+    },
+    {
+      "name": "eu",
+      "Companyname": "Australian National University",
+      "companyId": 532,
+      "databaseName": "db-agilityhealth-prd-eu"
+    },
+    {
+      "name": "edwardjones",
+      "Companyname": "Edward Jones",
+      "companyId": 980,
+      "databaseName": "AgilityHealthEdwardJones"
+    }
+  ]
+}

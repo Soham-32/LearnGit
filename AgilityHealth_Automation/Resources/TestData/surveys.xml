@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rows>
+  
+  <row>
+    <Description>Developer</Description>
+    <QuestionIdFile>StandardQuestions.txt</QuestionIdFile>
+    <DEV_SurveyLink>https://dev.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/zjy1rw1cq0nqwwtp7lvyhh73bgwkckm0</DEV_SurveyLink>
+    <QA_SurveyLink>https://qa.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/zjy1rw1cq0nqwwtp7lvyhh73bgwkckm0</QA_SurveyLink>
+	  <UAT_SurveyLink>https://uat.agilityinsights.ai/survey/assessment/f02db920-5a67-44e5-adf0-b11f50ac2b33/zjy1rw1cq0nqwwtp7lvyhh73bgwkckm0</UAT_SurveyLink>
+    <PREPROD_SurveyLink>https://preprod.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/zjy1rw1cq0nqwwtp7lvyhh73bgwkckm0</PREPROD_SurveyLink>
+    <DEMO_SurveyLink>https://demo.agilityinsights.ai/survey/assessment/1a500df7-f4f2-48f0-b8f3-735255010f31/ydmlsmwie2wknh3axy5hb1qy9tg2mgbv</DEMO_SurveyLink>
+    <APP_SurveyLink>https://app.agilityinsights.ai/survey/assessment/c5b1c613-8b26-4394-9093-82b49a9874d1/00ttr5at8c25bq31heeml9robclscfbn</APP_SurveyLink>
+    <LOAD_SurveyLink>https://load.agilityinsights.ai/survey/assessment/a213dce6-75e3-488b-b364-1182f9249df0/n3wbd1afozb45983z8rbjiaxa4envali</LOAD_SurveyLink>
+  </row>
+
+  <row>
+    <Description>Product Owner</Description>
+    <QuestionIdFile>POQuestions.txt</QuestionIdFile>
+    <DEV_SurveyLink>https://dev.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/4vbpy3uggkf09idblvblui0dyib3j5f4</DEV_SurveyLink>
+    <QA_SurveyLink>https://qa.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/4vbpy3uggkf09idblvblui0dyib3j5f4</QA_SurveyLink>
+	  <UAT_SurveyLink>https://uat.agilityinsights.ai/survey/assessment/f02db920-5a67-44e5-adf0-b11f50ac2b33/4vbpy3uggkf09idblvblui0dyib3j5f4</UAT_SurveyLink>
+    <PREPROD_SurveyLink>https://preprod.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/4vbpy3uggkf09idblvblui0dyib3j5f4</PREPROD_SurveyLink>
+    <DEMO_SurveyLink>https://demo.agilityinsights.ai/survey/assessment/1a500df7-f4f2-48f0-b8f3-735255010f31/03dwuv6zpe0fqaex7qd090kzev4y0hqb</DEMO_SurveyLink>
+    <APP_SurveyLink>https://app.agilityinsights.ai/survey/assessment/c5b1c613-8b26-4394-9093-82b49a9874d1/6508okyvcdu9mj87zj569avdbtjpw3me</APP_SurveyLink>
+    <LOAD_SurveyLink>https://load.agilityinsights.ai/survey/assessment/a213dce6-75e3-488b-b364-1182f9249df0/tnyd82bc3o2o47qcmlmf07jl646h4jr9</LOAD_SurveyLink>
+  </row>
+
+  <row>
+    <Description>Technical Lead</Description>
+    <QuestionIdFile>StandardQuestions.txt</QuestionIdFile>
+    <DEV_SurveyLink>https://dev.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/jl41coo81osx4j1mo8b3053aj23ipbrf</DEV_SurveyLink>
+    <QA_SurveyLink>https://qa.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/jl41coo81osx4j1mo8b3053aj23ipbrf</QA_SurveyLink>
+	  <UAT_SurveyLink>https://uat.agilityinsights.ai/survey/assessment/f02db920-5a67-44e5-adf0-b11f50ac2b33/jl41coo81osx4j1mo8b3053aj23ipbrf</UAT_SurveyLink>
+    <PREPROD_SurveyLink>https://preprod.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/jl41coo81osx4j1mo8b3053aj23ipbrf</PREPROD_SurveyLink>
+    <DEMO_SurveyLink>https://demo.agilityinsights.ai/survey/assessment/1a500df7-f4f2-48f0-b8f3-735255010f31/2iw2jyb736m7fivm1s3tns8rnfwlzlf0</DEMO_SurveyLink>
+    <APP_SurveyLink>https://app.agilityinsights.ai/survey/assessment/c5b1c613-8b26-4394-9093-82b49a9874d1/jk1ep4gc4449u14b4cna2t2flk8ygnbi</APP_SurveyLink>
+    <LOAD_SurveyLink>https://load.agilityinsights.ai/survey/assessment/a213dce6-75e3-488b-b364-1182f9249df0/esoishwtue9s0d8zai1y7xpiob33zkvn</LOAD_SurveyLink>
+  </row>
+  <row>
+    <Description>Stakeholder</Description>
+    <QuestionIdFile>StakeholderQuestions.txt</QuestionIdFile>
+    <DEV_SurveyLink>https://dev.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/34tad3q85ni4llv6lh8wcbm78lvz4sm1</DEV_SurveyLink>
+    <QA_SurveyLink>https://qa.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/34tad3q85ni4llv6lh8wcbm78lvz4sm1</QA_SurveyLink>
+	  <UAT_SurveyLink>https://uat.agilityinsights.ai/survey/assessment/f02db920-5a67-44e5-adf0-b11f50ac2b33/34tad3q85ni4llv6lh8wcbm78lvz4sm1</UAT_SurveyLink>
+    <PREPROD_SurveyLink>https://preprod.agilityinsights.ai/survey/assessment/01a4007e-fd93-4f53-9bee-91dd184b393e/34tad3q85ni4llv6lh8wcbm78lvz4sm1</PREPROD_SurveyLink>
+    <DEMO_SurveyLink>https://demo.agilityinsights.ai/survey/assessment/1a500df7-f4f2-48f0-b8f3-735255010f31/jbqusnpomhtzt8pqdixncjmrd5ons3dz</DEMO_SurveyLink>
+    <APP_SurveyLink>https://app.agilityinsights.ai/survey/assessment/c5b1c613-8b26-4394-9093-82b49a9874d1/nk50rilthyttdirj0axuah4ogwdpnwjt</APP_SurveyLink>
+    <LOAD_SurveyLink>https://load.agilityinsights.ai/survey/assessment/a213dce6-75e3-488b-b364-1182f9249df0/wmhqldpn9enwwxhffjxx6192ivkq9dq6</LOAD_SurveyLink>
+  </row>
+  
+</rows>

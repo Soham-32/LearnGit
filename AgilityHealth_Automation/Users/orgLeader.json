@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+ui_orgleader@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Org",
+      "lastName": "Leader",
+      "companyName": "Automation_OL (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "user 2",
+      "username": "ah_automation+ui_orgleader1@agiletransformation.com",
+      "password": "12345678",
+      "newPassword": "asdfasdf",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "user 4",
+      "username": "ah_automation+orgleader1@agiletransformation.com",
+      "password": "12345678",
+      "companyName": "Automation_OL (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "translation",
+      "username": "ah_automation+ui_orgleadertranslation@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Org Translation",
+      "lastName": "Leader",
+      "companyName": "Automation_OL (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "member",
+      "firstName": "Unique",
+      "lastName": "OL",
+      "username": "ah_automation+uniqueOL2@agiletransformation.com",
+      "password": "12345678",
+      "type": "member"
+    },
+    {
+      "description": "insights user",
+      "username": "ah_automation+InsightsOL@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Org",
+      "lastName": "Leader",
+      "companyName": "Automation_Insights (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "ntier user",
+      "username": "ah_automation+ntierOL@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "NTier",
+      "lastName": "OrgLeader",
+      "companyName": "Automation_N-Tier (DO NOT USE)",
+      "type": "OrganizationalLeader"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "74"
+    },
+    {
+      "environment": "qa",
+      "id": "74"
+    },
+    {
+      "environment": "atqa",
+      "id": "74"
+    },
+    {
+      "environment": "uat",
+      "id": "74"
+    },
+    {
+      "environment": "preprod",
+      "id": "74"
+    },
+    {
+      "environment": "load",
+      "id": "74"
+    }
+  ]
+}

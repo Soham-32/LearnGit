@@ -1,0 +1,65 @@
+﻿using System.Linq;
+using AgilityHealth_Automation.PageObjects.AgilityHealth.Account;
+using AgilityHealth_Automation.PageObjects.AgilityHealth.BusinessOutcomes.Dashboard;
+using AtCommon.Api;
+using AtCommon.Api.Enums;
+using AtCommon.Dtos.BusinessOutcomes;
+using AtCommon.Utilities;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace AgilityHealth_Automation.Tests.AgilityHealth.BusinessOutcomes.Dashboard
+{
+    [TestClass]
+    [TestCategory("BusinessOutcomes")]
+    public class BusinessOutcomesDashboardTests12 : BusinessOutcomesBaseTest
+    {
+        private static BusinessOutcomeResponse _response1;
+        private static BusinessOutcomeResponse _response2;
+        private static BusinessOutcomeCategoryLabelResponse _label1;
+        private static BusinessOutcomeTagResponse _tag1;
+        private static BusinessOutcomeTagResponse _tag2;
+
+        [ClassInitialize]
+        public static void ClassSetUp(TestContext _)
+        {
+            var setup = new SetupTeardownApi(TestEnvironment);
+            var allLabels = setup.GetBusinessOutcomesAllLabels(Company.Id);
+            _label1 = allLabels.Where(b => b.Name.Contains("Automation Label"))
+                .FirstOrDefault(l => l.KanbanMode && l.Tags.Count > 1);
+            _tag1 = _label1.Tags[0];
+            _tag2 = _label1.Tags[1];
+
+            var request1 = GetBusinessOutcomeRequest(SwimlaneType.StrategicIntent);
+            request1.Tags.Add(new BusinessOutcomeTagRequest { Name = _tag1.Name, Uid = _tag1.Uid, CategoryLabelUid = _tag1.CategoryLabelUid});
+            _response1 = setup.CreateBusinessOutcome(request1);
+
+            var request2 = GetBusinessOutcomeRequest(SwimlaneType.StrategicTheme);
+            request2.Tags.Add(new BusinessOutcomeTagRequest { Name = _tag2.Name, Uid = _tag2.Uid, CategoryLabelUid = _tag2.CategoryLabelUid});
+            _response2 = setup.CreateBusinessOutcome(request2);
+
+        }
+
+        [TestMethod]
+        [TestCategory("Critical")]
+        [TestCategory("CompanyAdmin")]
+        public void BusinessOutcomes_Dashboard_Tags_DragAndDrop_Enabled()
+        {
+
+            var login = new LoginPage(Driver, Log);
+            var boDashboard = new BusinessOutcomesDashboardPage(Driver, Log);
+
+            login.NavigateToPage();
+            login.LoginToApplication(User.Username, User.Password);
+
+            boDashboard.NavigateToPage(Company.Id);
+            boDashboard.TagsViewSelectTag(_label1.Name);
+
+            boDashboard.DragCardToCard(_response1.SwimlaneType.GetDescription(), _response1.Title, _response2.Title, 300, 0);
+
+            Log.Info("Verify that BO items are dragged or not");
+            Assert.IsTrue(boDashboard.GetAllBusinessOutcomeNamesByColumn(_tag2.Name).Any(text => text.Contains(_response1.Title)),
+                $"Horizontal drag didn't work. {_response1.Title} didn't present under {_tag2.Name}");
+
+        }
+    }
+}

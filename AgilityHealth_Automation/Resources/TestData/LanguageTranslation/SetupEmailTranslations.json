@@ -1,0 +1,54 @@
+﻿{
+  "Languages": [
+    {
+      "language": "English",
+      "SetupEmailBody": " WelcometoAgilityHealth!Youhavebeengrantedaccessto{TeamName}on{CompanyName}.WhatYouHaveAccesstoDo:Viewyourteam(s)HealthAssessmentReviewyourteam'sgrowthplan.AtAgilityHealthwebelievethatbusinessagilitystartswithhealthyteams.Younowhavethepowertotakeyourorganization'shealthandperformancetothenextlevel!Solet'sgetstarted!CreateyouraccountAlreadyauser?Clickheretologin.AgilityHealthTeam",
+      "SetupEmailMessageSubject": "Confirm your account"
+    },
+    {
+      "language": "French",
+      "SetupEmailBody": "Bienvenue chez AgilityHealth !Vous avez été a accordé l´accès à {TeamName} sur {CompanyName}.Ce à quoi vous avez accès :Afficher l´évaluation de la santé de votre ou vos équipes Examinez le plan de croissance de votre équipe.Chez AgilityHealth, nous pensons que l´agilité commerciale commence par des équipes saines. Vous avez maintenant le pouvoir de faire passer la santé et les performances de votre organisation au niveau supérieur !Alors commençons !Créez votre compteDéjà utilisateur ? Cliquez ici pour vous connecter.Jetez un coup d´œil à notre Centre de Support pour commencer votre parcours avec AgilityHealth !Équipe AgilityHealth",
+      "SetupEmailMessageSubject": "Confirmez votre compte"
+    },
+    {
+      "language": "Chinese",
+      "SetupEmailBody": "欢迎来到 AgilityHealth！您已经 已于 {CompanyName} 授予对 {TeamName} 的访问权限。您有权执行的操作：查看您的团队健康评估 审查您团队的成长计划。在AgilityHealth，我们相信业务敏捷性始于健康的团队。 您现在有能力将组织的健康状况和绩效提升到新的水平！那么让我们开始吧！创建您的帐户已经是用户？ 点击此处登录。AgilityHealth 团队",
+      "SetupEmailMessageSubject": "确认您的帐户"
+    },
+    {
+      "language": "Korean",
+      "SetupEmailBody": "AgilityHealth에 오신 것을 환영합니다!귀하께서는 {CompanyName}에 {TeamName}에 대한 액세스 권한이 부여되었습니다.액세스 권한이 있는 작업:팀 상태 평가 보기 팀의 성장 계획을 검토하세요.AgilityHealth에서는 비즈니스 민첩성이 건강한 팀에서 시작된다고 믿습니다. 이제 귀하는 조직의 건강과 성과를 다음 단계로 끌어올릴 수 있는 힘을 갖게 되었습니다!자, 시작해 보세요!계정 만들기이미 사용자이신가요? 로그인하려면 여기를 클릭하세요.AgilityHealth 팀",
+      "SetupEmailMessageSubject": "계정 확인"
+    },
+    {
+      "language": "Portuguese",
+      "SetupEmailBody": "Bem-vindo ao AgilityHealth!Você foi concedeu acesso a {TeamName} em {CompanyName}.O que você tem acesso para fazer:visualizar a avaliação de saúde de sua(s) equipe(s) Revise o plano de crescimento da sua equipe.Na AgilityHealth, acreditamos que a agilidade dos negócios começa com equipes saudáveis. Agora você tem o poder de levar a saúde e o desempenho da sua organização para o próximo nível!Então vamos começar!Crie sua contaJá é usuário? Clique aqui para fazer login.Equipe AgilityHealth",
+      "SetupEmailMessageSubject": "Confirme sua conta"
+    },
+    {
+      "language": "Turkish",
+      "SetupEmailBody": "AgilityHealth´e hoş geldiniz!{CompanyName} tarihinde size {TeamName} erişimi verildi.Yapabilecekleriniz:Ekibinizin Sağlık Değerlendirmesini görüntüleyinEkibinizin büyüme planını inceleyin.AgilityHealth olarak iş çevikliğinin sağlıklı ekiplerle başladığına inanıyoruz. Artık kuruluşunuzun sağlığını ve performansını bir sonraki seviyeye taşıma gücüne sahipsiniz!O halde haydi başlayalım!Hesabınızı oluşturunZaten kullanıcı mısınız?Giriş yapmak için burayı tıklayın.ÇeviklikSağlık Ekibi",
+      "SetupEmailMessageSubject": "Hesabını onayla"
+    },
+    {
+      "language": "German",
+      "SetupEmailBody": " WelcometoAgilityHealth!Youhavebeengrantedaccessto{TeamName}on{CompanyName}.WhatYouHaveAccesstoDo:Viewyourteam(s)HealthAssessmentReviewyourteam'sgrowthplan.AtAgilityHealthwebelievethatbusinessagilitystartswithhealthyteams.Younowhavethepowertotakeyourorganization'shealthandperformancetothenextlevel!Solet'sgetstarted!CreateyouraccountAlreadyauser?Clickheretologin.AgilityHealthTeam",
+      "SetupEmailMessageSubject": "Confirm your account"
+    },
+    {
+      "language": "Hungarian",
+      "SetupEmailBody": "ÜdvözliazAgilityHealth!Önmárhozzáféréstkapotta(z){TeamName}szolgáltatáshoza(z){CompanyName}napon.Mirevanhozzáférése:Tekintsemegcsapata(i)állapotfelmérésétTekintseátcsapatanövekedésitervét.AzAgilityHealthnélhiszünkabban,hogyazüzletiagilitásegészségescsapatokkalkezdodik.Mostmárlehetoségenyílikarra,hogyszervezeteegészségétésteljesítményétakövetkezoszintreemelje!Tehátkezdjük!HozzalétrefiókjátMárfelhasználó?Kattintsonideabejelentkezéshez.AgilityHealthTeam",
+      "SetupEmailMessageSubject": "Erosítse meg fiókját"
+    },
+    {
+      "language": "Spanish",
+      "SetupEmailBody": "¡BienvenidoaAgilityHealth!Setehaconcedidoaccesoa{TeamName}el{CompanyName}.Aquétieneacceso:Verlaevaluacióndesaluddesu(s)equipo(s)Reviseelplandecrecimientodesuequipo.EnAgilityHealthcreemosquelaagilidadempresarialcomienzaconequipossaludables.¡Ahoratieneelpoderdellevarlasaludyelrendimientodesuorganizaciónalsiguientenivel!¡Empecemos!Creatucuenta¿Yaeresusuario?Hagaclicaquíparainiciarsesión.EquipoAgilityHealth",
+      "SetupEmailMessageSubject": "Confirme su cuenta"
+    },
+    {
+      "language": "Japanese",
+      "SetupEmailBody": " AgilityHealth へようこそ!{CompanyName} の {TeamName} へのアクセスが許可されました。アクセスできること:チームの健康評価を表示チームの成長計画を確認してください。AgilityHealth では、ビジネスの俊敏性は健全なチームから始まると考えています。 これで、組織の健全性とパフォーマンスを次のレベルに引き上げる力が得られました!それでは始めましょう!アカウントを作成すでにユーザーですか？ここをクリックしてログインしてください。AgilityHealthチーム",
+      "SetupEmailMessageSubject": "アカウントを確認する"
+    }
+  ]
+}

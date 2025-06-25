@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RunSettings>
+
+  <!-- To run test in parallel -->
+  <MSTest>
+    <TestTimeout>600000</TestTimeout>
+    <!-- 10 minutes -->
+    <Parallelize>
+      <Workers>1</Workers>
+      <Scope>ClassLevel</Scope>
+    </Parallelize>
+  </MSTest>
+
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <!-- can be DEV,QA.ATQA,PREPROD,LOAD,DEMO,APP-->
+    <Parameter name="Env" value="ATQA" />
+    <!--can be chrome,edge-->
+    <Parameter name="Browser" value="chrome" />
+    <!--can be CA,TA,TA2,OL,BL,SA,M,PA-->
+    <Parameter name="User" value="CA" />
+    <Parameter name="DatabasePassword" value="" />
+    <!--can be true or false-->
+    <Parameter name="CleanCompany" value="false" />
+    <Parameter name="CleanNTierCompany" value="false" />
+    <Parameter name="DeleteTestCompanies" value="false" />
+	<Parameter name="PopulateCompanyTeamHierarchy" value="false" />
+    <!--used by the insights prod validation-->
+    <Parameter name="AzureDevOpsApiKey" value="" />
+    <Parameter name="ProdGroup" value="" />
+    <!--used by the Wait.UntilJavaScriptReady() method-->
+    <Parameter name="JsTimeout" value="60" />
+    <Parameter name="UseOauth" value="false" />
+    <Parameter name="NewNav" value="false" />
+  </TestRunParameters>
+
+  <!-- Configurations for data collectors -->
+  <DataCollectionRunSettings>
+    <DataCollectors>
+
+      <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0"
+                     assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                     friendlyName="Screen and Voice Recorder">
+        <!--Video data collector was introduced in Visual Studio 2017 version 15.5 -->
+        <Configuration>
+          <!-- Set "sendRecordedMediaForPassedTestCase" to "false" to add video attachments to failed tests only -->
+          <MediaRecorder sendRecordedMediaForPassedTestCase="true" xmlns="">
+            <ScreenCaptureVideo bitRate="512" frameRate="2" quality="20" />
+          </MediaRecorder>
+        </Configuration>
+      </DataCollector>
+
+    </DataCollectors>
+  </DataCollectionRunSettings>
+
+</RunSettings>

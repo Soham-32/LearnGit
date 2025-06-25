@@ -1,0 +1,42 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Description/@EntryValue">Page Object</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Text/@EntryValue">using AgilityHealth_Automation.Base;&#xD;
+using OpenQA.Selenium;&#xD;
+&#xD;
+namespace $rootnamespace$&#xD;
+{&#xD;
+    internal class $safeitemname$ : BasePage&#xD;
+    {&#xD;
+        public $safeitemname$(IWebDriver driver, ILogger log = null) : base(driver, log)&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+        // Locators&#xD;
+&#xD;
+&#xD;
+&#xD;
+        // Methods&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+    }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/CustomProperties/=FileName/@EntryIndexedValue">PageObject</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=rootnamespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=rootnamespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=rootnamespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=rootnamespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=safeitemname/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=safeitemname/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=safeitemname/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E189271B28B6E948AB678BFBA827410C/Field/=safeitemname/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

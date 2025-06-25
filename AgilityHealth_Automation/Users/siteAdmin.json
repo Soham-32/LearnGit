@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "description": "user 1",
+      "username": "ah_automation+SiteAdmin@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "Site",
+      "lastName": "Admin",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "SiteAdmin"
+    },
+    {
+      "description": "translation",
+      "username": "ah_automation+SiteAdminTranslation@agiletransformation.com",
+      "password": "temp1234",
+      "firstName": "Site",
+      "lastName": "Admin",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "SiteAdmin"
+    },
+    {
+      "description": "user 3",
+      "username": "ah_automation+ui_companyadmin2@agiletransformation.com",
+      "password": "12345678",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "team admin ahf",
+      "username": "ah_automation+ui_teamadmin_ahf@agiletransformation.com",
+      "password": "12345678",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "team admin no ahf",
+      "username": "ah_automation+ui_teamadmin_noahf@agiletransformation.com",
+      "password": "12345678",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "insights prod",
+      "username": "ah_automation+insights@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "ah",
+      "lastName": "automation",
+      "type": "SiteAdmin"
+    },
+    {
+      "description": "team admin 3",
+      "username": "ah_automation+ca_ta3@agiletransformation.com",
+      "password": "12345678",
+      "type": "TeamAdmin"
+    },
+    {
+      "description": "business line admin 3",
+      "username": "ah_automation+ca_bl3@agiletransformation.com",
+      "password": "12345678",
+      "type": "BusinessLineAdmin"
+    },
+    {
+      "description": "org leader 3",
+      "username": "ah_automation+ca_orgleader3@agiletransformation.com",
+      "password": "12345678",
+      "type": "OrganizationalLeader"
+    },
+    {
+      "description": "password reset",
+      "username": "ah_automation+SAreset@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "SA",
+      "lastName": "Reset",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "Member"
+    },
+    {
+      "description": "company admin",
+      "username": "ah_automation+ui_companyadmin3@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "Company",
+      "lastName": "Admin 3",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "CompanyAdmin"
+    },
+    {
+      "description": "partner admin",
+      "username": "ah_automation+PartnerAdmin@agiletransformation.com",
+      "password": "Agile4me",
+      "firstName": "Partner",
+      "lastName": "Admin",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "PartnerAdmin"
+    },
+    {
+      "description": "member 6",
+      "username": "ah_automation+at_mem6@agiletransformation.com",
+      "password": "12345678",
+      "firstName": "AT_Mem",
+      "lastName": "6",
+      "companyName": "Automation2 (DO NOT USE)",
+      "type": "Member"
+    }
+  ],
+  "companies": [
+    {
+      "environment": "dev",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "qa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "atqa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "uat",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "ttndev",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "ttnqa",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "preprod",
+      "id": "76",
+      "teamId1": "4938"
+    },
+    {
+      "environment": "load",
+      "id": "76",
+      "teamId1": "4938"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿{
+  "Languages": [
+    {
+      "language": "English",
+      "surveyEmailBody": " {AssessmentName} Assessment | {TeamName}  We want {CompanyName} to be a fun, challenging and rewarding place to work. Help us realize our vision of a world-class Agile work environment by completing the TeamHealth Assessment. This assessment is your opportunity to help shape the future of our team and improve your own experience in the process. Your feedback will be compiled and used to guide further positive changes across the team and organization.Click here to take the assessmentYou have until July 04, 2023 at 7:07 AM UTC to complete the assessment. Thank you in advance for your participation.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - Please Respond"
+    },
+    {
+      "language": "Korean",
+      "surveyEmailBody": " {AssessmentName}평가|{TeamName}우리는{CompanyName}이재미있고도전적이며보람있는직장이되기를바랍니다.팀상태평가를완료하여세계적수준의Agile작업환경에대한비전을실현할수있도록도와주세요.이평가는우리팀의미래를형성하고그과정에서자신의경험을향상시키는데도움을줄수있는기회입니다.귀하의피드백은수집되어팀과조직전체에긍정적인변화를가져오는데사용됩니다.평가를받으려면여기를클릭하세요.평가를완료하려면November30,2023~에11:57AMUTC까지남았습니다.참여해주셔서미리감사드립니다.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - 응답해주세요"
+    },
+    {
+      "language": "Chinese",
+      "surveyEmailBody": "{AssessmentName}评估|{TeamName}我们希望{CompanyName}成为一个有趣、具有挑战性和回报的工作场所。通过完成团队健康评估，帮助我们实现世界级敏捷工作环境的愿景。此评估是您帮助塑造我们团队未来并改善您自己在此过程中的体验的机会。您的反馈将被汇编并用于指导整个团队和组织的进一步积极变革。点击此处进行评估您必须在November29,2023在1:07PMUTC之前完成评估。预先感谢您的参与。",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - 回答我"
+    },
+    {
+      "language": "Portuguese",
+      "surveyEmailBody": " {AssessmentName}Avaliação|{TeamName}Queremosquea{CompanyName}sejaumlugardivertido,desafiadoregratificanteparasetrabalhar.Ajude-nosaconcretizarnossavisãodeumambientedetrabalhoÁgildeclassemundial,completandoaAvaliaçãodeSaúdedaEquipe.Estaavaliaçãoéasuaoportunidadedeajudaramoldarofuturodanossaequipeemelhorarasuaprópriaexperiêncianoprocesso.Seufeedbackserácompiladoeusadoparaorientarfuturasmudançaspositivasnaequipeenaorganização.CliqueaquiparafazeraavaliaçãoVocêtematéDecember01,2023no9:39AMUTCparaconcluiraavaliação.Agradecemosdesdejáasuaparticipação.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - Por favor responda"
+    },
+    {
+      "language": "Turkish",
+      "surveyEmailBody": "{AssessmentName}Değerlendirme|{TeamName}{CompanyName}'nineğlenceli,zorluveödüllendiricibirçalışmayeriolmasınıistiyoruz.EkipSağlığıDeğerlendirmesinitamamlayarakbirincisınıfÇevikbirçalışmaortamıvizyonumuzugerçekleştirmemizeyardımcıolun.Budeğerlendirme,ekibimizingeleceğinişekillendirmenizevesüreçtekideneyiminizigeliştirmenizeyardımcıolmafırsatınızdır.Geribildiriminizderlenecekveekipveorganizasyongenelindedahafazlaolumludeğişiklikyapılmasınarehberliketmekiçinkullanılacaktır.DeğerlendirmeyekatılmakiçinburayıtıklayınDeğerlendirmeyitamamlamakiçinDecember01,2023en10:26AMUTCtarihinekadarsürenizvar.Katılımınıziçinşimdidenteşekkürederiz.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - Lütfen cevap ver"
+    },
+    {
+      "language": "Hungarian",
+      "surveyEmailBody": "{AssessmentName} Értékelés | {TeamName}Azt akarjuk, hogy a {CompanyName} szórakoztató, kihívásokkal teli és kifizetődő munkahely legyen. Segítsen nekünk megvalósítani elképzelésünket egy világszínvonalú Agilis munkakörnyezetről a Team Health Assessment kitöltésével. Ez az értékelés az Ön lehetősége arra, hogy segítsen kialakítani csapatunk jövőjét, és javítani a folyamat során szerzett tapasztalatait. Visszajelzéseit összegyűjtjük és felhasználjuk a további pozitív változások iránymutatására a csapaton és a szervezeten belül.Kattintson ide az értékelés elvégzéséhezAz értékelés véglegesítésére június 12, 2023 - 11:04 AM UTC-ig van lehetősége. Előre is köszönjük a részvételét.",
+      "surveyEmailMessageSubject": "Your {AssessmentName} has been launched!"
+    },
+    {
+      "language": "German",
+      "surveyEmailBody": "{TeamName}Wir möchten, dass {CompanyName} ein unterhaltsamer, herausfordernder und lohnender Arbeitsplatz ist. Helfen Sie uns, unsere Vision einer erstklassigen agilen Arbeitsumgebung zu verwirklichen, indem Sie das Team Health Assessment absolvieren. Dieses Assessment ist Ihre Gelegenheit, die Zukunft unseres Teams mitzugestalten und dabei Ihre eigenen Erfahrungen zu verbessern. Ihr Feedback wird zusammengestellt und verwendet, um weitere positive Veränderungen im Team und in der Organisation anzuleiten.Klicken Sies hier, um die Bewertung durchzuführenSie haben bis zum Juni 12, 2023 um 10:22 AM UTC Zeit, um die Bewertung abzuschließen. Vielen Dank im Voraus für Ihre Teilnahme.",
+      "surveyEmailMessageSubject": "Your {AssessmentName} has been launched!"
+    },
+    {
+      "language": "Japanese",
+      "surveyEmailBody": "{AssessmentName} 評価 | {TeamName}{CompanyName} が、楽しく、やりがいがあり、やりがいのある職場になることを願っています。 チーム ヘルス アセスメントを完了することで、世界クラスのアジャイルな職場環境というビジョンの実現にご協力ください。 この評価は、私たちのチームの将来を形作り、プロセスにおけるあなた自身の経験を改善するのに役立つ機会です. あなたのフィードバックはまとめられ、チームと組織全体でさらに前向きな変化を導くために使用されます。ここをクリックして評価を受ける4月 04, 2023 時 5:23 AM UTCまでに評価を完了してください。 ご参加いただきありがとうございます。",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - 答えてください"
+    },
+    {
+      "language": "French",
+      "surveyEmailBody": "{AssessmentName} Évaluation | {TeamName}Nous voulons que {CompanyName} soit un lieu de travail agréable, stimulant et gratifiant. Aidez-nous à réaliser notre vision d'un environnement de travail agile de classe mondiale en remplissant l'évaluation de la santé de l'équipe.Cette évaluation vous donne l'occasion de contribuer à façonner l'avenir de notre équipe et d'améliorer votre propre expérience dans le processus. Vos commentaires seront compilés et utilisés pour guider d'autres changements positifs au sein de l'équipe et de l'organisation.Cliquez ici pour effectuer l´évaluationVous avez jusqu´au juin 09, 2023 à 12:59 PM UTC pour compléter l´évaluation. Merci d´avance pour votre participation.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - Veuillez réagir"
+
+    },
+    {
+      "language": "Spanish",
+      "surveyEmailBody": "{AssessmentName} Evaluación | {TeamName}Queremos que {CompanyName} sea un lugar de trabajo divertido, desafiante y gratificante. Ayúdenos a hacer realidad nuestra visión de un entorno de trabajo ágil de clase mundial completando la Evaluación del estado del equipo. Esta evaluación es su oportunidad de ayudar a dar forma al futuro de nuestro equipo y mejorar su propia experiencia en el proceso. Sus comentarios se compilarán y utilizarán para guiar cambios positivos adicionales en todo el equipo y la organización.😊Haga clic aquí para realizar la evaluaciónTienes hasta el junio 09, 2023 a las 5:58 AM UTC para completar la evaluación. Gracias de antemano por su participación.",
+      "surveyEmailMessageSubject": "{TeamName} | {AssessmentName} - Por Favor Responde"
+    }
+
+  ]
+}

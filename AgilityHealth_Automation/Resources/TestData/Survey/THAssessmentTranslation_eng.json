@@ -1,0 +1,950 @@
+﻿{
+  "language": "English",
+  "confirmIdentityPopup": [
+    {
+      "translatedConfirmIdentityTitle": "Confirm Identity",
+      "translatedHeaderTitle": "Hello, AT_Mem 2",
+      "translatedHeaderTitleSubtext": "The results from this personalized link will be recorded for AT_Mem 2",
+      "translatedContinueButtonText": "Continue",
+      "translatedThatNotMeButtonText": "That's not me",
+      "FooterText": "Your results will remain anonymous."
+    }
+  ],
+  "welcomePage": [
+    {
+      "leftSidePanelText": "Welcome",
+      "welcomeMessage": "We want Automation_CA2 (DO NOT USE) to be a fun, challenging and rewarding place to work. Help us realize our vision of a world-class Agile work environment by completing the Team Health Assessment. This assessment is your opportunity to help shape the future of our team and improve your own experience in the process. Your feedback will be compiled and used to guide further positive changes across the team and organization.",
+      "startButtonText": "START"
+    }
+  ],
+  "surveyAssessmentEmailSubject": [
+    {
+      "subject": "Please Respond"
+    }
+  ],
+  "RadarCompetencyPopup": [
+    {
+      "CompetencyProfilePopupName": "Competency Profile",
+      "GrowthPortal": "Growth Portal",
+      "AvgResponse": "Avg. Response",
+      "Question": [ "Questions", "Question" ]
+    }
+  ],
+  "dimensions": [
+    {
+      "dimensionName": "Clarity",
+      "subDimension": [
+        {
+          "headerName": "Clarity - Planning",
+          "descriptionOne": "A healthy team has clarity on their short-term, mid-term and long-term roadmap. For example, think of iterations, sprints, weekly cadence as your short-term plan.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Quarterly/ Roadmap",
+              "competencyAbbreviation": "Quarterly/ Roadmap",
+              "competencyId": 3625,
+              "question": [
+                {
+                  "question": "Quarterly/Roadmap:\r\n\r\nCrawl: We don't really have a roadmap past the current quarter/release.\r\n\r\nWalk: We have a rough quarterly roadmap but it is only shared with a few people, not the entire team.\r\n\r\nRun: We have visibility into our roadmap containing high level deliverables for the next few quarters/releases.\r\n\r\nFly: We have regular quarterly planning meetings where we gain visibility into our overall strategy, yearly outcomes and how our quarterly roadmap aligns with the strategy.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 1 of 50 (2%)",
+                  "questionTooltips": "Mentally replace quarterly with your own cadence such as trimesters. Kanban teams - You can select N/A if you do not plan or wish to plan quarterly.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Monthly/ Release",
+              "competencyAbbreviation": "Monthly/ Release",
+              "competencyId": 3626,
+              "question": [
+                {
+                  "question": "Monthly/Release:\r\n\r\nCrawl: We know what our plan is for the current iteration/month but don't have a plan beyond that.\r\n\r\nWalk: We have a plan for the next few iterations/months, but it changes so frequently it is hard to execute against it.\r\n\r\nRun: We have a stable plan over the next few iterations/months that incorporates cross-team dependencies.\r\n\r\nFly: We are effective at predictably executing against our plan for the next few months and meeting all committed objectives while adapting to change and incorporating feedback from stakeholders/customers.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 2 of 50 (4%)",
+                  "questionTooltips": "Example: We have planned for the next 3 months, release or Project Increment. Kanban teams - you can select N/A if you don't plan monthly.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Weekly/ Iteration",
+              "competencyAbbreviation": "Weekly/ Iteration",
+              "competencyId": 3627,
+              "question": [
+                {
+                  "question": "Weekly/Iteration:\r\n\r\nCrawl: We do not have a weekly or iteration plan. We get work done day by day without a real plan or strategy.\r\n\r\nWalk: We usually plan our upcoming iteration but the plan changes frequently causing several items to fall through and not be completed.\r\n\r\nRun: We have a stable iteration plan that we can predictably execute against and are able to manage unplanned work.\r\n\r\nFly: Within each iteration we have become effective at maximizing throughput, eliminating bottlenecks, and incorporating feedback from of our customers/users.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 3 of 50 (6%)",
+                  "questionTooltips": "Example: We have planned for the next 3 months, release or Project Increment. Kanban teams - you can select N/A if you don't plan monthly.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Clarity - Planning\""
+            }
+          ]
+        },
+        {
+          "headerName": "Clarity - Roles",
+          "descriptionOne": "On a healthy team everyone is clear on their individual role and each team member's role and expectations. They understand and practice the concept of generalizing specialists (stepping outside of my role to help others as needed).",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Roles",
+              "competencyAbbreviation": "Roles",
+              "competencyId": 3628,
+              "question": [
+                {
+                  "question": "Roles & Expectations:\r\n\r\nCrawl: We are not sure who does what on the team OR I am not confident we even have the right people/roles we need.\r\n\r\nWalk: I have clarity on my role and what's needed from me but I'm not clear what some of the other roles are expected to do.\r\n\r\nRun: We have created clear expectations of what we need from each role, and we measure against these expectations to inspect and adapt. I feel confident we have the right people to meet our current deliverables.\r\n\r\nFly: We are comfortable and feel safe giving each other open/honest feedback. We encourage and support each other to grow in their role through frequent pairing and cross-training.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 4 of 50 (8%)",
+                  "questionTooltips": "Mentally replace quarterly with your own cadence such as trimesters. Kanban teams - You can select N/A if you do not plan or wish to plan quarterly.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Generalizing Specialists",
+              "competencyAbbreviation": "Generalizing Specialists",
+              "competencyId": 3629,
+              "question": [
+                {
+                  "title": "Generalizing specialist (T-shaped) refers to having individuals who are deeply specialized or skilled in one area and acquire new skills in a related or desired area. This enables teams to become cross-disciplined and cross-functional so they can deliver end-to-end value and reduce bottlenecks.",
+                  "question": "Generalizing Specialists:\r\n\r\nGeneralizing specialist (T-shaped) refers to having individuals who are deeply specialized or skilled in one area and acquire new skills in a related or desired area. This enables teams to become cross-disciplined and cross-functional so they can deliver end-to-end value and reduce bottlenecks.\r\n\r\nCrawl: I am not sure what \"Generalizing Specialist\" or \"T-Shaped\" means. I do my own tasks, and others do theirs.\r\n\r\nWalk: We understand the concept and value of being a Generalizing Specialist, and a few team members pitch in to help outside of their role.\r\n\r\nRun: We have invested in cross-training. Several of us are willing, capable, and often step outside of our own roles to help when bottlenecks occur.\r\n\r\nFly: Everyone on the team has a backup that can take over their work if they are not available. Everyone proactively steps up to help.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 5 of 50 (10%)",
+                  "questionTooltips": "Definition: Generalizing specialist (T-shaped) refers to having individuals who are deeply specialized or skilled in one area and acquire new skills in a related or desired area. This enables teams to become cross-disciplined and cross-functional so they can deliver end-to-end value and reduce bottlenecks. Example: A Developer that codes, but can still test code for other Developers.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Clarity - Roles\""
+            }
+          ]
+        },
+        {
+          "headerName": "Clarity - Vision",
+          "descriptionOne": "A healthy team has clarity on their vision and purpose with clearly defined measures for success. They understand how their work aligns to the strategic objectives of the company and have established collective ownership for reaching the current goals.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Vision & Purpose",
+              "competencyAbbreviation": "Vision & Purpose",
+              "competencyId": 3623,
+              "question": [
+                {
+                  "question": "Vision & Purpose:\r\n\r\nCrawl: Our team does not have clarity on our vision and purpose. We are not sure where we are headed and do not have clear priorities.\r\n\r\nWalk: A few members of our team, who work closely with the Product Owner, understand our purpose, direction, and priorities. We have a general understanding of our customer/user needs.\r\n\r\nRun: We all have clarity on our team's vision and where we should focus now. We have clarity on our customer's needs, and we are aligned with the quarterly strategy and goals.\r\n\r\nFly: We engage with our customers often and are aligned around their needs and desired business outcomes. We are engaged in evolving our vision and future direction.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 6 of 50 (12%)",
+                  "questionTooltips": "Customers can be your external customers, internal users or even other teams that consume your work. The Product Owner speaks to the Agile Product Owner role identified in agile frameworks.  For this assessment, Product Owner is used interchangeably with Agile Product Owner.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Goals & Outcomes",
+              "competencyAbbreviation": "Goals & Outcomes",
+              "competencyId": 3624,
+              "question": [
+                {
+                  "question": "Goals & Outcomes:\r\n\r\nCrawl: We do not really have any defined goals or measurable outcomes.\r\n\r\nWalk: We do create goals and measures for success. However, they are 'output' not 'value' focused, and not everyone is aware of them.\r\n\r\nRun: We are creating 'outcome' driven goals that are well defined. However, we don't track how we're doing against them.\r\n\r\nFly: We set short-term 'outcome' driven goals, and we review our progress against them frequently. Everyone on the team can give a 60 second elevator speech describing our outcomes.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 7 of 50 (14%)",
+                  "questionTooltips": "Output measures how much value we are producing (# of items completed, story points, # of defects). Outcome measures focus on the business value that is delivered for the customer (customer satisfaction, higher retention, customer engagement) and our ability to improve our delivery (ability to respond faster, elimination of defects, scalability, newer technology upgrade).",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Clarity - Vision\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Save",
+          "questionLabel": "Question",
+          "sectionLabel": "Section",
+          "saveMessage": "Saved"
+        }
+      ]
+    },
+
+    {
+      "dimensionName": "Performance",
+      "subDimension": [
+        {
+          "headerName": "Performance - Confidence",
+          "descriptionOne": "A healthy team takes a closer look at the confidence level of their product owner, stakeholders and their own team members as a way of understanding if they are moving in the right direction or not. Analyzing the variation between confidence levels opens a healthy conversation to help the team inspect and adapt.\r\nOnly respond to the questions that apply to your role. Select N/A for others.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Team",
+              "competencyAbbreviation": "Team",
+              "competencyId": 3631,
+              "question": [
+                {
+                  "title": "Our team has the right knowledge, skills, motivation, and tools to meet the current goals.",
+                  "question": "Team Confidence: \r\n\r\nOur team has the right knowledge, skills, motivation, and tools to meet the current goals. \r\n\r\nCrawl: I am not at all confident. \r\n\r\nWalk: I am somewhat confident. \r\n\r\nRun: I am mostly confident. \r\n\r\nFly: I am completely confident.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 8 of 50 (16%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Performance - Confidence\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Save",
+          "questionLabel": "Question",
+          "sectionLabel": "Section",
+          "saveMessage": "Saved"
+        }
+      ]
+    },
+
+    {
+      "dimensionName": "Leadership",
+      "subDimension": [
+        {
+          "headerName": "Leadership - Team Facilitator",
+          "descriptionOne": "A healthy team has an effective team facilitator who insures the team's Agile or Lean processes, meetings and practices are healthy and effective. The team facilitator aims to help your team achieve self-organization, high performance and a healthy culture.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Effective Facilitation",
+              "competencyAbbreviation": "Effective Facilitation",
+              "competencyId": 3599,
+              "question": [
+                {
+                  "question": "Effective Facilitation:\r\n\r\nCrawl: Our team has several interpersonal and team dynamic issues that impede our meetings, and our facilitator struggles to control these.\r\n\r\nWalk: Our team has some interpersonal and team dynamic issues, but our team facilitator is good at helping our team with those issues.\r\n\r\nRun: Interpersonal and team dynamic issues happen occasionally, but our team facilitator is great at helping our team with consensus building, resolving conflict, and managing dysfunctions.\r\n\r\nFly: Our team facilitator has helped elevate our team culture and dynamics to new levels of maturity that built on trust, respect, accountability, and collaborative decision making.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 9 of 50 (18%)",
+                  "questionTooltips": "Team Facilitator is used interchangeably with the role of the Scrum Master.  Team Facilitator is used to describe this role for teams that are using Scrum, Kanban or other lean frameworks that do not use the title Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Facilitation",
+              "competencyAbbreviation": "Effective Facilitation",
+              "competencyId": 3599,
+              "question": [
+                {
+                  "question": "Effective Facilitation:\r\n\r\nCrawl: We do not have an effective team facilitator OR our meetings are a waste of time and not results driven.\r\n\r\nWalk: We have an effective team facilitator who manages and runs our team meetings, but there is room for improvement.\r\n\r\nRun: Our meetings are valuable because we have an effective team facilitator who plans ahead, executes collaborative sessions well, and manages follow up items.\r\n\r\nFly: Anyone on our team can effectively facilitate any of our team sessions without the need for our team facilitator. We continuously invest in improving our facilitation skills.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 10 of 50 (20%)",
+                  "questionTooltips": "Team Facilitator is used interchangeably with the role of the Scrum Master.  Team Facilitator is used to describe this role for teams that are using Scrum, Kanban or other lean frameworks that do not use the title Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3600,
+              "question": [
+                {
+                  "question": "Leadership: \r\n\r\nCrawl: Our team facilitator leads using a controlling/directive style. We are not empowered to bring up issues or concerns.\r\n\r\nWalk: Our team facilitator provides effective guidance and helps us stay focused on our goals.\r\n\r\nRun: Our team facilitator leads by example and has the key traits of a servant leader (serves, actively listens, coaches, and empowers others).\r\n\r\nFly: Our team facilitator has fully empowered our team so that we are self-organizing. Several individuals on our team have developed leadership skills. \r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 11 of 50 (22%)",
+                  "questionTooltips": "If your team does not have this role, feel free to select N/A. Team Facilitator is used interchangeably with the role of the Scrum Master.  Team Facilitator is used to describe this role for teams that are using Scrum, Kanban or other lean frameworks that do not use the title Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Impediment Management",
+              "competencyAbbreviation": "Impediment Mgmt.",
+              "competencyId": 3601,
+              "question": [
+                {
+                  "question": "Impediment Management: \r\n\r\nCrawl: As a team, we get stuck frequently and impediments are not being removed or addressed in a timely manner by our facilitator.\r\n\r\nWalk: Our team facilitator is starting to manage impediments and shield us from distractions to the best of their ability.\r\n\r\nRun: Our team facilitator is effective at facilitating the removal of our impediments and managing dependencies in and outside of our team.\r\n\r\nFly: We as a team are fully empowered to remove impediments and distractions and manage dependencies inside and outside the team so that we can achieve our goals.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 12 of 50 (24%)",
+                  "questionTooltips": "Team Facilitator is used interchangeably with the role of the Scrum Master.  Team Facilitator is used to describe this role for teams that are using Scrum, Kanban or other lean frameworks that do not use the title Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Leadership - Team Facilitator\""
+
+            }
+          ]
+        },
+        {
+          "name": "Leadership - Technical Lead(s)",
+          "headerName": "Leadership - Technical Lead(s)",
+          "descriptionOne": "A healthy team has a role responsible for translating the business vision into a technical vision and then supporting the successful technical execution of that vision. Technical lead may be the architect, senior developer or engineering lead.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3602,
+              "question": [
+                {
+                  "question": "Leadership: \r\n\r\nCrawl: Our Technical Lead / Subject Matter Expert uses a controlling/directive style. We do not get much coaching or mentoring from them.\r\n\r\nWalk: Our Technical Lead / Subject Matter Expert provides good solutions and recommendations but is too busy to coach/mentor others.\r\n\r\nRun: Our Technical Lead / Subject Matter Expert invests in coaching, mentoring, pairing, and improving our skills individually and as a team.\r\n\r\nFly: Many of us on the team have acquired strong technical skills in different domains. We do not rely on only one or two individuals.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 13 of 50 (26%)",
+                  "questionTooltips": "Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Expertise",
+              "competencyAbbreviation": "Technical Expertise",
+              "competencyId": 3603,
+              "question": [
+                {
+                  "question": "Technical Expertise: \r\n\r\nCrawl: We do not have technical leadership or someone to go to; we figure things out on our own without much guidance or validation.\r\n\r\nWalk: Our technical lead has intermediate level knowledge in the subject area and provides general guidance when needed.\r\n\r\nRun: Our technical lead has strong knowledge and experience, provides solid guidance, and helps the team solve technical impediments.\r\n\r\nFly: Our technical lead is a true expert. They consistently collaborate with the team to design the best solutions that align with our strategic direction and enterprise architecture.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 14 of 50 (28%)",
+                  "questionTooltips": "Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Expertise",
+              "competencyAbbreviation": "Technical Expertise",
+              "competencyId": 3603,
+              "question": [
+                {
+                  "question": "Technical Expertise:\r\n\r\nCrawl: Our Technical Lead does not engage with our business customers and users.\r\n\r\nWalk: Our Technical Lead occasionally engages with the business to understand and help meet their immediate needs.\r\n\r\nRun: Our Technical Lead frequently engages with the business to define practical short-term and long-term solutions. They have acquired both technical and business expertise.\r\n\r\nFly: Our Technical Lead is a trusted partner to the PO and customers. They proactively collaborate to align technology with desired business outcomes.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 15 of 50 (30%)",
+                  "questionTooltips": "Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Leadership - Technical Lead(s)\""
+            }
+          ]
+        },
+        {
+          "name": "Leadership - Product Owner",
+          "headerName": "Leadership - Product Owner",
+          "descriptionOne": "The Product Owner is the person who is responsible for maximizing the business value delivered by the team. They should be able to clearly define, communicate, and translate the business vision into a successful backlog and define short-term goals.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Engagement",
+              "competencyAbbreviation": "Engagement",
+              "competencyId": 3604,
+              "question": [
+                {
+                  "question": "Engagement with Team: \r\n\r\nCrawl: We do not have a Product Owner representing our customers but have a proxy filling in for them; OR we have a Product Owner who is not engaged or empowered to make decisions.\r\n\r\nWalk: We have a Product Owner, but he/she is busy and has limited time to engage and answer questions which causes rework.\r\n\r\nRun: Our Product Owner engages frequently with our team and is available for decisions when needed.\r\n\r\nFly: Our Product Owner engagement is so effective that now many members of our team can predict and anticipate their needs and way of thinking.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 16 of 50 (32%)",
+                  "questionTooltips": "A proxy is someone else that has the knowledge and is delegated by the Product Owner to be the representative of the customer. The Product Owner speaks to the Agile Product Owner role identified in agile frameworks. For this assessment, Product Owner is used interchangeably with Agile Product Owner. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Engagement",
+              "competencyAbbreviation": "Engagement",
+              "competencyId": 3604,
+              "question": [
+                {
+                  "question": "Engagement with Sponsor/Customers/Stakeholders:  \r\n\r\nCrawl: Our Product Owner does not represent our customers and has little engagement with stakeholders and actual users.\r\n\r\nWalk: Our Product Owner occasionally engages with our sponsor, stakeholders, and users. Sometimes this leads to us missing some of their requirements.\r\n\r\nRun: Our Product Owner frequently engages with our sponsor, stakeholders, and users. They manage stakeholder and user expectations well.\r\n\r\nFly: Our Product Owner effectively represents the voice of our team to others and consistently engages us directly with customers.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 17 of 50 (34%)",
+                  "questionTooltips": "The Product Owner speaks to the Agile Product Owner role identified in agile frameworks. For this assessment, Product Owner is used interchangeably with Agile Product Owner. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Backlog Management",
+              "competencyAbbreviation": "Backlog Mgmt.",
+              "competencyId": 3605,
+              "question": [
+                {
+                  "question": "Backlog Management: \r\n\r\nCrawl: Our Product Owner does not really manage or refine our backlog. He/she delegates this to others.\r\n\r\nWalk: Our Product Owner manages our backlog, although stories are usually not well defined at the start of the iteration.\r\n\r\nRun: Our Product Owner is effective at keeping the backlog ranked and refined. Stories have good acceptance criteria and are usually ready to bring into an iteration.\r\n\r\nFly: Our Product Owner, collaboratively with the team, masterfully manages our backlog and effectively plans ahead for future iterations. Stories are clearly written, sliced appropriately, and are always ready for the team to pull.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 18 of 50 (36%)",
+                  "questionTooltips": "The Product Owner speaks to the Agile Product Owner role identified in agile frameworks. For this assessment, Product Owner is used interchangeably with Agile Product Owner. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Backlog Management",
+              "competencyAbbreviation": "Backlog Mgmt.",
+              "competencyId": 3605,
+              "question": [
+                {
+                  "question": "Backlog Management:\r\n\r\nCrawl: Our Product Owner makes frequent changes to our priorities; we can't finish what we start.\r\n\r\nWalk: Our Product Owner lets us focus on what we planned to do within an iteration with minimal changes, but we still get requests from others.\r\n\r\nRun: All our work is managed by our Product Owner and provides focus to us to finish what we start through a ranked and prioritized backlog.\r\n\r\nFly: Our Product Owner proactively works ahead with stakeholders/customers so we have sufficient 'ready' backlog to pull from. He/She protects us from too many distractions.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 19 of 50 (38%)",
+                  "questionTooltips": "The Product Owner speaks to the Agile Product Owner role identified in agile frameworks. For this assessment, Product Owner is used interchangeably with Agile Product Owner. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3606,
+              "question": [
+                {
+                  "question": "Leadership:\r\n\r\nCrawl: Our Product Owner is focused at leading the tactical execution of our work (planning, backlog management, team engagement, feedback).\r\n\r\nWalk: Our Product Owner is very focused on delivering the highest tangible customer value with great user experience.\r\n\r\nRun: Our Product Owner is aligned to the strategic direction (vision, roadmap) and performs discovery for our next release/quarter of work.\r\n\r\nFly: Additionally, our Product Owner inspires the team to solve customer problems in creative and innovative ways. Our team can now anticipate our customer needs.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 20 of 50 (40%)",
+                  "questionTooltips": "The Product Owner speaks to the Agile Product Owner role identified in agile frameworks. For this assessment, Product Owner is used interchangeably with Agile Product Owner. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Leadership - Product Owner\""
+            }
+          ]
+        },
+        {
+          "name": "Leadership - Management",
+          "headerName": "Leadership - Management",
+          "descriptionOne": "On a healthy team, managers focus less on task management and more on developing people, process improvement and strategic alignment. They demonstrate the traits of servant leaders and know when to provide direction, when to help and when to step back and empower the team.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Leadership:\r\n\r\nAnswer this question in reference to your Manager.  This question  provides details concerning the impact to the team by the role of the manager.  \r\n\r\nSelect N/A if your Manager is not part of the organization. See help text for more information.\r\n\r\nCrawl: My manager still manages my tasks and can be directive/controlling.\r\n\r\nWalk: My manager has stepped back from managing tasks and empowers me and the team to self-organize and make decisions around our work.\r\n\r\nRun: My manager is a role model who walks the walk and represents our core leadership values well (as defined by your company).\r\n\r\nFly: My manager has inspired me with the purpose of our team and our work. They are a trusted partner for the business, our Product Owner, and team facilitator/ScrumMaster.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 21 of 50 (42%)",
+                  "questionTooltips": "The Management questions under leadership are meant to highlight how the Team experiences management and leadership in the organization. There are likely more than one manager who oversees a cross functional agile team. The focus of this question is to demonstrate the team experience. If your supervisor is not part of the organization or you are a contractor, you should select NA for this question. If you have someone that you report to that is part of the organization despite not being an employee, request clarity on how to answer this question from the AgilityHealth Facilitator or Team Facilitator/Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Leadership:\r\nAnswer this question in reference to your Manager.  This question  provides details concerning the impact to the team by the role of the manager.  \r\n\r\nSelect N/A if your Manager is not part of the organization. See help text for more information.\r\n\r\nCrawl: I do not see my manager very often, and when we meet, we are focused on my tasks.\r\n\r\nWalk: My manager occasionally works with me to develop my skills and abilities.\r\n\r\nRun: My manager meets with me as often as needed and has helped me grow in my role and interpersonal skills.\r\n\r\nFly: My manager has empowered me to chose my future growth path and invest in my own learning. I've become a mentor for others.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "N/AId": "na4994",
+                  "questionFooterDetail": "Question 22 of 50 (44%)",
+                  "questionTooltips": "The Management questions under leadership are meant to highlight how the Team experiences management and leadership in the organization. There are likely more than one manager who oversees a cross functional agile team. The focus of this question is to demonstrate the team experience. If your supervisor is not part of the organization or you are a contractor, you should select NA for this question. If you have someone that you report to that is part of the organization despite not being an employee, request clarity on how to answer this question from the AgilityHealth Facilitator or Team Facilitator/Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Leadership",
+              "competencyAbbreviation": "Leadership",
+              "competencyId": 3607,
+              "question": [
+                {
+                  "question": "Leadership:\r\nThis question applies to the management team overall.  \r\n\r\nSelect N/A if this is your baseline (first assessment).\r\n\r\nCrawl: Our manager(s) is not engaged to resolve the organizational obstacles and growth items we've identified.\r\n\r\nWalk: Our manager(s) try to resolve organizational obstacles and growth items but many issues are out of their control so we don't see traction or have visibility.\r\n\r\nRun: Our manager(s) have resolved many of the organizational obstacles and growth items and do this with transparency and communication so we're always informed on their progress.\r\n\r\nFly: The diligence of our leadership team resolving organizational obstacles and growth items has significantly improved our team's maturity and performance. This has increased trust and confidence in leadership.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 23 of 50 (46%)",
+                  "questionTooltips": "The Management questions under leadership are meant to highlight how the Team experiences management and leadership in the organization. There are likely more than one manager who oversees a cross functional agile team. The focus of this question is to demonstrate the team experience. If your supervisor is not part of the organization or you are a contractor, you should select NA for this question. If you have someone that you report to that is part of the organization despite not being an employee, request clarity on how to answer this question from the AgilityHealth Facilitator or Team Facilitator/Scrum Master. Leadership questions in this assessment focus on the Leadership Role, not on the performance of the individual in the Role.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Leadership - Management\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Save",
+          "questionLabel": "Question",
+          "sectionLabel": "Section",
+          "saveMessage": "Saved"
+        }
+      ]
+    },
+
+    {
+      "dimensionName": "Culture",
+      "subDimension": [
+        {
+          "headerName": "Culture - Team Dynamics",
+          "descriptionOne": "A healthy team has a healthy culture, this means they've worked on their layer below the surface and have moved from Me and I to We. They practice open honest communication, work collaboratively and address conflict in a healthy manner.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Happiness",
+              "competencyAbbreviation": "Happiness",
+              "competencyId": 3610,
+              "question": [
+                {
+                  "question": "Happiness:\r\n\r\nCrawl: I wish I worked somewhere else!\r\n\r\nWalk: I have some team members that I enjoy working with, but a few...not so much. Work is not inspiring.\r\n\r\nRun: I enjoy working with this team. We continue to improve our work and invest in our relationships.\r\n\r\nFly: I love working with this team, and I am inspired by the work we do for our customers. I cannot imagine working anywhere else!\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 24 of 50 (48%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Collaboration",
+              "competencyAbbreviation": "Collaboration",
+              "competencyId": 3611,
+              "question": [
+                {
+                  "question": "Collaboration:\r\n\r\nCrawl: We work mostly as individuals and only talk when necessary.\r\n\r\nWalk: We are cooperating with each other by having a common goal, sharing information, and coordinating work to reach this goal.\r\n\r\nRun: We are collaborating with each other by making it safe to share ideas, having healthy and honest debates, empowering specific roles to make decisions, or reaching consensus as a team.\r\n\r\nFly: We have designed strong solutions together that solve our highest customer needs. We encourage diversity of ideas from inside and outside of our team.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 25 of 50 (50%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Trust & Respect",
+              "competencyAbbreviation": "Trust & Respect",
+              "competencyId": 3612,
+              "question": [
+                {
+                  "question": "Trust & Respect:\r\n\r\nCrawl: We have trust and respect issues within this team. Several members have fear of speaking up or feel like they have to watch their back.\r\n\r\nWalk: We have improved our trust issues. Several team members are more comfortable sharing their ideas, but not all.\r\n\r\nRun: We talk openly about trust and respect. We have pro-actively improved our trust and respect for each other. We have created an open, transparent, and safe atmosphere.\r\n\r\nFly: We assume positive intent in people's actions, and we have acquired the skills to resolve our internal conflicts in a healthy way.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 26 of 50 (52%)",
+                  "questionTooltips": "Assume Positive Intent: You believe that people have good intentions behind their actions even if their approach or style was not healthy. You do not hold grudges or tell yourself negative stories.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Creativity & Innovation",
+              "competencyAbbreviation": "Creativity & Innovation",
+              "competencyId": 3613,
+              "question": [
+                {
+                  "question": "Creativity & Innovation: \r\n\r\nCrawl: We are focused on getting work done as it's been defined for us. No one has time to be creative, nor is it encouraged.\r\n\r\nWalk: We are encouraged to think outside-of-the-box. However, we are constrained by existing solutions. It is not safe to fail or try new things.\r\n\r\nRun: We are empowered to design creative ideas to solve problems and challenge existing solutions. It is safe to experiment and learn.\r\n\r\nFly: We have designed several innovative solutions that our customers have been thrilled with! We make time for innovation (ex: hack-a-thons, innovation cycles).\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 27 of 50 (54%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Accountability",
+              "competencyAbbreviation": "Accountability",
+              "competencyId": 3614,
+              "question": [
+                {
+                  "question": "Accountability: \r\n\r\nCrawl: Several members of our team do not have a sense of accountability or commitment. It's frustrating!\r\n\r\nWalk: We bring visibility into who is accountable for what (ex: during Daily Stand-up). However, we still point fingers when commitments are not met.\r\n\r\nRun: The majority of us do what we say we will do or ask others for help when needed. We are willing to help when asked.\r\n\r\nFly: We are all mutually accountable for our team's success and step in many times to help each other. We are in this together!\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 28 of 50 (56%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Culture - Team Dynamics\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Save",
+          "questionLabel": "Question",
+          "sectionLabel": "Section",
+          "saveMessage": "Saved"
+        }
+      ]
+    },
+
+    {
+      "dimensionName": "Foundation",
+      "subDimension": [
+        {
+          "headerName": "Foundation - Agility",
+          "descriptionOne": "A team doesn't achieve high performance without having a solid foundation for success. These foundation areas are critical and directly affect your team's pace and health.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Sustainable Pace",
+              "competencyAbbreviation": "Sustainable Pace",
+              "competencyId": 3615,
+              "question": [
+                {
+                  "question": "Sustainable Pace:\r\n\r\nCrawl: Our team is very stressed, frequently works overtime, and has no clear grasp of our capacity. We are burning out.\r\n\r\nWalk: Our team is starting to talk about our capacity. However, we still over-commit and have left over work for the next iteration.\r\n\r\nRun: Our team generally works at a sustainable pace. We make time to improve our quality and technical debt. We invest in team building and learning.\r\n\r\nFly: We rapidly deliver high quality solutions and can sustain at this pace. We proactively plan ahead for capacity constraints.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 29 of 50 (57%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Self Organization",
+              "competencyAbbreviation": "Self Organization",
+              "competencyId": 3616,
+              "question": [
+                {
+                  "question": "Self Organization:\r\n\r\nCrawl: Our team needs to always ask our managers/leaders for direction, approvals, and solutions.\r\n\r\nWalk: Our team asks for direction when needed. We are empowered to make some decisions.\r\n\r\nRun: Our team is empowered to define HOW to deliver on our Product Owner's vision within their boundaries. We manage our own time and tasks.\r\n\r\nFly: Our team has full autonomy to design the strategy for delivering on the vision. This may include designing our team, selecting members, defining experiments, and engaging with end customers when needed.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 30 of 50 (60%)",
+                  "questionTooltips": "The Product Owner speaks to the Agile Product Owner role identified in agile frameworks.  For this assessment, Product Owner is used interchangeably with Agile Product Owner.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Software/Hardware:\r\n\r\nCrawl: We do not have the sufficient infrastructure & tools to accomplish what we're asked to do.\r\n\r\nWalk: We have the basic software and tools we need to do our work. However, it's hard to leverage them because of process/skills gaps.\r\n\r\nRun: We have acquired all the necessary tools/hardware we need, and we're investing in building our skills to leverage them.\r\n\r\nFly: We continuously leverage our enterprise tools, and they have significantly improved the quality, speed, transparency, and predictability of our delivery.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 31 of 50 (62%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Technical Practices:\r\n\r\nCrawl: We do not have clearly defined technical best practices, nor is this a priority for our leaders. We are asked to just get work done.\r\n\r\nWalk: We have defined specific technical best practices that everyone should follow. However, they are only followed by a few.\r\n\r\nRun: All of our team members understand and follow our top technical best practices.\r\n\r\nFly: We are continuously evaluating, testing, and incorporating new practices and technologies. We are investing in the knowledge and skills of team members around technical practices as needed.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 32 of 50 (64%)",
+                  "questionTooltips": "For software teams, sample practices: Code reviews, daily builds, TDD, code coverage, test automation, CI/CD.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Testing:\r\n\r\nCrawl: We perform manual testing only. We do not have the time, skills/roles, or tools we need to automate our tests.\r\n\r\nWalk: We have automated tests created for our minimal critical path test cases. We have daily reports on the status of our tests.\r\n\r\nRun: We have automated all of our target test cases. We're meeting our test coverage goals.\r\n\r\nFly: We build quality through the continuous investment in test automation and end-to-end testing (usability, functionality, performance).\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 33 of 50 (66%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Development Practices:\r\n\r\nCrawl: We do not have clearly defined engineering best practices, nor is this a priority for our leaders. We are asked to just get work done.\r\n\r\nWalk: We have defined specific engineering best practices (such as: frequent code commits, unit testing, automated builds and code design/review) that everyone should follow. However, they are only followed by a few.\r\n\r\nRun: A majority of our team members follow our engineering best practices above, and a few practice more advanced methods (such as TDD, pairing or collective code ownership and other XP practices). \r\n\r\nFly: We are continuously evaluating, testing, and incorporating new practices and technologies. We are investing in the knowledge transfer and skill development for our team member.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 34 of 50 (68%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Release and Deployment: \r\n\r\nCrawl: We have manual change requests and scripts to be written, and manual deployments and validations followed by manual regression.\r\n\r\nWalk: We have invested in creating scripts for building, deploying scripts, and testing. However, they are manually executed, and approvals are still manual as well.\r\n\r\nRun: We’re leveraging our enterprise tools to automate the execution of the build, deploy, and test processes (continuous integration). Code promotion between different environments is manual along with the approval process.\r\n\r\nFly: We have one-click deploy end to end delivery pipeline. We have automated code promotion from one environment to another. Approvals are now using an automated workflow.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 35 of 50 (70%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Technical Excellence",
+              "competencyAbbreviation": "Technical Excellence",
+              "competencyId": 3617,
+              "question": [
+                {
+                  "question": "Architecture: \r\n\r\nCrawl: We have legacy systems or applications that are very risky to touch or make changes to. Our systems are fragile.\r\n\r\nWalk: Our tech lead facilitates design and code review sessions. He/She provides guidance on our architecture.\r\n\r\nRun: Our architecture emerges through team collaboration and design. We intentionally inspect and adapt to ensure alignment with strategic direction of our organization.\r\n\r\nFly: Our architecture has enabled scalability, stability, extensibility, security, adaptability, and usability. We have high performing applications.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 36 of 50 (72%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Planning & Estimating",
+              "competencyAbbreviation": "Planning & Estimating",
+              "competencyId": 3618,
+              "question": [
+                {
+                  "question": "Planning & Estimating: \r\n\r\nCrawl: We struggle with breaking down and sizing our work, OR someone else may size our work on the team's behalf.\r\n\r\nWalk: We break work into smaller pieces that can fit within a short time-box. We leverage relative sizing (or duration) to estimate our work. We size our work collaboratively as a team.\r\n\r\nRun: We have a strong handle on the complexity of our work and can size our backlog relatively easily and quickly. We plan several iterations in advance (if needed).\r\n\r\nFly: Our team can proactively predict our throughput. We effectively adjust the plan as we learn more.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 37 of 50 (74%)",
+                  "questionTooltips": "Fly by the seats of our pants = Not planning ahead. Relative sizing = Using metrics such as Story Points or T-Shirt sizing where each item is compared as larger/smaller than the one next to it. Sample sizing methods = Story points, cycle time, throughput, hours, days.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Effective Meetings > Planning: \r\n\r\nCrawl: We do not plan, we just execute tasks assigned to us.\r\n\r\nWalk: We do plan our work. However, the stories do not have clarity or definition.\r\n\r\nRun: We are prepared to plan with clear priorities and definitions for each story.\r\n\r\nFly: Our team leverages visual models and modern tools to plan our work. We leverage the models throughout delivery (example: personas, jobs-to-be-done, BDD, wireframes, lean hypothesis).\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 38 of 50 (76%)",
+                  "questionTooltips": "Agile frameworks typically encourage the use of 'ceremonies' in preference to the term 'meetings'.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Effective Meetings > Daily Stand-Up: \r\n\r\nCrawl: We do not have daily stand-ups, OR we have them inconsistently. They are status meetings.\r\n\r\nWalk: We do have daily standup meetings, but they go over 15 min. Not everyone attends on time.\r\n\r\nRun: We complete our stand-up within 15 min. We surface impediments and hold each other accountable. We have effective post stand-up collaboration time.\r\n\r\nFly: Our team organically runs the daily stand-up with or without our team facilitator.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 39 of 50 (78%)",
+                  "questionTooltips": "The Agile Framework typically encourages the use of 'ceremonies' in preference to the term 'meetings'.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "CRAWL 1-2 | WALK 3-5 | RUN: 6-8 | FLY: 9-10\r\n\r\nReview and Demo Meetings: \r\n\r\nCrawl: Review and demos are not regularly scheduled or attended. Product Owner does not attend these meetings regularly\r\n\r\nWalk: Our team members review the completed work with our Product Owner on a regular cadence. We review our progress against our plan. We come prepared well for this meeting.\r\n\r\nRun: Our Product Owner and a few team members facilitate the demo of our completed work to our sponsor and stakeholders. We leverage this time to get their feedback and celebrate success.\r\n\r\nFly: Our Product Owner engages our actual users/customers to get feedback and we incorporate their feedback into the work we do. This enables our team to hear the voice of customers directly.",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 40 of 50 (80%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "CRAWL 1-2 | WALK 3-5 | RUN: 6-8 | FLY: 9-10\r\n\r\nRetrospective:\r\n\r\nCrawl: We do not have time to do retrospectives OR we do have them but they do not add value.\r\n\r\nWalk: We schedule retrospectives on a regular agreed upon cadence. Clear action items are surfaced.\r\n\r\nRun: Items from retrospectives are immediately actioned (included in our iteration work), or escalated as needed. We review them in the next retrospective.\r\n\r\nFly: We leverage new techniques and venue changes to keep retros engaging and effective. We have grown measurably due to the impact of our retrospective growth items.",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 41 of 50 (82%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Effective Meetings > Review and Demo: \r\n\r\nCrawl: Review and demos are not regularly scheduled or attended. Product Owner does not attend these meetings regularly. \r\n\r\nWalk: Our team members review the completed work with our Product Owner on a regular cadence. We review our progress against our plan. We come well prepared for this meeting. \r\n\r\nRun: Our Product Owner and a few team members facilitate demos of our completed work to our sponsor and stakeholders. We leverage this time to get their feedback and celebrate success. \r\n\r\nFly: The entire team engages our actual users/customers to get feedback, and we incorporate their feedback into the work we do. This enables our team to hear the voice of customers directly.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 42 of 50 (84%)",
+                  "questionTooltips": "The Agile Framework typically encourages the use of 'ceremonies' in preference to the term 'meetings'.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Effective Meetings",
+              "competencyAbbreviation": "Effective Meetings",
+              "competencyId": 3619,
+              "question": [
+                {
+                  "question": "Effective Meeting > Retrospective:\r\n\r\nCrawl: We do not have time to do retrospectives, OR we do have them but they do not add value. \r\n\r\nWalk: We schedule retrospectives on a regular agreed upon cadence. Clear action items are surfaced. \r\n\r\nRun: Items from retrospectives are immediately actioned (included in our iteration work), or escalated as needed. We review them in the next retrospective. \r\n\r\nFly: We leverage new techniques and venue changes to keep retros engaging and effective. We have grown measurably due to the impact of our retrospective growth items.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 43 of 50 (86%)",
+                  "questionTooltips": "The Agile Framework typically encourages the use of 'ceremonies' in preference to the term 'meetings'.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Foundation - Agility\""
+            }
+          ]
+        },
+        {
+          "headerName": "Foundation - Team Structure",
+          "descriptionOne": "Your team's structure (size, skills, physical or virtual working environment) makes a BIG impact on your performance.",
+          "descriptionTwo": "To what extent do you agree with the statements below? Please rate according to the CRAWL (1-2), WALK(3-5), RUN(6-8), FLY(9-10) scale keeping in mind each level assumes you've achieved the previous level.",
+          "competencies": [
+            {
+              "competencyName": "Size & Skills",
+              "competencyAbbreviation": "Size & Skills",
+              "competencyId": 3620,
+              "question": [
+                {
+                  "question": "Size & Skills: \r\n\r\nCrawl: We do not have the right people or skills to deliver our current goals. We have limited experts with constrained capacity and do not seek outside help when needed.\r\n\r\nWalk: We have some of the right people or skills on our teams, but we have strong dependency on outside individuals or teams.\r\n\r\nRun: Our team is the right size and has the necessary skills to deliver end-to-end value.\r\n\r\nFly: We have mastered \"Continuous Learning\" and can effectively acquire new skills we need to deliver our current goals and outcomes.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 44 of 50 (88%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Allocation & Stability",
+              "competencyAbbreviation": "Allocation & Stability",
+              "competencyId": 3621,
+              "question": [
+                {
+                  "question": "Allocation & Stability: \r\n\r\nCrawl: Many on our team are multi-tasking across other teams and re-assigned to other priorities.\r\n\r\nWalk: Some core team members are stable, but several others are still multi-tasking.\r\n\r\nRun: Our core team is dedicated and stable with little resource shifting.\r\n\r\nFly: We are pro-actively coordinating outside our team as needed, and we rarely run into issues with external resources. We inspect and adapt our allocation and pro-active external coordination regularly.\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 45 of 50 (90%)",
+                  "questionTooltips": "",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Workspace",
+              "competencyAbbreviation": "Workspace",
+              "competencyId": 3622,
+              "question": [
+                {
+                  "question": "Physical Workspace: (Select N/A if you are remote)\r\n\r\nCrawl: Our team members are scattered across multiple offices/floors with no effective collaboration space. We work in silos.\r\n\r\nWalk: We collaborate by scheduling team meetings but have limited physical collaboration beyond these sessions. \r\n\r\nRun: We have achieved co-location and we all sit in the same workspace. We have the right collaboration tools.\r\n\r\nFly: We are inspired by our workspace! We have intentionally designed it to be fun and effective for collaboration and visualization of our work.\r\n\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 46 of 50 (92%)",
+                  "questionTooltips": "Example virtual tools: Screen sharing, virtual whiteboards, videos, chat, virtual brainstorming, etc.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            },
+            {
+              "competencyName": "Workspace",
+              "competencyAbbreviation": "Workspace",
+              "competencyId": 3622,
+              "question": [
+                {
+                  "question": "Remote Workspace: (Select N/A if you do not work remotely)\r\n\r\nCrawl: As an individual, I do not have an effective remote workspace and I am not setup with the right tools. Our team has several challenges working remotely.\r\n\r\nWalk: Individually and as a team, we have invested in the basic technology and tools needed to work effectively as a remote team.\r\n\r\nRun: Individually and as a team, we have set up working agreements, meetings and discipline needed to effectively work as a remote team.\r\n\r\nFly: We are highly productive, engaged and collaborative working as a remote team. We have nailed remote work!\r\n\r\nCRAWL: 1-2 | WALK: 3-5 | RUN: 6-8 | FLY: 9-10",
+                  "N/AText": "N/A",
+                  "questionFooterDetail": "Question 47 of 50 (94%)",
+                  "questionTooltips": "Example virtual tools: Screen sharing, virtual whiteboards, videos, chat, virtual brainstorming, etc.",
+                  "validationMessage": "Please answer this question to continue"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            {
+              "notesTitle": "Add any additional thoughts about \"Foundation - Team Structure\""
+            }
+          ]
+        }
+      ],
+      "footerButtonText": [
+        {
+          "saveButton": "Save",
+          "questionLabel": "Question",
+          "sectionLabel": "Section",
+          "validationMessage": "You have not filled out all questions. 0 out of 19 questions answered",
+          "saveMessage": "Saved"
+        }
+      ]
+    },
+
+    {
+      "dimensionName": "Finish",
+      "Finish": [
+        {
+          "openEndQuestionList": [
+            {
+              "openEndQuestionId": 3639,
+              "openEndQuestion": "What are the top one or two impediments outside of this team's control that their leaders should address in order to get to the next level of maturity?",
+              "openEndQuestionDetail": "Question 48 of 50 (96%)"
+            },
+            {
+              "openEndQuestionId": 3640,
+              "openEndQuestion": "What has been this team's biggest achievement?",
+
+              "openEndQuestionDetail": "Question 49 of 50 (98%)"
+            },
+            {
+              "openEndQuestionId": 6294,
+              "openEndQuestion": "In order for this team to get to the next level of maturity and improve value delivery, what are one or two improvements (growth opportunities) this team should focus on?",
+              "openEndQuestionDetail": "Question 50 of 50 (100%)"
+            }
+          ],
+          "footerButtonText": [
+            {
+              "saveButton": "Save",
+              "questionLabel": "Question",
+              "sectionLabel": "Section",
+              "finishButton": "Finish"
+            }
+          ],
+          "confirmFinishingDialogBox": [
+            {
+              "title": "Complete Assessment",
+              "description": "Are you sure you wish to complete the assessment? After completing it, you will not be able to change answers or textual responses any more.",
+              "okButton": "OK",
+              "cancelButton": "Cancel"
+            }
+          ],
+          "lastPageMessage": [
+            {
+              "submitMessage": "Submitting your assessment...",
+              "thankYouMessage": "Thank you for completing this assessment. Your results have been submitted."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
